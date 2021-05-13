@@ -1,0 +1,159 @@
+@media (max-width: 576px) {
+
+
+    /**************** HEADER MINI MOBILE INNER PAGES ****************************/
+    .header.header-mini{
+        background: url(/img/tpl_img/mobile/bg_header_mobile_inner_page.png) center center no-repeat;
+        height: 115px;
+        background-size: 100%;
+        position: relative;
+
+        .header-block-logo{
+
+            &:after{
+                background: url('/img/tpl_img/mobile/header_star_mobile_inner_page.png') no-repeat;
+                width: 91px;
+                height: 11px;
+                margin-top: 10px;
+                margin-left: auto;
+                margin-right: auto;
+                left: 0;
+                right: 0;
+                text-align: center;
+            }
+
+        }
+
+
+        .header-block-bcontacts {
+            margin-top: 0px;
+            text-align: center;
+            margin: 0 auto;
+
+
+            &:after{
+                display: none;
+            }
+
+            //// BLOCK ADDRESS
+            .block-address{
+                margin-right: 0px;
+                margin-left: 20px;
+                margin-top: 23px;
+                .link-address{
+
+                    &:before{
+                        left: -22px;
+                    }
+
+                }
+
+            }
+            //// END BLOCK ADDRESS
+
+
+            //// BLOCK MOBILE PHONE
+            .block-mobile-phone{
+                margin-top: 0px;
+                .link-mobile-phone{
+
+
+
+                    &:before{
+                        left: -15px;
+                    }
+                }
+
+            }
+            //// END BLOCK MOBILE PHONE
+
+        }
+
+
+    }
+    /**************** END HEADER MINI MOBILE INNER PAGES ****************************/
+
+
+
+    ///////////////////////////////// ALL PAGES STYLE
+    .block-view-page{
+        margin-top: 22px;
+        padding-left: 8px;
+        padding-bottom: 70px;
+
+        .header-block-view-page{
+            h1{
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: 800;
+                font-size: 20px;
+                line-height: 24px;
+                color: #000000;
+                &:after{
+                    background: url('/img/tpl_img/mobile/header_star_mini.png') no-repeat;
+                    width: 16px;
+                    height: 14px;
+                    top: 5px;
+                    right: -17px;
+                }
+            }
+        }
+
+        /// DESCRIPTION PAGE
+        .description-page{
+            margin-top: 18px;
+            p{
+                font-family: Open Sans;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 10px;
+                line-height: 14px;
+                color: #141414;
+            }
+
+
+        }
+        /// END DESCRIPTION PAGE
+
+
+
+
+@import 'inner_pages/mobile/page_mobile_mototekhnika';
+
+@import 'inner_pages/mobile/page_mobile_kvadrotsikli';
+
+@import 'inner_pages/mobile/page_mobile_evakuatsiya';
+
+@import 'inner_pages/mobile/page_mobile_snegokhodi';
+
+@import 'inner_pages/mobile/page_mobile_zimnee_khranenie';
+
+@import 'inner_pages/mobile/page_mobile_zapaks';
+
+@import 'inner_pages/mobile/page_mobile_contacts';
+
+@import 'inner_pages/mobile/page_mobile_our_work';
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    }
+    ///////////////////////////////// END ALL PAGES STYLE
+
+
+
+
+
+}

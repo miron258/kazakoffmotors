@@ -1,0 +1,110 @@
+/********************** BLOCK COMPANY *********************/
+.block-company {
+    background: url('/img/tpl_img/mobile/bg_mobile_block_company.png') center center no-repeat;
+    height: 495px;
+    background-size: 100%;
+    padding-top: 28px;
+
+    .header-block-company {
+
+        h2 {
+            font-size: 20px;
+            line-height: 20px;
+
+            &:after {
+                background: url('/img/tpl_img/mobile/header_star_mini.png') no-repeat;
+                width: 16px;
+                height: 14px;
+                top: 3px;
+                right: -20px;
+            }
+        }
+
+    }
+
+
+    .block-description-company {
+
+        ////leftblock video
+        .leftblock-video {
+            margin-top: 15px;
+            margin-left: 0px;
+
+            iframe {
+                width: 100%;
+                height: 204px !important;
+            }
+
+
+        }
+
+        ////end leftblock video
+
+
+        ///////////////// rightblock text company
+        .rightblock-text-company {
+            margin-top: 3px;
+            margin-left: 0px;
+
+            .header-text-company {
+
+                h3 {
+                    font-family: Montserrat;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 14px;
+                    line-height: 16px;
+                    color: #FFFFFF;
+
+                }
+
+            }
+
+
+            /////////// text company
+            .text-company {
+                margin-top: 12px;
+                position: relative;
+                right: 0px;
+
+                p {
+                    font-family: Montserrat;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 10px;
+                    line-height: 14px;
+                    color: #FFFFFF;
+
+                    &:not(:first-child) {
+                        margin-top: 15px;
+                    }
+                }
+
+                .text-top {
+
+                }
+
+                .text-middle {
+                    margin-top: 15px;
+                }
+
+                .text-bottom {
+
+                }
+
+            }
+
+            /////////// end text company
+
+
+        }
+
+        ///////////////// end rightblock text company
+
+
+    }
+
+
+}
+
+/********************** END BLOCK COMPANY *********************/

@@ -1,0 +1,162 @@
+/**********************  BLOCK SHOP CATALOGS *********************/
+.block-shop-catalogs {
+    background: url('/img/tpl_img/mobile/bg_mobile_block_catalogs.png') center center no-repeat;
+    height: 471px;
+    background-size: 100%;
+
+    .header-block-shop-catalogs {
+        margin-left: 6px;
+        padding-top: 32px;
+
+        h2 {
+            font-size: 20px;
+            line-height: 20px;
+            margin-bottom: 0px;
+
+            &:after {
+                background: url('/img/tpl_img/mobile/header_star_mini.png') no-repeat;
+                width: 16px;
+                height: 14px;
+                top: 3px;
+                right: -20px;
+            }
+        }
+
+
+        .text-block-shop-catalogs {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 10px;
+            line-height: 24px;
+            color: #FFFFFF;
+            margin-top: 2px;
+            margin-bottom: 12px;
+        }
+
+
+    }
+
+
+    ////////////// LIST CATALOGS
+    .list-catalogs {
+        margin-top: 0px;
+        margin-left: -8px;
+        margin-right: -8px;
+
+        ////// BOX CATALOG LIST
+        .box-catalog.box-catalog-1 {
+
+        }
+
+        .box-catalog.box-catalog-2 {
+
+        }
+
+        .box-catalog.box-catalog-3 {
+            margin-top: 11px;
+        }
+
+        .box-catalog.box-catalog-4 {
+            margin-top: 11px;
+        }
+
+
+        //box catalog
+        .box-catalog {
+            width: auto;
+            height: 143px;
+            border: 1px solid #DADADA;
+            &:not(:first-child) {
+
+            }
+
+
+            &:hover{
+                transform: initial;
+                .block-img-catalog{
+
+                    .name-catalog{
+                        &:after{
+                            display: none;
+                        }
+                    }
+
+                }
+            }
+            //// BLOCK IMG CATALOGS
+            .block-img-catalog {
+                height: 143px;
+
+                figure{
+                    height: 143px;
+                    width: auto;
+                    border: none;
+                }
+
+
+
+                .img-catalog {
+
+                }
+
+
+                .name-catalog {
+                    font-family: Montserrat;
+                    font-style: normal;
+                    font-weight: 800;
+                    font-size: 12px;
+                    line-height: 17px;
+                    text-align: center;
+                    text-transform: uppercase;
+                    color: #FFFFFF;
+                    width: inherit;
+                    left: 0;
+                    bottom: 5%;
+                    right: 0;
+                    margin: auto;
+                }
+
+
+            }
+
+            //// END BLOCK IMG CATALOGS
+
+
+        }
+
+        ////// END BOX CATALOG
+
+
+    }
+
+    ////////////// END LIST CATALOGS
+
+
+    //////////////// LINK VIEW SHOP
+    .link-view-shop {
+
+        background: url('/img/tpl_img/mobile/arrow_bt_mini.png') #F38000 89% 50% no-repeat;
+        width: 182px;
+        height: 40px;
+        margin: 0 auto;
+        margin-top: 25px;
+        text-align: center;
+        border-radius: 0px;
+        .text-link {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 800;
+            font-size: 9px;
+            line-height: 40px;
+            color: #FFFFFF;
+            right: 8px;
+        }
+
+    }
+
+    //////////////// END LINK VIEW SHOP
+
+
+}
+/**********************  END BLOCK SHOP CATALOGS *********************/

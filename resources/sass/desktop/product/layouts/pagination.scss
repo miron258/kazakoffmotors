@@ -1,0 +1,46 @@
+nav {
+    margin-top: 20px;
+
+    .pagination {
+
+        .page-item.disabled {
+
+        }
+
+        .page-item.active {
+
+            .page-link {
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: 300;
+                font-size: 20px;
+                color: #000000;
+                border:none;
+                background: rgba(243, 128, 0, 0.5);
+                //width: 24px;
+                //height: 24px;
+                //border-radius: 24px;
+
+            }
+        }
+
+        .page-item {
+            box-shadow: none;
+            outline: none;
+            border:none;
+            .page-link {
+                background: none;
+                border:none;
+                box-shadow: none;
+                outline: none;
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: 300;
+                font-size: 20px;
+                color: #000000;
+            }
+        }
+
+
+    }
+}

@@ -1,0 +1,592 @@
+/***************** HEADER **************/
+.header {
+    background: url('/img/tpl_img/bg_header.jpg') center center no-repeat;
+    height: 680px;
+    background-size: cover;
+    position: relative;
+
+    /************** Header LeftBlock *******************/
+    .header-leftblock {
+        margin-top: 40px;
+
+
+        /******* Block List Social Icons ********/
+        .block-list-social-icon {
+            .list-social-icon {
+                list-style: none;
+                padding-left: 0px;
+
+
+                .item-social-icon-vk {
+
+                }
+
+                .item-social-icon-fb {
+
+                }
+
+                .item-social-icon-yb {
+
+                }
+
+
+                //Item Social Icon
+                .item-social-icon {
+                    display: inline-block;
+
+
+                    &:not(:first-child) {
+                        margin-left: 37px;
+                    }
+
+
+                    .link-social-icon {
+                        text-decoration: none;
+
+                        &:hover {
+                            text-decoration: none;
+                        }
+
+
+                        .img-social-icon {
+
+                        }
+                    }
+
+                }
+
+                //End Item Social Icon
+
+            }
+        }
+
+        /******* End Block List Social Icons ********/
+
+
+        /********** LeftMenu Navigation ***********/
+        .block-left-menu-navigation {
+            padding-top: 21px;
+            border-top: 1px solid rgba(96, 104, 120, 0.5);
+            margin-top: 20px;
+            mix-blend-mode: normal;
+
+            .left-menu-nav {
+                list-style: none;
+                padding-left: 0px;
+
+
+                .item-left-menu-nav.active {
+                    .link-item-left-menu-nav {
+                            &:after {
+                                color: #F38000;
+                                width: 100%;
+                            }
+
+                    }
+                }
+
+                .item-left-menu-nav {
+                    display: inline-block;
+
+
+                    &:not(:first-child) {
+
+                        margin-left: 42px;
+
+                    }
+
+                    .link-item-left-menu-nav {
+                        font-family: Montserrat;
+                        font-style: normal;
+                        font-weight: 800;
+                        font-size: 14px;
+                        line-height: 25px;
+                        text-decoration: none;
+                        text-transform: uppercase;
+                        letter-spacing: -0.21px;
+                        color: #FFFFFF;
+                        position: relative;
+
+                        &:after {
+                            content: "";
+                            transition: 0.2s all ease;
+                            -webkit-backface-visibility: hidden;
+                            backface-visibility: hidden;
+                            position: absolute;
+                            left: 50%;
+                            height: 2px;
+                            width: 0;
+                            bottom: 0px;
+                            -ms-transform: translateX(-50%);
+                            -webkit-transform: translateX(-50%);
+                            transform: translateX(-50%);
+                            background-color: #F38000;
+                        }
+
+
+                        &:hover {
+                            color: #F38000;
+                            text-decoration: none;
+                            &:after {
+                                width: 100%;
+                            }
+                        }
+
+                    }
+
+                }
+
+            }
+
+        }
+
+        /********** End LeftMenu Navigation ***********/
+
+
+    }
+
+    /************** End Header LeftBlock *******************/
+
+
+    /************** Header Block Logo ************/
+    .header-block-logo {
+        position: relative;
+        right: 28px;
+        padding-top: 33px;
+
+        .link-logo {
+            text-decoration: none;
+
+            &:hover {
+                text-decoration: none;
+            }
+
+            .img-logo {
+
+            }
+        }
+
+    }
+
+    /************** End Header Block Logo ************/
+
+
+    /************* Header RightBlock ***********/
+    .header-rightblock {
+        padding-top: 40px;
+        position: relative;
+
+        &:after {
+            content: "";
+            display: block;
+            position: absolute;
+            height: 1px;
+            opacity: 0.5;
+            background: #606878;
+            width: 100%;
+            bottom: -21px;
+            mix-blend-mode: normal;
+        }
+
+        //Header Contacts
+        .block-header-contacts {
+            margin-left: 100px;
+            //Link Phone
+            .link-phone {
+                position: relative;
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: 800;
+                font-size: 20px;
+                line-height: 24px;
+                display: flex;
+                align-items: flex-end;
+                text-align: right;
+                color: #FFFFFF;
+
+                &:hover {
+                    color: #F38000;
+                }
+
+                &:before {
+                    content: "";
+                    display: block;
+                    position: absolute;
+                    background: url('/img/tpl_img/icon_phone.png') no-repeat;
+                    width: 21px;
+                    height: 22px;
+                    left: -32px;
+                }
+
+                text-decoration: none;
+
+                &:hover {
+                    text-decoration: none;
+                }
+            }
+
+            //End Link Phone
+
+
+            //Link Cart
+            .link-cart {
+                display: block;
+                text-decoration: none;
+                position: relative;
+                float: right;
+
+
+                .text-cart {
+                    font-family: Montserrat;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 15px;
+                    color: #FFFFFF;
+                }
+
+                .text-cart.text-cart-total-sum {
+                    font-family: Montserrat;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 15px;
+                    color: #FFFFFF;
+                }
+
+                .ruble {
+                    font-family: "Als Rubl";
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 15px;
+                    color: #FFFFFF;
+                }
+
+
+                /////// Общее кол-во товаров в корзине
+                .count-product-in-cart {
+                    left: -26px;
+                    top: -1px;
+                    position: absolute;
+                    background: #fff;
+                    width: 18px;
+                    height: 18px;
+                    font-family: Montserrat;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 10px;
+                    line-height: 20px;
+                    letter-spacing: 0.005em;
+                    text-align: center;
+                    margin: 0 auto;
+                    color: #F38000;
+                    border-radius: 18px;
+                }
+
+                /////// Конец Общее кол-во товаров в корзине
+
+                &:hover {
+                    color: #F38000;
+                }
+
+
+                &:before {
+                    content: "";
+                    display: block;
+                    position: absolute;
+                    background: url('/img/tpl_img/icon_cart.png') no-repeat;
+                    width: 26px;
+                    height: 24px;
+                    left: -30px;
+                }
+
+
+                &:hover {
+                    text-decoration: none;
+                }
+            }
+
+            //End Link Cart
+
+
+        }
+
+        //End Header Contacts
+
+
+        /********** RightMenu Navigation ***********/
+        .block-right-menu-navigation {
+            padding-top: 20px;
+            margin-top: 20px;
+
+            float: right;
+
+            .right-menu-nav {
+                list-style: none;
+                padding-left: 0px;
+                position: relative;
+
+
+                .item-right-menu-nav.active {
+                    .link-item-right-menu-nav {
+                        color: #F38000;
+                        &:after {
+                            width: 100%;
+                        }
+
+                    }
+                }
+
+                .item-right-menu-nav {
+                    display: inline-block;
+
+
+                    &:not(:first-child) {
+
+                        margin-left: 27px;
+
+                    }
+
+                    .link-item-right-menu-nav {
+                        font-family: Montserrat;
+                        font-style: normal;
+                        font-weight: 800;
+                        font-size: 14px;
+                        line-height: 25px;
+                        text-transform: uppercase;
+                        letter-spacing: -0.21px;
+                        color: #FFFFFF;
+                        position: relative;
+                        text-decoration: none;
+
+                        &:after {
+                            content: "";
+                            transition: 0.2s all ease;
+                            -webkit-backface-visibility: hidden;
+                            backface-visibility: hidden;
+                            position: absolute;
+                            left: 50%;
+                            height: 2px;
+                            width: 0;
+                            bottom: 0px;
+                            -ms-transform: translateX(-50%);
+                            -webkit-transform: translateX(-50%);
+                            transform: translateX(-50%);
+                            background-color: #F38000;
+                        }
+
+
+                        &:hover {
+                            color: #F38000;
+                            text-decoration: none;
+                            &:after {
+                                width: 100%;
+                            }
+                        }
+
+
+                    }
+
+                }
+
+            }
+
+        }
+
+        /********** End RightMenu Navigation ***********/
+
+
+    }
+
+    /************* End Header RightBlock ***********/
+
+
+    /******************************* HEADER BLOCK H1 ***********************************/
+    .header-block-h1 {
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 56px;
+
+        .h1-head {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 800;
+            font-size: 100px;
+            text-align: center;
+            letter-spacing: -3px;
+            color: #FFFFFF;
+            position: relative;
+
+            .text-inner-h1 {
+                display: block;
+                text-align: right;
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: 800;
+                font-size: 15px;
+                letter-spacing: -0.45px;
+                text-transform: uppercase;
+                color: #8A8F99;
+                position: relative;
+                bottom: 15px;
+            }
+
+
+            &:after {
+                content: "";
+                display: block;
+                position: absolute;
+                background: url('img/tpl_img/header_star.png') no-repeat;
+                width: 217px;
+                height: 24px;
+                left: 50%;
+                bottom: -15%;
+                transform: translate(-50%, -50%);
+            }
+
+        }
+
+    }
+
+    /******************************* END HEADER BLOCK H1 ***********************************/
+
+
+    /******************************* HEADER BLOCK BOTTOM CONTACTS ***********************************/
+    .header-block-bcontacts {
+        margin-top: 74px;
+
+        //Block Link Scrolling
+        .block-link-scrolling {
+            float: right;
+            position: relative;
+            right: -44px;
+            top: -20px;
+            height: 50px;
+            width: 50px;
+
+            &:hover {
+                cursor: pointer;
+            }
+
+            /////////// ARROW CHEVRON
+            .arrow-chevron {
+                display: block;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+
+                &:hover {
+                    cursor: pointer;
+                }
+
+                &:before {
+                    content: "";
+                    position: absolute;
+                    display: block;
+                    background: url('/img/tpl_img/animation_scroll/chevron_star_arrow.png') no-repeat;
+                    width: 9px;
+                    height: 9px;
+                    right: -2px;
+                }
+
+
+                span {
+                    display: block;
+                    width: 15px;
+                    height: 15px;
+                    border-bottom: 5px solid #DADADA;
+                    border-right: 5px solid #DADADA;
+                    transform: rotate(45deg);
+                    margin: -10px;
+                    animation: animate 2s infinite;
+
+                    &:hover {
+                        cursor: pointer;
+                    }
+
+
+                    &:nth-child(2) {
+                        animation-delay: -0.2s;
+                    }
+
+                    &:nth-child(3) {
+                        animation-delay: -0.4s;
+                    }
+
+
+                }
+
+                @keyframes animate {
+                    0% {
+                        opacity: 0;
+                        transform: rotate(45deg) translate(-20px, -20px);
+                    }
+                    50% {
+                        opacity: 1;
+                    }
+                    100% {
+                        opacity: 0;
+                        transform: rotate(45deg) translate(20px, 20px);
+                    }
+                }
+
+
+            }
+
+            /////////// END ARROW CHEVRON
+
+        }
+
+        //End Block Link Scrolling
+
+
+        //Block Adress
+        .block-address {
+            float: right;
+            margin-right: 30px;
+            margin-top: 18px;
+
+            .link-address {
+                text-decoration: none;
+                position: relative;
+                font-family: Open Sans;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 14px;
+                border-bottom: 1px solid #505C73;
+
+                display: flex;
+                align-items: flex-end;
+
+                color: #FFFFFF;
+
+                &:before {
+                    content: "";
+                    display: block;
+                    position: absolute;
+                    background: url('/img/tpl_img/icon_fire_location.png');
+                    width: 75px;
+                    height: 39px;
+                    left: -83px;
+                    bottom: -7px;
+                }
+
+
+                &:hover {
+                    border: none;
+                    text-decoration: none;
+                }
+            }
+
+        }
+
+        //End Block Adress
+
+
+    }
+
+    /******************************* END HEADER BLOCK BOTTOM CONTACTS ***********************************/
+
+
+}
+
+/***************** END HEADER **************/

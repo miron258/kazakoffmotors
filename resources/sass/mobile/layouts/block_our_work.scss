@@ -1,0 +1,241 @@
+/**********************  BLOCK OUR WORK *********************/
+.block-our-work {
+    background: url('/img/tpl_img/mobile/bg_mobile_block_our_work.png') #fff center center no-repeat;
+    height: auto;
+    background-size: 100%;
+    padding-bottom: 30px;
+
+    .container {
+        .block-our-work-background {
+            display: none;
+        }
+    }
+
+    ////////////// header block our work
+    .header-block-our-work {
+        padding-top: 30px;
+        margin-left: 7px;
+
+        h2 {
+            font-size: 20px;
+            line-height: 20px;
+
+            &:after {
+                background: url('/img/tpl_img/mobile/header_star_mini.png') no-repeat;
+                width: 16px;
+                height: 14px;
+                top: 3px;
+                right: -20px;
+            }
+        }
+
+    }
+
+    ////////////// end header block our work
+
+
+    //////////////////////// BOX WORK
+    .box-work {
+        padding-left: 20px;
+        padding-right: 20px;
+
+        .wrapper-slider-description {
+            margin: 0px;
+            padding: 0px;
+
+
+            ////////// block nav slider
+            .block-navigation-slider {
+                bottom: 0px;
+                top: 15px;
+                right: 5px;
+                left: initial;
+
+                ////////////////// NAIGATION
+                .nav-our-work {
+                    width: auto;
+                    height: 33px;
+                    border-radius: 5px;
+                    bottom: -30px;
+
+                    &:after {
+                        content: "";
+                        position: absolute;
+                        z-index: 2;
+                        top: 0;
+                        bottom: 0;
+                        left: 50%;
+                        border-left: 1px solid #DBE0E8;
+                    }
+
+
+                    //Button Prev
+                    .slick-carousel-control-prev {
+
+                        width: 40px;
+                        height: 30px;
+                        background: url(/img/tpl_img/mobile/arrow_mobile_slider_left.png) #fff 50% 50% no-repeat;
+                        border-bottom-left-radius: 5px;
+                        border-top-left-radius: 5px;
+
+                    }
+
+                    //Button Next
+                    .slick-carousel-control-next {
+                        width: 40px;
+                        height: 31px;
+                        background: url(/img/tpl_img/mobile/arrow_mobile_slider_right.png) #fff 50% 50% no-repeat;
+                        border-bottom-right-radius: 5px;
+                        border-top-right-radius: 5px;
+
+                    }
+
+
+                }
+
+
+            }
+
+            ////////// end block nav slider
+
+        }
+
+        .wrapper-slider-images {
+            padding-right: 0px;
+        }
+
+
+        .our-work-description-gallery {
+            margin-top: 13px;
+
+
+            /////// header our work gallery
+            .header-our-work-gallery {
+                font-family: Open Sans;
+                font-style: normal;
+                font-weight: 800;
+                font-size: 16px;
+                line-height: 22px;
+                color: #141414;
+                margin-left: 2px;
+            }
+
+            /////// end header our work gallery
+
+
+            /////////// text gallery
+            .text-gallery {
+                margin-top: 22px;
+
+                p {
+                    font-family: Open Sans;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 10px;
+                    line-height: 14px;
+                    padding-right: 10px;
+
+                    &:not(:first-child) {
+
+                    }
+
+                }
+
+            }
+
+            /////////// end text gallery
+
+
+        }
+
+
+        /////////////////// OUR WORK GALLERY IMAGES
+        .our-work-gallery-img {
+            margin-top: 2px;
+            margin-left: -15px;
+            padding-left: 13px;
+            padding-right: 19px;
+            height: 230px;
+            overflow: hidden;
+
+            .block-slick-carousel-our-work {
+
+
+                .box-slider-carousel {
+
+                    .slick-carousel-our-work {
+
+                        .slick-list {
+
+                            ////// BOX SLICK ITEM
+                            .box-slick-item {
+
+                                .box-slick-item-img {
+
+
+                                }
+                            }
+
+                            ////// END BOX SLICK ITEM
+
+
+                        }
+
+                    }
+
+                }
+
+            }
+
+
+            .block-slider-our-work {
+
+
+            }
+
+
+        }
+
+        /////////////////// END OUR WORK GALLERY IMAGES
+
+
+    }
+
+    //////////////////////// END BOX WORK
+
+
+    ////////////// BLOCK VIEW ALL
+    .block-view-all {
+        margin-top: 0px;
+
+        .link-view-all {
+
+            background: url('/img/tpl_img/mobile/arrow_bt_mini.png') #F38000 78% 50% no-repeat;
+            width: 152px;
+            height: 40px;
+            margin: 0 auto;
+            text-align: center;
+            border-radius: 0px;
+
+            .text-link {
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: 800;
+                font-size: 9px;
+                line-height: 40px;
+                color: #FFFFFF;
+                right: 10px;
+            }
+
+
+        }
+
+
+    }
+
+    ////////////// END BLOCK VIEW ALL
+
+
+}
+
+/**********************  END BLOCK OUR WORK *********************/

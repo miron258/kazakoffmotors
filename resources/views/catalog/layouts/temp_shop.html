@@ -1,0 +1,49 @@
+<modal-delivery ref="modalDelivery"></modal-delivery>
+<div class="container-fluid block-shop-spare-parts-order">
+
+    <div class="container">
+
+        <div class="row">
+            <div
+                class="block-shop-spare-parts-order__left-block-spare-parts col-xl-6 col-lg-6 col-md-6 left-block-spare-parts">
+
+                <h2 class=" left-block-spare-parts__title-left-block-spare-parts title-left-block-spare-parts">
+                    запчасти под заказ
+                </h2>
+
+                <div class="left-block-spare-parts__text-block-spare-parts text-block-spare-parts">
+                    Не нашли интересующей вас позиции?<br>
+                    Оставьте заявку, указав номер и краткое описание того, что требуется. Мы
+                    свяжемся с вами и дадим ответ по стоимости, срокам доставки, а также поможем с
+                    подбором аналогов!
+                </div>
+
+            </div>
+
+
+            <div
+                class="block-shop-spare-parts-order__right-block-spare-parts col-xl-6 col-lg-6 col-md-6 right-block-spare-parts">
+                <form-order-spare-parts></form-order-spare-parts>
+            </div>
+        </div>
+
+    </div>
+
+
+</div>
+
+
+<div class="block-shop-delivery">
+
+    <div class="container block-shop-delivery__container-block-shop-delivery container-block-shop-delivery">
+
+        <div class="block-shop-delivery__box-shop-delivery box-shop-delivery">
+            <div class="box-shop-delivery__map-delivery map-delivery"></div>
+            <h3 class="box-shop-delivery__title-box-shop-delivery title-box-shop-delivery">доставка по рф</h3>
+            <button  @click="$refs.modalDelivery.show()" class="box-shop-delivery__button-box-shop-delivery button-box-shop-delivery">условия</button>
+        </div>
+
+    </div>
+
+
+</div>

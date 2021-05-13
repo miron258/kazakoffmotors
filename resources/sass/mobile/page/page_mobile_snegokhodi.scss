@@ -1,0 +1,200 @@
+//////////////////////////////////////////////////////////////// СТРАНИЦА СНЕГОХОДЫ
+.description-page.description-page-snegokhodi {
+
+    p{
+
+    }
+
+
+    .link-phone{
+        display: none;
+    }
+
+}
+
+/////HTML PAGE СНЕГОХОДЫ
+.html-page.html-page-snegokhodi {
+
+    //////////////// html page bottom text
+    .html-page-bottom-text{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 10px;
+        line-height: 14px;
+        text-align: center;
+        letter-spacing: -0.21px;
+        color: #141414;
+        margin-top: 20px;
+    }
+    //////////////// end html page bottom text
+
+
+
+
+    .block-boxs-snegokhodi{
+        margin-top: 25px;
+
+
+        ////////////// BOX LIST IMAGES
+        .box-list-img{
+            margin-top: 30px;
+
+            .item-img{
+
+            }
+
+
+        }
+        ////////////// END BOX LIST IMAGES
+
+
+        ////////////// list box mototeknika
+        .box-snegokhodi2{
+            margin-top: 28px;
+        }
+        .box-snegokhodi3{
+
+        }
+        .box-snegokhodi4{
+
+        }
+        .box-snegokhodi5{
+
+        }
+        .box-snegokhodi6{
+
+        }
+        .box-snegokhodi7{
+
+        }
+        .box-snegokhodi8{
+
+        }
+        .box-snegokhodi9{
+
+        }
+        ////////////// end list box mototeknika
+
+
+
+
+        /////// BOX SNEGOKHODI
+        .box-snegokhodi{
+            
+            &:first-child{
+                margin-top: 0px;
+            }
+
+            &:not(:first-child){
+                margin-top: 28px !important;
+            }
+
+
+            ////////icons box item
+            .icon-box-item{
+                bottom: 0px;
+                top: 10px;
+                left: 6px;
+
+            }
+
+
+
+            ////////end icons box item
+
+
+
+
+            //////// name box item
+            .name-box-item{
+                margin-left: 0px;
+                position: relative;
+                right: 8px;
+
+
+
+                //////// LIST SERVICES
+                .list-services{
+
+                    .name-service {
+                        font-family: Open Sans;
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 10px;
+                        line-height: 14px;
+                        color: #141414;
+                        position: relative;
+                        bottom: 0px;
+
+
+                        &:not(:first-child){
+                            margin-top: 0px;
+                        }
+
+                    }
+                }
+                //////// END LIST SERVICES
+
+
+
+                .header-name{
+                    font-family: Open Sans;
+                    font-style: normal;
+                    font-weight: 800;
+                    font-size: 16px;
+                    color: #141414;
+                    line-height: 18px;
+                }
+                .desc-name{
+                    font-family: Open Sans;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 10px;
+                    line-height: 14px;
+                    color: #141414;
+                    position: relative;
+                    bottom: 0px;
+                }
+
+            }
+            //////// end name box item
+
+
+            //////////// price box item
+            .price-box-item{
+                left: -2px;
+                margin-top: 8px;
+                .item-price{
+
+                    .price{
+                        font-family: Open Sans;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 10px;
+                        color: #141414;
+                    }
+
+                    .rubl{
+                        font-size: 10px;
+                    }
+
+                }
+
+            } 
+            //////////// end  price box item
+
+
+
+        }
+        /////// END BOX SNEGOKHODI
+
+
+
+
+    }
+
+}
+/////КОНЕЦ HTML PAGE СНЕГОХОДЫ
+
+////////////////////////////////////////////////////////////////////////// КОНЕЦ СТРАНИЦА СНЕГОХОДЫ

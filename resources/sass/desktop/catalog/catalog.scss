@@ -1,0 +1,503 @@
+/////// Breadcrumbs Catalog
+.wrapper-inner-catalog {
+    background: url('/img/tpl_img/bg_page.png');
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+/////// End Breadcrumbs Catalog
+
+
+.block-view-catalog {
+
+    padding-bottom: 30px;
+
+    ///// Header h1 Catalog
+    .header-block-view-catalog {
+
+
+        h1 {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 800;
+            font-size: 40px;
+            text-transform: uppercase;
+            color: #141414;
+            width: max-content;
+            position: relative;
+
+            &:after {
+                content: "";
+                display: block;
+                position: absolute;
+                background: url('/img/tpl_img/icon_head_shop_star.png') no-repeat;
+                width: 23px;
+                height: 21px;
+                right: -30px;
+                top: 13px;
+            }
+        }
+
+
+    }
+
+    ///// End Header h1 Catalog
+
+
+    //////////// Description Catalog
+    .description-catalog {
+        display: none;
+    }
+
+    //////////// End Description Catalog
+
+    //////// List Catalogs
+    .list-catalogs.list-catalogs-shop {
+
+    }
+
+    .list-catalogs {
+        margin-top: 30px;
+
+
+        /////////////////////// DEFAULT LIST CATALOGS
+
+        .row-list-catalogs.row-list-catalogs-top {
+
+        }
+
+        .row-list-catalogs.row-list-catalogs-bottom {
+
+        }
+
+
+        .row-list-catalogs {
+
+
+            /////// Box Catalog Spare OEM
+            .wrapper-box-catalog.wrapper-box-catalog-yamaha-oem {
+                padding-right: 0px;
+            }
+
+            .wrapper-box-catalog.wrapper-box-catalog-honda-oem {
+                padding-left: 0px;
+                padding-right: 0px;
+            }
+
+            .wrapper-box-catalog.wrapper-box-catalog-suzuki-oem {
+                padding-left: 0px;
+                padding-right: 0px;
+            }
+
+            .wrapper-box-catalog.wrapper-box-catalog-kawasaki-oem {
+                padding-right: 0px;
+            }
+
+            .wrapper-box-catalog.wrapper-box-catalog-motor-harley-davidson-oem {
+                padding-left: 0px;
+            }
+
+            /////// End Box Catalog Spare OEM
+
+
+            /////// Box Catalog Spare B/Y
+
+
+            /////// End Box Catalog Spare B/Y
+
+            .wrapper-box-catalog {
+                .box-catalog {
+                    position: relative;
+                    overflow: hidden;
+
+
+                    .link-box-catalog {
+                        position: relative;
+                        text-decoration: none;
+                        display: block;
+
+                        .img-cover-catalog {
+                            transition: transform .8s ease;
+                        }
+
+                        &:hover {
+                            text-decoration: none;
+
+                            .img-cover-catalog {
+                                transform: scale(1.5);
+                            }
+
+                        }
+
+
+                        /////// List Brands Catalog
+                        .brand-catalog.brand-catalog-motul-motorcycle {
+                            background: url('/img/tpl_img/img_shop/catalog_brands/motul.png') no-repeat;
+                            width: 335px;
+                            height: 71px;
+                        }
+
+                        .brand-catalog.brand-catalog-yamaha-oem, .brand-catalog.brand-catalog-yamaha-by {
+                            background: url('/img/tpl_img/img_shop/catalog_brands/yamaha.png') no-repeat;
+                            width: 221px;
+                            height: 50px;
+
+                        }
+
+                        .brand-catalog.brand-catalog-suzuki-oem, .brand-catalog.brand-catalog-suzuki-by {
+                            background: url('/img/tpl_img/img_shop/catalog_brands/suzuki.png') no-repeat;
+                            width: 272px;
+                            height: 50px;
+                        }
+
+                        .brand-catalog.brand-catalog-honda-oem, .brand-catalog.brand-catalog-honda-by {
+                            background: url('/img/tpl_img/img_shop/catalog_brands/honda.png') no-repeat;
+                            width: 324px;
+                            height: 50px;
+                            top: -20px;
+                        }
+
+                        .brand-catalog.brand-catalog-kawasaki-oem {
+                            background: url('/img/tpl_img/img_shop/catalog_brands/kawasaki.png') no-repeat;
+                            width: 361px;
+                            height: 50px;
+                        }
+
+                        .brand-catalog.brand-catalog-kawasaki-by {
+                            background: url('/img/tpl_img/img_shop/catalog_brands/kawasaki_small.png') no-repeat;
+                            width: 289px;
+                            height: 40px;
+                        }
+
+                        .brand-catalog.brand-catalog-motor-harley-davidson-oem {
+                            background: url('/img/tpl_img/img_shop/catalog_brands/motor_harley_davidson.png') no-repeat;
+                            width: 266px;
+                            height: 201px;
+                        }
+
+                        .brand-catalog.brand-catalog-triumph-by {
+                            background: url('/img/tpl_img/img_shop/catalog_brands/trumph.png') no-repeat;
+                            width: 331px;
+                            height: 91px;
+                        }
+
+                        .brand-catalog.brand-catalog-ducati-by {
+                            background: url('/img/tpl_img/img_shop/catalog_brands/ducati.png') no-repeat;
+                            width: 269px;
+                            height: 50px;
+                        }
+
+                        .brand-catalog.brand-catalog-motor-harley-davidson-by, .brand-catalog.brand-catalog-motor-harley-davidson-motorcycle {
+                            background: url('/img/tpl_img/img_shop/catalog_brands/motor_harley_davidson.png') no-repeat;
+                            width: 266px;
+                            height: 201px;
+                        }
+
+                        .brand-catalog {
+                            position: absolute;
+                            left: 0;
+                            right: 0;
+                            bottom: 0;
+                            top: 0;
+                            margin: auto;
+                        }
+
+                        /////// End List Brands Catalog
+
+                    }
+
+                }
+            }
+
+            /////// End Box Catalog
+
+
+        }
+
+        /////////////////////// END DEFAULT LIST CATALOGS
+
+        //////////////////////// Left Block Catalog
+        .left-block-catalog {
+            ///// Box Catalog
+
+            /////////////// CATALOGS SHOPS
+            .box-catalog.box-catalog-hd, .box-catalog.box-catalog-orig-sparts {
+                width: 617.43px;
+                height: 960.96px;
+
+
+            }
+
+            .box-catalog.box-catalog-orig-sparts {
+                .block-name-catalog {
+                    .name-catalog {
+
+                    }
+
+                    .link-catalog {
+
+                    }
+                }
+
+            }
+
+            /////////////// END CATALOGS SHOPS
+
+
+            .box-catalog {
+                position: relative;
+                overflow: hidden;
+
+                &:hover {
+                    .cover-catalog {
+                        transform: scale(1.2);
+                    }
+                }
+
+
+                .cover-catalog {
+                    position: absolute;
+                    transition: transform .5s ease;
+                }
+
+                .block-name-catalog {
+                    position: relative;
+                    margin-bottom: 42px;
+                    margin-left: 24px;
+                    ///Name Catalog
+                    .name-catalog {
+                        line-height: 55px;
+                        z-index: 2;
+                        font-family: Montserrat;
+                        font-style: normal;
+                        font-weight: 800;
+                        font-size: 50px;
+                        margin: 0 auto;
+                        margin-top: 3px;
+                        text-align: left;
+                        text-transform: uppercase;
+                        color: #FFFFFF;
+                    }
+
+                    ///End Name Catalog
+
+                    /// Link Catalog
+                    .link-catalog {
+                        position: absolute;
+                        bottom: -43px;
+                        left: 2px;
+                        text-decoration: none;
+                        z-index: 2;
+                        width: 195.27px;
+                        height: 33px;
+                        line-height: 33px;
+                        display: block;
+
+                        text-align: center;
+                        background: url(/img/tpl_img/img_shop/arrow_link_shop.png) #F38000 79% 50% no-repeat;
+                        box-shadow: 0px 10px 28.5px rgba(84, 89, 97, 0.29);
+                        border-radius: 3px;
+
+                        &:hover {
+                            text-decoration: none;
+                        }
+
+                        .text-link-catalog {
+                            font-family: Montserrat;
+                            font-style: normal;
+                            font-weight: 800;
+                            font-size: 16px;
+                            text-transform: uppercase;
+                            color: #FFFFFF;
+                            position: relative;
+                            right: 12px;
+                        }
+                    }
+
+                    /// End Link Catalog
+
+
+                }
+            }
+
+            ///// End Box Catalog
+
+        }
+
+        //////////////////////// End Left Block Catalog
+
+
+        ////////////////////////  Right Block Catalog
+        .right-block-catalog {
+            margin-left: -42px;
+
+            .box-catalog.box-catalog-oem-spare {
+                width: 502.06px;
+                height: 244.9px;
+                margin-top: 10px;
+            }
+
+            .box-catalog.box-catalog-by-spare {
+                width: 502px;
+                height: 453px;
+            }
+
+            .box-catalog.box-catalog-motul-spare {
+                width: 502.06px;
+                height: 244.9px;
+                margin-top: 10px;
+            }
+
+            .box-catalog.box-catalog-by-hd {
+                width: 502px;
+                height: 309.66px;
+
+                .block-name-catalog {
+                    .name-catalog {
+                        font-size: 40px;
+                    }
+                }
+            }
+
+            .box-catalog.box-catalog-interior-items {
+                width: 502.06px;
+                height: 309.66px;
+                margin-top: 16px;
+
+                .block-name-catalog {
+                    .name-catalog {
+                        font-size: 40px;
+                    }
+                }
+            }
+
+            .box-catalog.box-catalog-garage-products {
+                width: 502.06px;
+                height: 309.66px;
+                margin-top: 16px;
+
+                .block-name-catalog {
+                    .name-catalog {
+                        font-size: 40px;
+                    }
+                }
+            }
+
+            //////// Box Catalog
+            .box-catalog {
+                position: relative;
+                overflow: hidden;
+
+                &:hover {
+                    .cover-catalog {
+                        transform: scale(1.2);
+                    }
+                }
+
+
+                .cover-catalog {
+                    position: absolute;
+                    height: 100%;
+                    width: 100%;
+                    transition: transform .5s ease;
+                }
+
+                .block-name-catalog {
+                    position: relative;
+                    margin-bottom: 42px;
+                    margin-left: 24px;
+                    ///Name Catalog
+                    .name-catalog {
+
+                        z-index: 2;
+                        font-family: Montserrat;
+                        font-style: normal;
+                        font-weight: 800;
+                        font-size: 50px;
+                        margin: 0 auto;
+                        line-height: 49px;
+                        margin-top: 3px;
+                        text-align: left;
+                        text-transform: uppercase;
+                        color: #FFFFFF;
+                    }
+
+                    ///End Name Catalog
+
+                    /// Link Catalog
+                    .link-catalog {
+                        position: absolute;
+                        bottom: -43px;
+                        left: 2px;
+                        text-decoration: none;
+                        z-index: 2;
+                        width: 195.27px;
+                        height: 33px;
+                        line-height: 33px;
+                        display: block;
+                        border-radius: 3px;
+                        text-align: center;
+                        background: url(/img/tpl_img/img_shop/arrow_link_shop.png) #F38000 79% 50% no-repeat;
+                        box-shadow: 0px 10px 28.5px rgba(84, 89, 97, 0.29);
+
+                        &:hover {
+                            text-decoration: none;
+                        }
+
+                        .text-link-catalog {
+                            font-family: Montserrat;
+                            font-style: normal;
+                            font-weight: 800;
+                            font-size: 16px;
+                            text-transform: uppercase;
+                            color: #FFFFFF;
+                            position: relative;
+                            right: 12px;
+                        }
+                    }
+
+                    /// End Link Catalog
+
+
+                }
+
+
+            }
+
+            //////// End d Box Catalog
+
+        }
+
+        ////////////////////////  End Right Block Catalog
+
+
+    }
+
+    //////// End List Catalogs
+
+
+    @import "resources/sass/desktop/product/layouts/list_products_in_catalog";
+
+    //////////// HTML CATALOG
+    .html-catalog.html-catalog-harley-davidson {
+        padding-bottom: 100px;
+    }
+
+    .html-catalog {
+        @import "layouts/block_shop_spare_parts_order";
+        @import "layouts/block_shop_delivery";
+        @import "layouts/block_shop_cover_product";
+        ////////// BLOCK LIST PRODUCTS
+        //@import "resources/sass/desktop/product/layouts/list_products";
+        ////////// END BLOCK LIST PRODUCTS
+    }
+
+    //////////// END HTML CATALOG
+
+
+}

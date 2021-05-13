@@ -1,0 +1,7 @@
+@import "desktop/cart/cart";
+//@media (max-width: 1069px) {
+//    //@import "tablet/catalog/catalog_tablet";
+//}
+@media (max-width: 576px) {
+    @import "mobile/cart/cart_mobile";
+}

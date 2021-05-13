@@ -1,0 +1,37 @@
+@import '~animate.css';
+@import 'hover.css';
+@import 'mixins';
+// Variables
+@import 'variables';
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+// Mobile Mmenu
+@import 'mobile_menu';
+
+////// DESKTOP STYLES SCSS
+@import 'desktop/app';
+////// END DESKTOP STYLES SCSS
+
+
+
+////// TABLET STYLES SCSS
+////// END TABLET STYLES SCSS
+
+
+
+////// MOBILE STYLES SCSS
+@import 'mobile/app';
+////// END MOBILE STYLES SCSS
+
+
+@import 'fonts';
+@import 'search';
+
+
+//// Media Queries 320
+//@import 'media_queries_320';
+//@import 'media_queries_320_inner_pages';
+
+
+
+

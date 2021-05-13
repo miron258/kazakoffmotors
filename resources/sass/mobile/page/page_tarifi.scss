@@ -1,0 +1,160 @@
+///////// Description Page
+.description-page.description-page-tariffs {
+    margin-top: 18px;
+    //.table-responsive {
+    //    display: table;
+    //}
+    .subtitle {
+        font-size: 14px;
+    }
+
+    .help-block {
+        margin-top: 3px;
+        font-size: 12px;
+    }
+
+    table thead {
+        display: none;
+    }
+
+    table td {
+        display: flex;
+    }
+
+    table td::before {
+        content: attr(label);
+        font-weight: bold;
+        width: 120px;
+        min-width: 120px;
+    }
+
+
+    ////// Table Tariffs
+    .table-tariffs.table-repair {
+
+
+    }
+
+    .wrapper-table.wrapper-table-repair {
+
+    }
+
+    .wrapper-table.wrapper-table-washing {
+
+    }
+
+    .wrapper-table.wrapper-table-storage {
+
+    }
+
+    .wrapper-table {
+
+        ////// Header table
+        .header-table {
+            padding: 5px 8px 5px 8px;
+
+            h3 {
+                font-size: 16px;
+                text-align: center;
+            }
+
+            .link-toggle {
+
+
+                &:hover {
+
+                }
+            }
+        }
+
+        ////// End Header table
+
+
+        ///// Table Tariffs
+        .table-tariffs {
+
+
+            ////// Thead
+            .thead {
+
+
+                /// Thead TR
+                .thead-tr {
+
+                    th {
+                        font-size: 14px;
+                    }
+
+                    .ruble {
+
+                    }
+
+                    th:nth-child(1) {
+
+                    }
+
+                    th:nth-child(2) {
+
+                    }
+
+                    th:nth-child(3) {
+
+                    }
+
+                }
+
+                /// End Thead TR
+
+            }
+
+
+            /////// Tbody
+            .tbody {
+
+                tr:nth-child(odd) {
+
+                }
+
+                tr:nth-child(even) {
+
+
+                }
+
+                //// Tbody TR
+                .tbody-tr {
+
+                    td {
+                        font-size: 12px;
+                    }
+
+                    td:nth-child(1) {
+                        text-align: left;
+                        border: none;
+                    }
+
+                    td:nth-child(2) {
+                        text-align: left;
+                        border: none;
+                    }
+
+                    td:nth-child(3) {
+                        text-align: left;
+                    }
+
+                }
+
+                //// End Tbody TR
+
+            }
+
+
+        }
+
+        ///// End Table Tariffs
+
+    }
+
+    ////// End Table Tarifi
+
+
+}

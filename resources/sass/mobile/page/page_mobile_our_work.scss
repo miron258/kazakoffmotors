@@ -1,0 +1,148 @@
+//////////////////////////////////////////////////////////////// СТРАНИЦА НАШИ РАБОТЫ
+.description-page.description-page-nashi-raboti {
+    margin-top: 18px;
+    margin-left: 0px;
+
+    p {
+
+    }
+
+
+}
+
+/////HTML PAGE СТРАНИЦА КОНТАКТЫ
+.html-page.html-page-nashi-raboti {
+
+    .box-gallery {
+
+        &:first-child {
+            margin-top: 12px;
+        }
+        &:not(:first-child){
+            margin-top: 42px;
+        }
+
+        //////////////////////// BLOCK IMAGES GALLERY
+        .block-images-gallery {
+            margin-top: 2px;
+
+            //////////////// NAVIGATION ARROWS
+            .nav-arrows {
+                position: absolute;
+                right: 23px;
+                top: initial;
+                bottom: 5px;
+                width: auto;
+                height: 33px;
+                border-radius: 0px;
+
+
+                // slick carousel  bt prev
+                .slick-arrow.slick-carousel-control-prev {
+                    width: 40px;
+                    height: 30px;
+                    background: url(/img/tpl_img/mobile/arrow_mobile_slider_left.png) 50% 50% no-repeat;
+                    border: none;
+                    outline: none;
+
+                }
+            //linear-gradient(0deg, #615C59, #615C59), #E4E8EE
+                // slick carousel  bt next
+                .slick-arrow.slick-carousel-control-next {
+                    width: 40px;
+                    height: 31px;
+                    background: url(/img/tpl_img/mobile/arrow_mobile_slider_right.png) 50% 50% no-repeat;
+                    border: none;
+                    outline: none;
+
+                }
+
+            }
+
+            //////////////// END NAVIGATION ARROWS
+
+
+            .box-list-img {
+
+            }
+
+            .box-list-thumbnails-img {
+                display: none;
+            }
+        }
+
+        //////////////////////// END BLOCK IMAGES GALLERY
+
+
+        //////////////////////////////////// BLOCK DESCRIPTION GALLERY
+        .block-description-gallery {
+            margin-top: 5px;
+
+            .title-gallery {
+                font-size: 10px;
+                line-height: 16px;
+            }
+
+
+            .text-gallery {
+                margin-top: 14px;
+                margin-left: 0px;
+
+                P {
+
+                    &:first-child{
+                        margin-bottom: 14px;
+                    }
+
+                    &:not(:first-child){
+                        margin-top: 0px;
+                    }
+
+                    font-size: 10px;
+                    line-height: 15px;
+                }
+
+                .text-gallery-top {
+
+                }
+
+                .text-gallery-bottom {
+
+                }
+            }
+
+
+            //////////// BLOCK VIEW READMORE
+            .block-view-readmore {
+                margin-top: 13px;
+
+                .link-readmore {
+                    padding: 0px 26px 0px 26px;
+                    border-radius: 0px;
+                    font-size: 10px;
+                    line-height: 28.5px;
+                }
+
+                .date-publish-gallery {
+                    font-weight: 300;
+                    font-size: 10px;
+                    line-height: 24px;
+                    margin-top: 3px;
+                    right: 7px;
+                }
+
+
+            }
+
+            //////////// END BLOCK VIEW READMORE
+
+        }
+
+        //////////////////////////////////// END BLOCK DESCRIPTION GALLERY
+
+
+    }
+
+}
+
+//////////////////////////////////////////////////////////////// КОНЕЦ СТРАНИЦА НАШИ РАБОТЫ

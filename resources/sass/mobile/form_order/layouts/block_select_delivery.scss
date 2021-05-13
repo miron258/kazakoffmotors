@@ -1,0 +1,197 @@
+///////////// BLOCK SELECT DELIVERY METHOD
+.block-select-delivery-method {
+    position: relative;
+
+
+
+
+    &:after {
+        content: "";
+        display: block;
+        position: absolute;
+    }
+
+
+    .title-delivery-method {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        text-align: center;
+        color: #000000;
+    }
+
+
+    ///////// WRAPPER CUSTOM CHECKBOXES
+    .wrapper-custom-radios {
+        margin-top: 27px;
+        padding-left: 39px;
+        padding-right: 15px;
+
+        //////////// Custom Checkbox Delivery
+        .custom-radio-delivery {
+
+            &:first-child {
+
+            }
+
+            &:not(:first-child) {
+                margin-top: 12px;
+            }
+
+            ////// Custom Control Input
+            .custom-control-input {
+
+
+                /////// UNCHECKED
+                &:not(:checked) {
+
+                    + label:before {
+                        background: url('/img/tpl_img/mobile/shop/checkbox_order_unchecked.png') no-repeat;
+                    }
+
+                    + label:after {
+
+                    }
+
+                }
+
+                /////// END UNCHECKED
+
+
+                //////// CHECKED
+                &:checked {
+
+
+                    + label:before {
+                        background: url('/img/tpl_img/mobile/shop/checkbox_order_checked.png') no-repeat;
+                    }
+
+                    + label:after {
+
+                    }
+
+                }
+
+                //////// END CHECKED
+
+
+                &:not(:checked), &:checked {
+                    position: absolute;
+                    pointer-events: none;
+                    opacity: 0;
+
+                    + label:before {
+                        width: 17px;
+                        height: 17px;
+                    }
+
+                    + label:after {
+                        border: none;
+                        width: 17px;
+                        height: 17px;
+                        outline: none;
+                        background-image: none;
+                    }
+
+                }
+
+            }
+
+            ////// End Custom Control Input
+
+            //////// Form Check Label
+            .custom-control-label {
+                position: relative;
+                margin-bottom: 0;
+                vertical-align: top;
+                padding-left: 20px;
+                top: 2px;
+
+                &:hover{
+                    cursor: pointer;
+                }
+
+
+                &:after, &:before {
+                    position: absolute;
+                    display: block;
+                    content: "";
+                    border: none;
+                    border-radius: 0px;
+                    outline: none;
+                    box-shadow: none;
+                }
+
+                &:before {
+                    pointer-events: none;
+                    transition: background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+                }
+
+                &:after {
+
+                }
+
+                .title-label {
+                    font-family: Montserrat;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 14px;
+                    letter-spacing: 0.01em;
+                    color: #000000;
+                    display: block;
+                }
+
+                .text-label {
+                    font-family: Montserrat;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 12px;
+                    line-height: 14px;
+                    letter-spacing: 0.01em;
+                    color: #000000;
+                    display: block;
+                }
+
+            }
+
+            //////// End Form Check Label
+        }
+
+        //////////// Custom Checkbox Delivery
+    }
+
+    ///////// END WRAPPER CUSTOM CHECKBOXES
+
+
+    ////////// Note Delivery Method
+    .note-delivery-method {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        color: #000000;
+        font-size: 10px;
+        line-height: 12px;
+        margin-top: 29px;
+        position: relative;
+        text-align: center;
+
+
+        .link-phone-number {
+            text-decoration: none;
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 12px;
+            color: #000000;
+
+            &:hover {
+                text-decoration: none;
+            }
+        }
+    }
+
+    ////////// End Note Delivery Method
+}
+
+///////////// END BLOCK SELECT DELIVERY METHOD

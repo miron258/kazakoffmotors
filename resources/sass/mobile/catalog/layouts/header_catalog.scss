@@ -1,0 +1,86 @@
+.header.header-mini.header-catalog {
+
+
+
+    .header-leftblock {
+
+
+        &:after {
+
+        }
+
+        .block-list-social-icon {
+
+
+
+
+
+        }
+    }
+
+
+    ///// Header Logo
+    .header-block-logo {
+
+
+        .link-logo {
+
+            .img-logo {
+
+            }
+
+
+        }
+
+        &:after {
+
+        }
+    }
+
+    ///// End Header Logo
+
+
+    ////////// Row Shop Menu
+    .row-shop-menu {
+
+
+
+        &:after{
+
+        }
+
+        /////////// BOX SHOP MENU
+        .wrapper-box-shop-menu {
+
+            .box-shop-menu {
+
+                @import "menu_shop";
+            }
+        }
+
+        /////////// END BOX SHOP MENU
+
+
+
+    }
+
+    ////////// End Row Shop Menu
+
+    /////// Header Shop Menu
+
+
+    .container-header-shop-menu {
+
+
+
+        .block-header-shop-menu {
+
+            @import "menu_shop_catalog";
+        }
+    }
+    .container-header-shop-menu.vue-fixed-header--isFixed {
+
+    }
+    /////// End Header Shop Menu
+
+}

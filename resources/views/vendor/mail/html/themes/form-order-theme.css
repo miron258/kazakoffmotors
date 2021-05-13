@@ -1,0 +1,547 @@
+/**************** Default CSS *********************/
+body {background-color: #edf2f7; padding-top: 20px;   font-family: "OpenSans", sans-serif; padding-bottom: 20px;}
+.wrapper {}
+.wrapper .content { background: #fff;}
+/**************** End Default CSS *********************/
+
+/*************** Header  **************/
+.header {
+    width: 700px;
+    background: #141414;
+    margin: 0 auto;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.header .link-logo {
+    text-decoration: none;
+}
+
+.header .link-logo:hover {
+    text-decoration: none;
+}
+
+.header .link-logo .logo {
+
+}
+
+/*************** End Header  **************/
+
+/*************** Content  **************/
+.body {
+
+}
+
+.body.inner-body {
+
+}
+
+.body .inner-body .content-cell {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.body .inner-body .content-cell .line-top-content-cell {
+    margin-top: 25px;
+    margin-bottom: 0px;
+    height: 1px;
+    width: 100%;
+    background: #E7E7F0;
+}
+
+.body .inner-body .content-cell .line-bottom-content-cell {
+    margin-top: 25px;
+    margin-bottom: 0px;
+    height: 1px;
+    width: 100%;
+    background: #E7E7F0;
+}
+
+.body .inner-body .content-cell .title-message-text {
+
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    margin-top: 26px;
+    margin-bottom: 16px;
+}
+
+
+.body .inner-body .content-cell .message-text {
+
+    font-style: normal;
+    font-weight: 800;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+}
+
+.body .inner-body .content-cell .message-text.message-text-top {
+
+}
+
+/*************** Style Data Order  **************/
+.body .inner-body .content-cell .message-text.message-text-bottom {
+    margin-top: 28px;
+}
+
+.body .inner-body .content-cell .message-text.message-text-bottom .title-data-order {
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    color: #000000;
+    display: block;
+}
+
+.body .inner-body .content-cell .message-text.message-text-bottom .row-data-order.row-data-order-top {
+    margin-top: 23px;
+}
+
+.body .inner-body .content-cell .message-text.message-text-bottom .row-data-order.row-data-order-top b {
+    margin-left: 1px;
+}
+
+.body .inner-body .content-cell .message-text.message-text-bottom .row-data-order.row-data-order-bottom b {
+    margin-left: 1px;
+}
+
+.body .inner-body .content-cell .message-text.message-text-bottom .row-data-order.row-data-order-bottom {
+    margin-top: 4px;
+}
+
+.body .inner-body .content-cell .message-text.message-text-bottom .row-data-order {
+    display: block;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    color: #000000;
+}
+
+.body .inner-body .content-cell .line-bottom-data-order {
+    margin-top: 25px;
+    margin-bottom: 0px;
+    height: 1px;
+    width: 100%;
+    background: #E7E7F0;
+}
+
+/*************** End Style Data Order  **************/
+
+
+/*************** End Content  **************/
+
+
+/*************** Content Products Order  **************/
+.body-products {
+
+}
+
+.body-products .inner-body-products {
+    padding-top: 32px;
+}
+
+.body-products .inner-body-products .title-products {
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    margin: 0 auto;
+    color: #000000;
+}
+
+/********** List Orders Products ***********/
+.body-products {
+
+}
+
+.body-products .inner-body-products .list-orders-products {
+}
+
+.body-products .inner-body-products .table-products {
+    margin-top: 38px;
+}
+
+.body-products .inner-body-products .table-products .table-products-header th {
+    text-align: left;
+    padding-bottom: 11px;
+}
+
+.body-products .inner-body-products .table-products .table-products-header th.header-th-bold {
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    color: #1E1E1E;
+}
+
+.body-products .inner-body-products .table-products .table-products-header th.header-th-default {
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    text-align: center;
+    color: #535963;
+}
+
+.body-products .inner-body-products .table-products .table-products-header th.header-th-default.header-th-default-price {
+    text-align: right;
+    padding-right: 6px;
+}
+
+.body-products .inner-body-products .table-products .table-products-row {
+}
+
+.body-products .inner-body-products .table-products .table-products-row td {
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+
+.body-products .inner-body-products .table-products .table-products-row.border-top td {
+    border-top: 1px solid #E7E7F0;
+}
+
+.body-products .inner-body-products .table-products .table-products-row.border-bottom td {
+    border-bottom: 1px solid #E7E7F0;
+}
+
+.body-products .inner-body-products .table-products .table-products-row td.table-products-cell-img {
+    /*padding-top: 14px;*/
+}
+
+.body-products .inner-body-products .table-products .table-products-row td.table-products-cell-img .link-product .img-product {
+    width: 116px;
+}
+
+.body-products .inner-body-products .table-products .table-products-row td.table-products-cell-name {
+    vertical-align: top;
+    padding-top: 12px;
+    padding-left: 8px;
+    width: 522px;
+}
+
+.body-products .inner-body-products .table-products .table-products-row td.table-products-cell-name .name-product {
+    text-decoration: none;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    color: #1E1E1E;
+}
+
+.body-products .inner-body-products .table-products .table-products-row td.table-products-cell-name .name-product:hover {
+    text-decoration: none;
+}
+
+.body-products .inner-body-products .table-products .table-products-row td.table-products-cell-qty {
+    width: 100px;
+    text-align: center;
+    padding-top: 11px;
+    vertical-align: top;
+}
+
+.body-products .inner-body-products .table-products .table-products-row td.table-products-cell-price .ruble {
+    font-family: "ALS Rubl";
+    font-size: 12px;
+}
+
+.body-products .inner-body-products .table-products .table-products-row td.table-products-cell-price,
+td.table-products-cell-sum,
+td.table-products-cell-qty {
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+    color: #535963;
+}
+
+.body-products .inner-body-products .table-products .table-products-row td.table-products-cell-price {
+    padding-top: 11px;
+    text-align: right;
+    vertical-align: top;
+    width: 80px;
+}
+
+.body-products .inner-body-products .table-products .table-products-row td.table-products-cell-sum {
+    padding-top: 11px;
+    vertical-align: top;
+}
+
+/********** End List Orders Products ***********/
+
+/************ Row Price ***********/
+.body-products .inner-body-products .table-products .table-products-row.table-products-row-foot-price {
+
+}
+
+.body-products .inner-body-products .table-products .table-products-row.table-products-row-foot-price.border-top {
+    border-top: 1px solid #E7E7F0;
+}
+
+.body-products .inner-body-products .table-products .table-products-row.table-products-row-foot-price.border-bottom {
+    border-bottom: 1px solid #E7E7F0;
+}
+
+.body-products .inner-body-products .table-products .table-products-row.table-products-row-foot-price .td-sum-text {
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    color: #1E1E1E;
+    /*padding-top: 4px;*/
+    /*padding-bottom: 7px;*/
+}
+
+.body-products .inner-body-products .table-products .table-products-row.table-products-row-foot-price .td-sum-value {
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    /*padding-top: 4px;*/
+    /*padding-bottom: 7px;*/
+    text-align: right;
+}
+
+.body-products .inner-body-products .table-products .table-products-row.table-products-row-foot-price .td-sum-value .ruble {
+    font-family: "ALS Rubl";
+    font-size: 12px;
+}
+
+/************ End Row Price ***********/
+
+
+/************ Row Delivery ***********/
+.body-products .inner-body-products .table-products .table-products-row.table-products-row-foot-delivery {
+
+}
+
+.body-products .inner-body-products .table-products .table-products-row.table-products-row-foot-delivery .td-sum-text {
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    padding-top: 0px;
+}
+
+.body-products .inner-body-products .table-products .table-products-row.table-products-row-foot-delivery .td-sum-value {
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    padding-top: 0px;
+    text-align: right;
+}
+
+.body-products .inner-body-products .table-products .table-products-row.table-products-row-foot-delivery .td-sum-value .ruble {
+    font-family: "ALS Rubl";
+    font-size: 12px;
+}
+
+/************ End Row Delivery ***********/
+
+
+/************ Row Total Amount ***********/
+.body-products .inner-body-products .table-products .table-products-row.table-products-row-foot-total-amount.border-top {
+    border-top: 1px solid #E7E7F0;
+}
+
+.body-products .inner-body-products .table-products .table-products-row.table-products-row-foot-total-amount .td-text-total-amount {
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    color: #1C1E23;
+}
+
+.body-products .inner-body-products .table-products .table-products-row.table-products-row-foot-total-amount .td-price-total-amount {
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    color: #1E1E1E;
+    text-align: right;
+}
+
+.body-products .inner-body-products .table-products .table-products-row.table-products-row-foot-total-amount .td-price-total-amount .ruble {
+    font-family: "ALS Rubl";
+    font-size: 12px;
+}
+
+/************ End Row Total Amount ***********/
+
+/************ Row Notes ***********/
+.body-products .inner-body-products .table-products .table-products-row.table-products-row-foot-notes {
+
+
+}
+
+.body-products .inner-body-products .table-products .table-products-row.table-products-row-foot-notes .td-notes {
+    padding-top: 9px;
+
+}
+
+.body-products .inner-body-products .table-products .table-products-row.table-products-row-foot-notes .td-notes .notes-text {
+
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    color: #000000;
+}
+
+.body-products .inner-body-products .table-products .table-products-row.table-products-row-foot-notes .td-notes .notes-text.notes-text-top {
+
+}
+
+.body-products .inner-body-products .table-products .table-products-row.table-products-row-foot-notes .td-notes .notes-text.notes-text-bottom {
+    margin-top: 4px;
+}
+
+/************ End Row Notes ***********/
+
+
+/************ Row Payment Methods ***********/
+.body-products .inner-body-products .table-products .table-products-row.table-products-row-payment-methods {
+
+}
+
+.body-products .inner-body-products .table-products .table-products-row.table-products-row-payment-methods .title-payment-methods {
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    color: #1C1E23;
+}
+
+.body-products .inner-body-products .table-products .table-products-row.table-products-row-payment-methods .td-payment-methods {
+    padding-top: 16px;
+}
+
+.body-products .inner-body-products .table-products .table-products-row.table-products-row-payment-methods .td-payment-methods .list-payment-methods {
+    padding-left: 0px;
+    list-style: none;
+    margin-top: 19px;
+
+}
+
+.body-products .inner-body-products .table-products .table-products-row.table-products-row-payment-methods .td-payment-methods .list-payment-methods .item-payment-method {
+    display: inline-block;
+}
+
+.body-products .inner-body-products .table-products .table-products-row.table-products-row-payment-methods .td-payment-methods .list-payment-methods .item-payment-method:not(:first-child) {
+    margin-left: 25px;
+}
+
+/************ End Row Payment Methods ***********/
+
+/*************** End Content Products Order  **************/
+
+
+/*************** Contents Body Footer  **************/
+.body-footer {
+    background: #1C1E23;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.body-footer .inner-body-footer {
+    padding-bottom: 80px;
+}
+
+.body-footer .inner-body-footer .table-row-footer {
+
+}
+
+.body-footer .inner-body-footer .table-row-footer .content-cell-footer-contacts {
+    padding-top: 30px;
+    padding-left: 23px;
+}
+
+.body-footer .inner-body-footer .table-row-footer .content-cell-footer-contacts .link-phone {
+
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 15px;
+    color: #FFFFFF;
+    display: block;
+}
+
+.body-footer .inner-body-footer .table-row-footer .content-cell-footer-contacts .link-phone:hover {
+    text-decoration: none;
+}
+
+.body-footer .inner-body-footer .table-row-footer .content-cell-footer-contacts .link-email {
+
+    font-style: normal;
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 15px;
+    display: block;
+    color: #FFFFFF;
+    margin-top: 13px;
+}
+
+.body-footer .inner-body-footer .table-row-footer .content-cell-footer-contacts .link-email:hover {
+    text-decoration: none;
+}
+
+.body-footer .inner-body-footer .table-row-footer .content-cell-footer-contacts .link-subscriber {
+    display: block;
+    text-decoration: underline;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    color: #8F98B1;
+    top: 37px;
+    position: relative;
+}
+
+.body-footer .inner-body-footer .table-row-footer .content-cell-footer-contacts .link-subscriber:hover {
+    text-decoration: none;
+}
+
+.body-footer .inner-body-footer .table-row-footer .content-cell-footer-social-network {
+
+}
+
+.body-footer .inner-body-footer .table-row-footer .content-cell-footer-social-network .list-social-network {
+    list-style: none;
+    padding-left: 0px;
+    margin-top: 0px;
+    margin-left: 142px;
+}
+
+.body-footer .inner-body-footer .table-row-footer .content-cell-footer-social-network .list-social-network .item-social-network {
+    display: inline-block;
+}
+
+.body-footer .inner-body-footer .table-row-footer .content-cell-footer-social-network .list-social-network .item-social-network .link-social-network {
+
+}
+
+.body-footer .inner-body-footer .table-row-footer .content-cell-footer-social-network .list-social-network .item-social-network .link-social-network:hover {
+    text-decoration: none;
+}
+
+.body-footer .inner-body-footer .table-row-footer .content-cell-footer-social-network .list-social-network .item-social-network:not(:first-child) {
+    margin-left: 12px;
+}
+
+/*************** End Contents Body Footer  **************/
+
+
+
+
+
+
+

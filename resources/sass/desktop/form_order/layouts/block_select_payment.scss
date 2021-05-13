@@ -1,0 +1,176 @@
+.block-select-payment-methods {
+    margin-top: 69px;
+
+    .title-payment-methods {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        text-align: left;
+        color: #000000;
+        margin-left: 0px;
+    }
+
+
+    ///////// WRAPPER CUSTOM CHECKBOXES
+    .wrapper-custom-radios {
+        margin-top: 46px;
+        padding-left: 19px;
+
+        //////////// Custom Checkbox Payment
+        .custom-radio-payment {
+
+            &:first-child {
+
+            }
+
+            &:not(:first-child) {
+                margin-top: 35px;
+            }
+
+            ////// Custom Control Input
+            .custom-control-input {
+
+
+                /////// UNCHECKED
+                &:not(:checked) {
+
+                    + label:before {
+                        background: url('/img/tpl_img/img_shop/checkbox_order_unchecked.png') no-repeat;
+
+                    }
+
+                    + label:after {
+
+                    }
+
+                }
+
+                /////// END UNCHECKED
+
+
+                //////// CHECKED
+                &:checked {
+
+
+                    + label:before {
+                        background: url('/img/tpl_img/img_shop/checkbox_order_checked.png') no-repeat;
+                    }
+
+                    + label:after {
+
+                    }
+
+                }
+
+                //////// END CHECKED
+
+
+                &:not(:checked), &:checked {
+                    position: absolute;
+                    pointer-events: none;
+                    opacity: 0;
+
+                    + label:before {
+                        width: 20px;
+                        height: 20px;
+                    }
+
+                    + label:after {
+                        border: none;
+                        width: 20px;
+                        height: 20px;
+                        outline: none;
+                        background-image: none;
+                    }
+
+                }
+
+            }
+
+            ////// End Custom Control Input
+
+            //////// Form Check Label
+            .custom-control-label {
+                position: relative;
+                margin-bottom: 0;
+                vertical-align: top;
+                padding-left: 30px;
+                top: 2px;
+                &:hover{
+                    cursor: pointer;
+                }
+
+                .list-payment-methods {
+                    padding-left: 0px;
+                    list-style: none;
+                    margin-bottom: 0rem;
+                    position: relative;
+                    top: 7px;
+                    .item-payment-method {
+                        display: inline-block;
+
+                        &:not(:first-child) {
+                            margin-left: 25px;
+                        }
+
+                        .img-payment-method {
+
+                        }
+
+                    }
+
+                }
+
+                &:after, &:before {
+                    position: absolute;
+                    display: block;
+                    content: "";
+                    border: none;
+                    border-radius: 0px;
+                    outline: none;
+                    box-shadow: none;
+                }
+
+                &:before {
+                    pointer-events: none;
+                    transition: background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+                }
+
+                &:after {
+
+                }
+
+                .title-label {
+                    font-family: Montserrat;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 16px;
+                    letter-spacing: 0.01em;
+                    color: #000000;
+                    display: block;
+                }
+
+                .text-label {
+                    font-family: Montserrat;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 12px;
+                    line-height: 14px;
+                    letter-spacing: 0.01em;
+                    color: #000000;
+                    display: block;
+                }
+
+            }
+
+            //////// End Form Check Label
+        }
+
+        //////////// Custom Checkbox Payment
+    }
+
+    ///////// END WRAPPER CUSTOM CHECKBOXES
+
+
+}

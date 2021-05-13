@@ -1,0 +1,361 @@
+///////// Description Page
+.description-page.description-page-kontakti {
+    position: relative;
+    margin-top: 50px;
+    margin-left: 2px;
+
+
+}
+
+///////////////////////////////////////////// СТРАНИЦА КОНТАКТЫ
+.html-page.html-page-kontakti {
+    padding-bottom: 12px;
+
+
+
+
+    ///////////////////////////// ROW CONTACTS
+    .row-contacts {
+
+        /******** BOX CONTACTS ********/
+        .box-contact.box-contact-left {
+
+        }
+
+        .box-contact.box-contact-center {
+
+
+            .link-in-map-address {
+                margin-top: 78px;
+
+
+            }
+        }
+
+        .box-contact.box-contact-right {
+            .header-box-contact {
+                padding-left: 0px;
+            }
+        }
+
+
+        .box-contact {
+            background: #DDDDDD;
+            padding-top: 23px;
+            padding-bottom: 39px;
+            height: 560px;
+            padding-left: 10px;
+            padding-right: 10px;
+
+
+            .header-box-contact {
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 18px;
+                line-height: 22px;
+                text-transform: uppercase;
+                color: #000000;
+                text-align: center;
+                padding-left: 18px;
+            }
+
+            //Block Line Address
+            .block-line-address {
+
+                .header-line-address {
+                    font-family: Montserrat;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 16px;
+                    line-height: 20px;
+                    color: #000000;
+                    position: relative;
+                    background: #fff;
+                    padding-left: 48px;
+                    margin-top: 15px;
+                    padding-top: 7px;
+                    padding-bottom: 7px;
+
+
+                    &:before {
+                        content: "";
+                        display: block;
+                        position: absolute;
+                        background: url('/img/tpl_img/page_contacts/icons/icon_location.png') no-repeat;
+                        width: 21px;
+                        height: 26px;
+                        left: 15px;
+                        top: 3px;
+                    }
+                }
+
+                .text-line-address {
+                    font-family: Montserrat;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 16px;
+                    line-height: 20px;
+                    color: #141414;
+                    padding-left: 19px;
+                    margin-top: 18px;
+                }
+
+            }
+
+            //END Block Line Address
+
+            //Block Line PHONE
+            .block-line-phone {
+                margin-top: 27px;
+
+                .header-line-phone {
+                    font-family: Montserrat;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 16px;
+                    line-height: 20px;
+                    color: #000000;
+                    background: #fff;
+                    position: relative;
+                    padding-left: 48px;
+                    margin-top: 15px;
+                    padding-top: 7px;
+                    padding-bottom: 7px;
+
+
+                    &:before {
+                        content: "";
+                        display: block;
+                        position: absolute;
+                        background: url('/img/tpl_img/page_contacts/icons/icon_phone.png') no-repeat;
+                        width: 21px;
+                        height: 19px;
+                        left: 15px;
+                        top: 6px;
+                    }
+                }
+
+                .text-line-phone {
+                    padding-left: 19px;
+                    margin-top: 16px;
+
+                    .link-phone {
+                        font-family: Montserrat;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 16px;
+                        line-height: 20px;
+                        text-decoration: none;
+                        color: #141414;
+
+                        &:hover {
+                            text-decoration: none;
+                        }
+                    }
+                }
+
+
+            }
+
+            //END Block Line Phone
+
+
+            //Block Line EMAIL
+            .block-line-email {
+                margin-top: 23px;
+
+                .header-line-email {
+                    font-family: Montserrat;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 16px;
+                    line-height: 20px;
+                    color: #000000;
+                    position: relative;
+                    background: #fff;
+                    padding-left: 48px;
+                    margin-top: 15px;
+                    padding-top: 7px;
+                    padding-bottom: 7px;
+
+                    &:before {
+                        content: "";
+                        display: block;
+                        position: absolute;
+                        background: url('/img/tpl_img/page_contacts/icons/icon_email.png') no-repeat;
+                        width: 21px;
+                        height: 15px;
+                        left: 15px;
+                        top: 9px;
+                    }
+                }
+
+                .text-line-email {
+                    padding-left: 19px;
+                    margin-top: 18px;
+
+                    .link-email {
+                        display: block;
+                        font-family: Montserrat;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 16px;
+                        line-height: 20px;
+                        color: #141414;
+                        text-decoration: underline;
+
+                        &:hover {
+                            text-decoration: none;
+                        }
+                    }
+                }
+
+            }
+
+            //END Block Line EMAIL
+
+
+            //Block Line TIME WORK
+            .block-line-time-work {
+                margin-top: 23px;
+
+                .header-line-time-work {
+                    font-family: Montserrat;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 16px;
+                    line-height: 20px;
+                    color: #000000;
+                    background: #fff;
+                    position: relative;
+                    padding-left: 48px;
+                    margin-top: 15px;
+                    padding-top: 7px;
+                    padding-bottom: 7px;
+
+                    &:before {
+                        content: "";
+                        display: block;
+                        position: absolute;
+                        background: url('/img/tpl_img/page_contacts/icons/icon_timework.png') no-repeat;
+                        width: 21px;
+                        height: 21px;
+                        left: 15px;
+                        top: 6px;
+                    }
+
+                }
+
+                .text-line-time-work {
+                    font-family: Montserrat;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 16px;
+                    line-height: 20px;
+                    color: #141414;
+                    padding-left: 23px;
+                    margin-top: 18px;
+                }
+
+                .text-help-time-work {
+                    font-family: Montserrat;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 16px;
+                    line-height: 20px;
+                    color: #141414;
+                    padding-left: 19px;
+                    margin-top: 10px;
+                }
+
+            }
+
+            //END Block Line TIME WORK
+
+
+            //LINK MAP Address
+            .link-in-map-address {
+                display: block;
+                position: relative;
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+
+                width: max-content;
+                height: 23px;
+
+                color: #141414;
+                margin-top: 28px;
+                margin-left: 84px;
+                padding-right: 19px;
+                text-align: center;
+                border-bottom: 1px solid #F38000;
+
+                &:after {
+                    content: "";
+                    display: block;
+                    position: absolute;
+                    background: url('/img/tpl_img/page_contacts/icons/icon_location_arrow.png');
+                    width: 13px;
+                    height: 14px;
+                    right: 0px;
+                    top: 4px;
+                }
+
+                text-decoration: none;
+
+                &:hover {
+                    border: none;
+                    text-decoration: none;
+                }
+            }
+
+            //END LINK MAP Address
+        }
+
+        /******** END BOX CONTACTS ********/
+
+
+        ///////BLOCK IMAGES CONTACTS
+        .block-images-contacts {
+            margin-top: 36px;
+
+            /***** Box IMG Contact *****/
+            .box-img-contact {
+
+                .img-contact {
+                    img {
+
+                    }
+                }
+
+                .text-contact {
+                    font-family: Montserrat;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 20px;
+                    text-align: justify;
+                    color: #141414;
+                    margin-top: 14px;
+                }
+
+            }
+
+            /***** End Box IMG Contact *****/
+        }
+
+        ///////END BLOCK IMAGES CONTACTS
+
+
+    }
+
+
+
+
+
+}
+
+///////////////////////////////////////////// КОНЕЦ СТРАНИЦЫ КОНТАКТЫ

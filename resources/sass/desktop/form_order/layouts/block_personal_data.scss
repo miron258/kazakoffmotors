@@ -1,0 +1,114 @@
+/////////////////////////// BLOCK PERSONAL DATA
+.block-personal-data {
+    margin-top: 61px;
+    position: relative;
+    padding-left: 4px;
+
+
+    .title-personal-data {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        color: #000000;
+
+    }
+
+    .title-notification-form{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 12px;
+        color: red;
+    }
+
+    .form-group.form-group-phone {
+        margin-top: 26px;
+    }
+
+    .form-group.form-group-email {
+        margin-top: 26px;
+    }
+
+    .form-group {
+        .invalid-feedback {
+            position: absolute;
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 10px;
+            line-height: 10px;
+            letter-spacing: 0.01em;
+            color: red;
+        }
+
+        .form-control-phone, .form-control-email {
+            width: 433.38px;
+            height: 58.87px;
+        }
+
+
+        //// Не валидное поле
+        .form-control.is-invalid {
+            border-bottom: 1px solid red;
+        }
+
+        ////Вылидное поле
+        .form-control.is-valid {
+            border-bottom: 2px solid #F38000;
+            background-color: rgba(243, 128, 0, 0.06);
+        }
+
+        .form-control {
+            border-radius: 0px;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            border: none;
+            outline: none;
+            box-shadow: none;
+            border-bottom: 1px solid #263238;
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            letter-spacing: 0.01em;
+            color: #263238;
+            padding: 0px;
+            padding-left: 15px;
+
+            background-color: rgba(38, 50, 56, 0.06);
+        }
+    }
+
+    ////// Form Group Row
+    .form-group-row {
+        margin-top: 2rem;
+        padding-right: 30px;
+        ////// Box Field Form
+        .box-field-form {
+            position: relative;
+
+
+            .form-control-name {
+                width: 196.82px;
+                height: 59px;
+
+            }
+
+            .form-control-surname {
+                width: 217.15px;
+                height: 59px;
+            }
+
+
+        }
+
+        ////// End Box Field Form
+
+
+    }
+
+    ////// End Form Group Row
+}
+
+/////////////////////////// END BLOCK PERSONAL DATA

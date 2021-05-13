@@ -1,0 +1,305 @@
+.wrapper-inner-cart{
+    padding-top: 42px;
+}
+.block-form-order {
+
+
+    ////////////// Container View Form Order Mobile
+    .container-view-form-order-mobile {
+        padding-left: 0px;
+        padding-right: 0px;
+        @import "layouts/form_order_success";
+        ////// Container Form Order
+        .container-form-order {
+            position: relative;
+
+
+
+
+            ///// Message Form Order
+            .message-form-order {
+
+            }
+
+            ///// End Message Form Order
+
+            /****************** AJAX LOADER *******************/
+            .loader-gif {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                z-index: 1000;
+                background-color: #fff;
+                opacity: 0.8;
+
+                .ajax-loader {
+                    position: absolute;
+                    left: 0;
+                    right: 0;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    margin-left: auto;
+                    margin-right: auto;
+                    display: block;
+                }
+            }
+
+            /****************** END AJAX LOADER *******************/
+
+
+            //////////////////// Form Mobile Description
+            .form-order-mobile-description {
+                background: #F4F4F4;
+                padding-top: 20px;
+                padding-bottom: 13px;
+                padding-left: 62px;
+                padding-right: 25px;
+                position: relative;
+
+                .link-back-return-mobile {
+                    position: absolute;
+                    background: url('/img/tpl_img/mobile/shop/arrow_prev_mobile.png') no-repeat;
+                    width: 22px;
+                    height: 22px;
+                    left: 20px;
+                }
+
+                .title-form-order {
+                    font-family: Montserrat;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 20px;
+                    line-height: 24px;
+                    text-transform: uppercase;
+                    color: #000000;
+                    margin-bottom: 0.4rem;
+                }
+
+                /////// Block Total Form Order
+                .block-total-form-order {
+
+                    .text-total-form-order {
+                        font-family: Montserrat;
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 16px;
+                        line-height: 20px;
+                        color: #000000;
+                    }
+
+                    .total-form-order {
+                        position: relative;
+                        display: inline-block;
+                        float: right;
+                        right: 25px;
+
+                        .price {
+                            font-family: Montserrat;
+                            font-style: normal;
+                            font-weight: 500;
+                            font-size: 16px;
+                            line-height: 20px;
+                            color: #000000;
+                        }
+
+                        .ruble {
+                            font-family: 'Als Rubl';
+                            font-style: normal;
+                            font-weight: 500;
+                            font-size: 16px;
+                            line-height: 20px;
+                            color: #000000;
+                        }
+                    }
+
+                }
+
+                /////// End Block Total Form Order
+
+
+                /////// Block Sub Total Form Order
+                .block-sub-total-form-order {
+
+                    .text-sub-total-form-order {
+                        font-family: Montserrat;
+                        font-style: normal;
+                        font-weight: 300;
+                        font-size: 16px;
+                        line-height: 20px;
+                        color: #000000;
+                    }
+
+                    .sub-total-form-order {
+                        position: relative;
+                        display: inline-block;
+                        float: right;
+                        right: 25px;
+
+                        .price {
+                            font-family: Montserrat;
+                            font-style: normal;
+                            font-weight: 300;
+                            font-size: 16px;
+                            line-height: 20px;
+                            color: #000000;
+                        }
+
+                        .ruble {
+                            font-family: 'Als Rubl';
+                            font-style: normal;
+                            font-weight: 300;
+                            font-size: 16px;
+                            line-height: 20px;
+                            color: #000000;
+                        }
+                    }
+
+                }
+
+                /////// End Block Sub Total Form Order
+
+                /////// Block Sub Total Form Order
+                .block-total-delivery {
+
+                    .text-total-delivery {
+                        font-family: Montserrat;
+                        font-style: normal;
+                        font-weight: 300;
+                        font-size: 16px;
+                        line-height: 20px;
+                        color: #000000;
+                    }
+
+                    .total-delivery {
+                        position: relative;
+                        display: inline-block;
+                        float: right;
+                        right: 25px;
+
+                        .price {
+                            font-family: Montserrat;
+                            font-style: normal;
+                            font-weight: 300;
+                            font-size: 16px;
+                            line-height: 20px;
+                            color: #000000;
+                        }
+
+                        .ruble {
+                            font-family: 'Als Rubl';
+                            font-style: normal;
+                            font-weight: 300;
+                            font-size: 16px;
+                            line-height: 20px;
+                            color: #000000;
+                        }
+                    }
+
+                }
+
+                /////// End Block Sub Total Form Order
+
+
+            }
+
+            //////////////////// End Cart Mobile Description
+
+
+            ////////////////// Wrapper Box Form
+            .wrapper-box-form {
+                background: #fff;
+                padding-top: 25px;
+                padding-bottom: 45px;
+
+                ////// Block Select Delivery
+                @import "layouts/block_select_delivery";
+                ///// Block Select Payment
+                @import "layouts/block_select_payment";
+
+                /////// Block Personal Data And Address Delivery
+                @import "layouts/block_personal_data";
+                @import "layouts/block_address_delivery";
+
+
+                .wrapper-buttons-form-order {
+                    text-align: center;
+                    margin: 0 auto;
+                    margin-top: 35px;
+                    ///// Button Routes Form Order
+                    .button-routes-form-order {
+                        background: url('/img/tpl_img/mobile/shop/arrow_form_order.png') #F38000 95% 50% no-repeat;
+                        width: 309px;
+                        height: 47px;
+                        line-height: 47px;
+                        text-align: center;
+                        margin: 0 auto;
+                        margin-top: 35px;
+                        text-decoration: none;
+                        border-radius: 5px;
+                        display: block;
+                        font-family: Montserrat;
+                        font-style: normal;
+                        font-weight: 800;
+                        font-size: 18px;
+                        color: #fff;
+                        text-transform: uppercase;
+
+                        &:hover{
+
+                            text-decoration: none;
+                        }
+
+                    }
+                }
+
+                ///// End Button Routes Form Order
+
+
+                /////////// Button Form Order
+                .button-form-order {
+                    margin: 0 auto;
+                    margin-top: 6px;
+                    font-family: Montserrat;
+                    font-style: normal;
+                    font-weight: 800;
+                    font-size: 16px;
+                    text-align: center;
+                    text-transform: uppercase;
+                    color: #FFFFFF;
+                    width: 309px;
+                    height: 47px;
+                    line-height: 47px;
+                    background: #F38000;
+                    border: none;
+                    outline: none;
+                    border-radius: 5px;
+                    box-shadow: 0px 10px 28.5px rgba(84, 89, 97, 0.29);
+
+                    &:disabled{
+                        opacity: 0.6;
+                    }
+                }
+
+                /////////// End Button Form Order
+
+            }
+
+            ////////////////// End Wrapper Box Form
+
+        }
+
+        ////// End Container Form Order
+
+
+    }
+
+    ////////////// End Container View Form Order Mobile
+
+
+
+
+}
+
+

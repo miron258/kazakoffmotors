@@ -1,0 +1,158 @@
+/********************** HEADER *********************/
+.header {
+    background: url('/img/tpl_img/mobile/bg_header_mobile_home.png') center center no-repeat;
+    height: 239px;
+    background-size: 100%;
+    position: relative;
+
+    /******* header block logo ********/
+    .header-block-logo {
+        right: 0px;
+        margin: 0 auto;
+        padding-top: 5px;
+
+        .link-logo {
+            display: flex;
+            justify-content: center !important;
+
+            img {
+
+            }
+
+        }
+
+    }
+
+    /******* end header block logo ********\\
+    /***** header block h1 *******/
+    .header-block-h1 {
+        margin-top: 0px;
+
+        .h1-head {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 800;
+            font-size: 25px;
+            letter-spacing: 0px;
+
+
+            .text-inner-h1 {
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: 800;
+                font-size: 10px;
+                bottom: -2px;
+            }
+
+
+            &:after {
+                background: url('/img/tpl_img/mobile/header_star.png') no-repeat;
+                width: 171px;
+                height: 11px;
+                bottom: -55%;
+            }
+
+        }
+
+    }
+
+    /***** end header block h1 *******/
+
+
+    /***** header block address *******/
+    .header-block-bcontacts {
+        margin-top: 15px;
+        position: relative;
+
+        .block-link-scrolling {
+            display: none;
+
+            .link-scrolling {
+
+            }
+
+        }
+
+        .block-address {
+            margin-top: 10px;
+            margin-right: 0px;
+            float: none;
+
+            .link-address {
+                font-family: Open Sans;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 10px;
+                line-height: 14px;
+                color: #fff;
+                text-align: center;
+                margin: 0 auto;
+
+                width: max-content;
+
+                &:before {
+                    background: url('/img/tpl_img/mobile/icon_location_mobile.png') no-repeat;
+                    width: 21px;
+                    height: 12px;
+                    bottom: 0px;
+                    left: -30px;
+                }
+            }
+
+        }
+
+        ////// block mobile phone
+        .block-mobile-phone {
+            text-align: center;
+            margin: 0 auto;
+            margin-top: 7px;
+            margin-left: 17px;
+
+            .link-mobile-phone {
+                position: relative;
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: 800;
+                font-size: 10px;
+                line-height: 12px;
+                color: #fff;
+
+                &:before {
+                    content: "";
+                    display: block;
+                    position: absolute;
+                    background: url('/img/tpl_img/mobile/icon_phone_mobile.png') no-repeat;
+                    width: 11px;
+                    height: 11px;
+                    left: -20px;
+                    top: 2px;
+                }
+            }
+
+        }
+
+
+        &:after {
+            content: "";
+            position: absolute;
+            top: 123%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            display: block;
+            width: 11px;
+            height: 15px;
+            background: url(/img/tpl_img/mobile/header_arrow.png);
+
+            &:hover {
+                cursor: pointer;
+            }
+
+        }
+
+    }
+
+    /***** end header block address *******/
+
+
+}
+/********************** END HEADER *********************/

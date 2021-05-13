@@ -1,0 +1,691 @@
+/////// Breadcrumbs Catalog
+.wrapper-inner-product {
+    background: url('/img/tpl_img/bg_page.png');
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+/////// End Breadcrumbs Catalog
+.block-product {
+    margin-top: 11px;
+
+    .container-view-product {
+
+
+        //////////////// Product Slider
+        .product-slider {
+
+
+
+            .row{
+                display: flex;
+                //align-items: center;
+                min-height: 100%;
+
+            }
+
+            .block-slick-carousel-product {
+
+
+                //////// Column List Images Product
+                .column-list-images-product {
+
+
+                    .slick-slider {
+                        position: relative;
+
+                        &:hover {
+                            .slick-arrow {
+                                opacity: 1;
+                            }
+                        }
+
+                        ///////////////////// Slick Arrow
+                        .slick-arrow {
+                            position: absolute;
+                            margin: auto;
+                            top: 0;
+                            bottom: 0;
+                            width: auto;
+                            z-index: 1;
+                            opacity: 0;
+
+                            &:before {
+                                display: none;
+                            }
+
+
+                        }
+
+
+                        .slick-arrow.slick-prev {
+                            width: 26px;
+                            height: 18px;
+                            left: 0;
+                            background: url('/img/tpl_img/img_shop/arrow_prev.png') 50% 50% no-repeat;
+                            border: none;
+                            outline: none;
+                        }
+
+                        .slick-arrow.slick-next {
+                            width: 26px;
+                            height: 18px;
+                            right: 0;
+                            background: url('/img/tpl_img/img_shop/arrow_next.png') 50% 50% no-repeat;
+                            border: none;
+                            outline: none;
+                        }
+
+                        //////////////// End Slick Arrow
+
+                    }
+
+                    ///// Box SLick Item
+                    .box-slick-item {
+                        .box-slick-item-link {
+                            text-decoration: none;
+
+                            &:hover {
+                                text-decoration: none;
+                            }
+
+                            .box-slick-item-img {
+
+                            }
+                        }
+                    }
+
+                    ///// End Box SLick Item
+
+
+                }
+
+                //////// End Column List Images Product
+
+
+                //////// Column List Thumbnails Images Product
+                .column-list-thumbnails-product {
+                    padding-left: 0px;
+                    padding-right: 0px;
+
+                    ///// Box SLick Item
+                    .box-slick-item {
+
+                        &:not(:first-child) {
+                            margin-top: 10px;
+                        }
+
+                        .box-slick-item-link {
+                            text-decoration: none;
+
+                            &:hover {
+                                cursor: pointer;
+                                text-decoration: none;
+                            }
+
+                            .box-slick-item-img {
+
+                            }
+                        }
+
+                    }
+
+                    ///// End Box SLick Item
+
+                }
+
+                //////// End Column List Thumbnails Images Product
+
+
+            }
+
+
+        }
+
+        //////////////// End Product Slider
+
+
+        //////////////// Product Properties
+        .product-properties {
+            padding-left: 84px;
+
+            .title-product {
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 40px;
+                line-height: 49px;
+                color: #000000;
+            }
+
+
+            ///////// Block Number Product
+            .block-number-product {
+                margin-top: 18px;
+
+                .title-number-product {
+                    font-family: Montserrat;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 16px;
+                    color: #606878;
+                }
+
+                .value-number-product {
+                    font-family: Montserrat;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 16px;
+                    color: #606878;
+                }
+
+            }
+
+            ///////// End Block Number Product
+
+            ///////// Block Price Product
+            .block-price-product {
+                margin-top: 10px;
+                position: relative;
+
+                &:after {
+                    content: "";
+                    display: block;
+                    background: #DADADA;
+                    position: absolute;
+                    width: 100%;
+                    height: 1px;
+                    bottom: -8px;
+                }
+
+
+                .price-product {
+                    font-family: Montserrat;
+                    font-style: normal;
+                    font-weight: 300;
+                    font-size: 30px;
+                    color: #000000;
+                }
+
+                .rub {
+                    font-family: "Als Rubl";
+                    font-style: normal;
+                    font-weight: 300;
+                    font-size: 30px;
+                    color: #000000;
+                }
+            }
+
+            ///////// End Block Price Product
+
+
+            ///////// Block Features Product
+            .block-features-product {
+                margin-top: 26px;
+
+
+                ul {
+                    list-style-type: none;
+                    padding-left: 0px;
+
+                    li {
+
+                        span {
+                            font-family: Montserrat;
+                            font-style: normal;
+                            font-weight: 600;
+                            font-size: 16px;
+                            color: #606878;
+                        }
+                    }
+                }
+
+                //.list-features {
+                //    list-style-type: none;
+                //    padding-left: 0px;
+                //
+                //    .item-feature {
+                //
+                //        .name-feature {
+                //            font-family: Montserrat;
+                //            font-style: normal;
+                //            font-weight: 600;
+                //            font-size: 16px;
+                //            color: #606878;
+                //        }
+                //
+                //        .value-feature {
+                //            font-family: Montserrat;
+                //            font-style: normal;
+                //            font-weight: 600;
+                //            font-size: 16px;
+                //            color: #606878;
+                //        }
+                //
+                //    }
+                //
+                //}
+
+            }
+
+            ///////// End Block Features Product
+
+
+            ///////// Block Not Available
+            .block-not-available{
+                .text-not-available{
+                    font-family: Montserrat;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 16px;
+                    color: red;
+                }
+            }
+            ///////// End Block Not Available
+
+
+            ////////// Block Select Count Product
+            .block-select-count-product.block-select-count-product-top {
+                margin-top: 26px;
+            }
+
+            .block-select-count-product {
+
+                ////// Form Count Product
+                .form-count-product {
+                    .form-group-count-product {
+
+
+                        .number-input {
+                            width: 123px;
+
+                            .number-input__input {
+                                padding: 11px 5px;
+                            }
+
+                            .number.input {
+                                font-weight: 500;
+                                font-size: 16px;
+                            }
+
+                            .number-input__button {
+                                width: 2.5rem;
+
+                                &:before {
+                                    height: 2px;
+                                }
+
+                                &:after {
+                                    width: 2px;
+                                }
+                            }
+
+                            .number-input__button.number-input__button--minus {
+                                border-right: none;
+                            }
+
+                            .number-input__button.number-input__button--plus {
+                                border-left: none;
+
+                                &:before {
+                                    background-color: #F38000;
+                                }
+
+                                &:after {
+                                    height: 42%;
+                                    background-color: #F38000;
+                                }
+
+                            }
+
+                        }
+
+                    }
+                }
+
+                ////// End Form Count Product
+            }
+
+            ////////// End Block Select Count Product
+
+
+            ///////////////////////// Button Add To Cart
+            .button-add-to-cart.in-cart {
+
+            }
+
+            .button-add-to-cart {
+                border: none;
+                outline: none;
+                background: #F38000;
+                box-shadow: 0px 10px 28.5px rgba(84, 89, 97, 0.29);
+                width: 249px;
+                border-radius: 5px;
+                height: 63px;
+                margin-top: 34px;
+                position: relative;
+                -webkit-transition: .3s ease-in-out;
+                transition: .3s ease-in-out;
+
+                &:before{
+                    content: "";
+                    position: absolute;
+                    display: block;
+                    opacity: 0;
+                    background: url(/img/tpl_img/icon_product_cart.png);
+                    width: 16px;
+                    height: 14px;
+                    margin: auto;
+                    right: 0px;
+                    top: 0;
+                    bottom: 0;
+                    transition: all 200ms ease;
+                }
+
+
+                &:disabled {
+                    opacity: 0.5;
+
+                    &:after {
+                        content: "";
+                        display: block;
+                        background: url('/img/tpl_img/ajax-loader.gif');
+                        width: 32px;
+                        height: 32px;
+                        position: absolute;
+                        top: 0;
+                        bottom: 0;
+                        right: 0;
+                        left: 0;
+                        margin: auto;
+                    }
+                }
+
+                &:hover {
+
+                    &:before{
+                       opacity: 1;
+                        right: 30px;
+                    }
+
+                    //background: url(/img/tpl_img/icon_product_cart.png) #F38000 75% 47% no-repeat;
+
+                    .text-button {
+                        //-webkit-transition: .6s ease-in-out;
+                        //transition: .6s ease-in-out;
+                        //right: 14px;
+                    }
+
+                }
+
+                .text-button {
+                    font-family: Montserrat;
+                    font-style: normal;
+                    font-weight: 800;
+                    font-size: 16px;
+                    position: relative;
+                    text-transform: uppercase;
+                    color: #FFFFFF;
+                }
+            }
+
+
+        }
+
+        //////////////// End Product Properties
+
+
+        .product-description {
+            margin-top: 54px;
+            padding-bottom: 100px;
+            //////// Block Description
+            .block-description {
+                position: relative;
+
+
+                &:after {
+                    position: absolute;
+                    display: block;
+                    content: "";
+                    background: #000000;
+                    height: 1px;
+                    width: 100%;
+                    bottom: -20px;
+                }
+
+                .wrapper-title-block-description {
+                    position: relative;
+
+                    .title-block-description {
+                        font-family: Montserrat;
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 30px;
+                        line-height: 37px;
+                        text-transform: uppercase;
+                        color: #000000;
+                    }
+
+                    .link-toggle-description {
+                        text-decoration: none;
+                        background: #000000;
+                        position: absolute;
+                        display: block;
+                        right: 0px;
+                        margin: auto;
+                        top: 0;
+                        bottom: 0;
+                        width: 29px;
+                        height: 3px;
+
+                        &:hover {
+                            text-decoration: none;
+                        }
+                    }
+                }
+
+                .text-product {
+                    margin-top: 32px;
+
+                    .list-product-benefits {
+
+                        .item-benefits {
+
+                        }
+
+                    }
+
+                    p {
+                        margin-bottom: 0px;
+                    }
+
+                    * {
+                        font-family: Montserrat;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 18px;
+                        line-height: 22px;
+                        color: #000000;
+                    }
+
+                    ul {
+                        padding-left: 20px;
+                        margin-top: 3px;
+
+                        li {
+
+                        }
+                    }
+                }
+
+            }
+
+            //////// End Block Description
+
+
+            ////////// Block Compatibility
+            .block-compatibility {
+                margin-top: 45px;
+                position: relative;
+
+                &:after {
+                    position: absolute;
+                    display: block;
+                    content: "";
+                    background: #000000;
+                    height: 1px;
+                    width: 100%;
+                    bottom: -20px;
+                }
+
+                .wrapper-title-block-compatibility {
+                    position: relative;
+
+                    .title-block-compatibility {
+                        font-family: Montserrat;
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 30px;
+                        line-height: 37px;
+                        text-transform: uppercase;
+                        color: #000000;
+                    }
+
+                    .link-toggle-compatibility {
+                        text-decoration: none;
+                        background: #000000;
+                        position: absolute;
+                        display: block;
+                        right: 0px;
+                        margin: auto;
+                        top: 0;
+                        bottom: 0;
+                        width: 29px;
+                        height: 3px;
+
+                        &:hover {
+                            text-decoration: none;
+                        }
+                    }
+                }
+
+                .text-compatibility {
+                    margin-top: 30px;
+
+                    p {
+
+                    }
+
+                    * {
+                        font-family: Montserrat;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 18px;
+                        line-height: 22px;
+                        color: #000000;
+                    }
+                }
+
+            }
+
+            ////////// End  Block Compatibility
+
+
+            ////////// Block Features
+            .block-features {
+                margin-top: 45px;
+                position: relative;
+
+                &:after {
+                    position: absolute;
+                    display: block;
+                    content: "";
+                    background: #000000;
+                    height: 1px;
+                    width: 100%;
+                    bottom: -20px;
+                }
+
+                .wrapper-title-block-features {
+                    position: relative;
+
+                    .title-block-features {
+                        font-family: Montserrat;
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 30px;
+                        line-height: 37px;
+                        text-transform: uppercase;
+                        color: #000000;
+                    }
+
+                    .link-toggle-features {
+                        text-decoration: none;
+                        background: #000000;
+                        position: absolute;
+                        display: block;
+                        right: 0px;
+                        margin: auto;
+                        top: 0;
+                        bottom: 0;
+                        width: 29px;
+                        height: 3px;
+
+                        &:hover {
+                            text-decoration: none;
+                        }
+                    }
+                }
+
+
+                .text-features {
+                    margin-top: 30px;
+
+                    p {
+
+                    }
+
+                    * {
+                        font-family: Montserrat;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 18px;
+                        line-height: 22px;
+                        color: #000000;
+                    }
+
+                    ul {
+                        list-style-type: none;
+                        padding-left: 0px;
+
+                        li {
+
+                        }
+                    }
+
+                    .list-features {
+                        .item-feature {
+
+
+                        }
+                    }
+
+
+                }
+
+            }
+
+            ////////// End Block Features
+
+
+        }
+
+    }
+
+
+}

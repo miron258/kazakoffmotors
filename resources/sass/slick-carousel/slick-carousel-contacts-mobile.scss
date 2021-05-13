@@ -1,0 +1,53 @@
+
+.slick-carousel-contacts-foto {
+    position: relative;
+
+
+
+}
+
+/// slick carousel contacts
+.slick-carousel-contacts {
+    position: relative;
+
+    .slick-arrow {
+        position: absolute;
+        bottom: -10px;
+    }
+
+    ///////// UI CAROUSEL NAVIGATION
+    .slick-arrow.slick-carousel-control-prev {
+        background: url('/img/tpl_img/mobile/arrow_mobile_slider_left.png') no-repeat;
+        width: 18px;
+        height: 13px;
+        position: absolute;
+        border: none;
+        outline: none;
+        z-index: 100;
+        left: 6%;
+        top: 4.5%;
+
+    }
+
+    .slick-arrow.slick-carousel-control-next {
+        background: url('/img/tpl_img/mobile/arrow_mobile_slider_right.png') no-repeat;
+        width: 18px;
+        height: 13px;
+        position: absolute;
+        top: 4.5%;
+        outline: none;
+        border: none;
+        right: 6%;
+        z-index: 100;
+    }
+
+    ///////// END UI CAROUSEL NAVIGATION
+
+}
+
+/// slick carousel contacts
+
+
+/////// END UI CAROUSEL
+
+

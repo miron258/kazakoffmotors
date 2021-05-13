@@ -1,0 +1,32 @@
+/************************************** HEADER MINI *********************************************/
+.header.header-mini {
+    background: url('/img/tpl_img/bg_header_mini.jpg') center center no-repeat;
+    background-size: cover;
+    height: 373px;
+    position: relative;
+
+    .header-block-logo {
+
+        &:after {
+            content: "";
+            position: absolute;
+            display: block;
+            background: url('/img/tpl_img/header_star.png') no-repeat;
+            width: 217px;
+            height: 24px;
+            margin-top: 42px;
+        }
+    }
+
+    .header-block-bcontacts {
+        margin-top: 24px;
+
+        .block-address {
+            margin-right: 22px;
+        }
+    }
+
+
+}
+
+/************************************** END HEADER MINI *********************************************/

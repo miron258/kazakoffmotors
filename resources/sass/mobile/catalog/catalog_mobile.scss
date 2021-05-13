@@ -1,0 +1,938 @@
+/////// Breadcrumbs Catalog
+.wrapper-inner-catalog {
+
+
+}
+
+/////// End Breadcrumbs Catalog
+
+.block-view-catalog.block-view-catalog-bu-zapchasti {
+    .container {
+        ////// List Catalogs
+        .list-catalogs {
+
+            .row-list-catalogs {
+                .wrapper-box-catalog {
+                    .box-catalog {
+                        border: none;
+
+                        .link-box-catalog {
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+
+        }
+
+        ////// End List Catalogs
+
+
+    }
+}
+
+
+.block-view-catalog {
+    padding-top: 60px;
+
+    //.container{
+    //    padding-left: 0px;
+    //    padding-right: 0px;
+    //}
+
+
+    ///// Header h1 Catalog
+    .header-block-view-catalog {
+        padding-left: 10px;
+        padding-right: 10px;
+        position: relative;
+
+        h1 {
+            font-size: 20px;
+            line-height: 24px;
+            width: 100%;
+
+            &:after {
+                display: none;
+            }
+        }
+
+        &:after {
+            content: "";
+            display: block;
+            background: url('/img/tpl_img/mobile/shop/star_mobile.png') no-repeat;
+            width: 16px;
+            height: 14px;
+            right: 0px;
+            top: 5px;
+            position: absolute;
+        }
+    }
+
+    ///// End Header h1 Catalog
+
+
+    //////////// Description Catalog
+    .description-catalog {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    //////////// End Description Catalog
+
+    //////// List Catalogs
+    .list-catalogs.list-catalogs-shop {
+
+    }
+
+
+    .list-catalogs.list-catalogs-harley-davidson, .list-catalogs.list-catalogs-shop {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    //////// список каталогов все запчасти и мотохимия
+    .list-catalogs.list-catalogs-bu-zapchasti, .list-catalogs.list-catalogs-zapchasti-oem, .list-catalogs.list-catalogs-motokhimiya {
+        //margin-left: -15px;
+    }
+
+    //////// конец список каталогов все запчасти и мотохимия
+    .list-catalogs {
+        margin-top: 41px;
+
+        /////////////////////// DEFAULT LIST CATALOGS
+
+
+        .row-list-catalogs.row-list-catalogs-top {
+
+        }
+
+        .row-list-catalogs.row-list-catalogs-middle {
+            margin-top: 3px;
+        }
+
+        .row-list-catalogs.row-list-catalogs-bottom {
+            margin-top: 3px;
+        }
+
+
+        .row-list-catalogs {
+            display: block !important;
+
+            .wrapper-box-catalog {
+                width: 100%;
+
+                &:not(:first-child) {
+                    margin-top: 3px;
+                }
+
+                .box-catalog {
+                    width: 100% !important;
+                    background-size: cover !important;
+                    border: none;
+
+                    .link-box-catalog {
+
+
+                        img {
+                            display: none;
+
+                        }
+
+                        .brand-catalog {
+                            margin-left: 0;
+                            left: 25px;
+                        }
+                    }
+
+                }
+            }
+
+
+            ///////////////////////////// Box Catalog Motorcycle
+            .wrapper-box-catalog.wrapper-box-catalog-motul-motorcycle {
+
+                .box-catalog {
+                    border: none;
+
+                    .link-box-catalog {
+                        background: url('/img/tpl_img/mobile/shop/brands_cover/cover_motorcycle_motul.png') center center no-repeat;
+                        background-size: cover;
+                        width: 100%;
+                        //width: 373px;
+                        height: 68px;
+
+                        img {
+
+
+                        }
+
+                        .brand-catalog {
+                            background: url('/img/tpl_img/mobile/shop/brands_logo/motul.png') center center no-repeat;
+                            width: 144px;
+                            height: 30px;
+
+                        }
+                    }
+
+                }
+
+
+            }
+
+            .wrapper-box-catalog.wrapper-box-catalog-motor-harley-davidson-motorcycle {
+
+                .box-catalog {
+
+                    .link-box-catalog {
+                        background: url('/img/tpl_img/mobile/shop/brands_cover/cover_motorcycle_hd.png') center center no-repeat;
+                        background-size: cover;
+                        width: 100%;
+                        //width: 373px;
+                        height: 68px;
+
+                        img {
+
+
+                        }
+
+                        .brand-catalog {
+                            background: url('/img/tpl_img/mobile/shop/brands_logo/hd.png') center center no-repeat;
+                            width: 80px;
+                            height: 60px;
+                        }
+                    }
+
+                }
+
+
+            }
+
+            ///////////////////////////// Box Catalog BY
+
+
+            ///////////////////////////// Box Catalog BY
+            .wrapper-box-catalog.wrapper-box-catalog-yamaha-by {
+
+                .box-catalog {
+
+                    .link-box-catalog {
+                        background: url('/img/tpl_img/mobile/shop/brands_cover/cover_yamaha.png') center center no-repeat;
+                        background-size: cover;
+                        width: 373px;
+                        height: 68px;
+
+                        img {
+
+
+                        }
+
+                        .brand-catalog {
+                            background: url('/img/tpl_img/mobile/shop/brands_logo/yamaha.png') center center no-repeat;
+                            width: 133px;
+                            height: 30px;
+
+                        }
+                    }
+
+                }
+
+
+            }
+
+            .wrapper-box-catalog.wrapper-box-catalog-motor-harley-davidson-by {
+
+                .box-catalog {
+
+                    .link-box-catalog {
+                        background: url('/img/tpl_img/mobile/shop/brands_cover/cover_hd.png') center center no-repeat;
+                        background-size: cover;
+                        width: 373px;
+                        height: 68px;
+
+                        img {
+
+
+                        }
+
+                        .brand-catalog {
+                            background: url('/img/tpl_img/mobile/shop/brands_logo/hd.png') center center no-repeat;
+                            width: 80px;
+                            height: 60px;
+                        }
+                    }
+
+                }
+
+
+            }
+
+            .wrapper-box-catalog.wrapper-box-catalog-kawasaki-by {
+
+                .box-catalog {
+
+                    .link-box-catalog {
+                        background: url('/img/tpl_img/mobile/shop/brands_cover/cover_kawasaki.png') center center no-repeat;
+                        background-size: cover;
+                        width: 373px;
+                        height: 68px;
+
+                        img {
+
+
+                        }
+
+                        .brand-catalog {
+                            background: url('/img/tpl_img/mobile/shop/brands_logo/kawasaki.png') center center no-repeat;
+                            width: 145px;
+                            height: 20px;
+                        }
+                    }
+
+                }
+
+
+            }
+
+            .wrapper-box-catalog.wrapper-box-catalog-honda-by {
+
+                .box-catalog {
+
+                    .link-box-catalog {
+                        background: url('/img/tpl_img/mobile/shop/brands_cover/cover_honda.png') center center no-repeat;
+                        background-size: cover;
+                        width: 373px;
+                        height: 68px;
+
+                        img {
+
+
+                        }
+
+                        .brand-catalog {
+                            background: url('/img/tpl_img/mobile/shop/brands_logo/honda.png') center center no-repeat;
+                            width: 194px;
+                            height: 30px;
+                            top: 0px;
+                        }
+                    }
+
+                }
+
+
+            }
+
+            .wrapper-box-catalog.wrapper-box-catalog-suzuki-by {
+
+                .box-catalog {
+
+                    .link-box-catalog {
+                        background: url('/img/tpl_img/mobile/shop/brands_cover/cover_suzuki.png') center center no-repeat;
+                        background-size: cover;
+                        width: 373px;
+                        height: 68px;
+
+                        img {
+
+
+                        }
+
+                        .brand-catalog {
+                            background: url('/img/tpl_img/mobile/shop/brands_logo/suzuki.png') center center no-repeat;
+                            width: 194px;
+                            height: 30px;
+                            left: 8px;
+                        }
+                    }
+
+                }
+
+
+            }
+
+
+            .wrapper-box-catalog.wrapper-box-catalog-triumph-by {
+
+                .box-catalog {
+
+                    .link-box-catalog {
+                        background: url('/img/tpl_img/mobile/shop/brands_cover/cover_tramph.png') center center no-repeat;
+                        background-size: cover;
+                        width: 373px;
+                        height: 68px;
+
+                        img {
+
+
+                        }
+
+                        .brand-catalog {
+                            background: url('/img/tpl_img/mobile/shop/brands_logo/trumph.png') center center no-repeat;
+                            width: 111px;
+                            height: 30px;
+                        }
+                    }
+
+                }
+
+
+            }
+
+            .wrapper-box-catalog.wrapper-box-catalog-ducati-by {
+
+                .box-catalog {
+
+                    .link-box-catalog {
+                        background: url('/img/tpl_img/mobile/shop/brands_cover/cover_ducati.png') center center no-repeat;
+                        background-size: cover;
+                        width: 373px;
+                        height: 68px;
+
+                        img {
+
+
+                        }
+
+                        .brand-catalog {
+                            background: url('/img/tpl_img/mobile/shop/brands_logo/ducati.png') center center no-repeat;
+                            width: 161px;
+                            height: 30px;
+                        }
+                    }
+
+                }
+
+
+            }
+
+            ///////////////////////////// End Box Catalog BY
+
+            ///////////////////////////// Box Catalog OEM
+            .wrapper-box-catalog.wrapper-box-catalog-yamaha-oem {
+
+                .box-catalog {
+
+                    .link-box-catalog {
+                        background: url('/img/tpl_img/mobile/shop/brands_cover/cover_yamaha.png') center center no-repeat;
+                        background-size: cover;
+                        width: 100%;
+                        //width: 373px;
+                        height: 68px;
+
+                        img {
+
+
+                        }
+
+                        .brand-catalog {
+                            background: url('/img/tpl_img/mobile/shop/brands_logo/yamaha.png') center center no-repeat;
+                            width: 133px;
+                            height: 30px;
+
+                        }
+                    }
+
+                }
+
+
+            }
+
+            .wrapper-box-catalog.wrapper-box-catalog-motor-harley-davidson-oem {
+
+                .box-catalog {
+
+                    .link-box-catalog {
+                        background: url('/img/tpl_img/mobile/shop/brands_cover/cover_hd.png') center center no-repeat;
+                        background-size: cover;
+                        width: 100%;
+                        //width: 373px;
+                        height: 68px;
+
+                        img {
+
+
+                        }
+
+                        .brand-catalog {
+                            background: url('/img/tpl_img/mobile/shop/brands_logo/hd.png') center center no-repeat;
+                            width: 80px;
+                            height: 60px;
+                        }
+                    }
+
+                }
+
+
+            }
+
+            .wrapper-box-catalog.wrapper-box-catalog-kawasaki-oem {
+
+                .box-catalog {
+
+                    .link-box-catalog {
+                        background: url('/img/tpl_img/mobile/shop/brands_cover/cover_kawasaki.png') center center no-repeat;
+                        background-size: cover;
+                        width: 100%;
+                        //width: 373px;
+                        height: 68px;
+
+                        img {
+
+
+                        }
+
+                        .brand-catalog {
+                            background: url('/img/tpl_img/mobile/shop/brands_logo/kawasaki.png') center center no-repeat;
+                            width: 145px;
+                            height: 20px;
+                        }
+                    }
+
+                }
+
+
+            }
+
+            .wrapper-box-catalog.wrapper-box-catalog-honda-oem {
+
+                .box-catalog {
+
+                    .link-box-catalog {
+                        background: url('/img/tpl_img/mobile/shop/brands_cover/cover_honda.png') center center no-repeat;
+                        background-size: cover;
+                        width: 100%;
+                        //width: 373px;
+                        height: 68px;
+
+                        img {
+
+
+                        }
+
+                        .brand-catalog {
+                            background: url('/img/tpl_img/mobile/shop/brands_logo/honda.png') center center no-repeat;
+                            width: 194px;
+                            height: 30px;
+                            top: 0px;
+                        }
+                    }
+
+                }
+
+
+            }
+
+            .wrapper-box-catalog.wrapper-box-catalog-suzuki-oem {
+
+                .box-catalog {
+
+                    .link-box-catalog {
+                        background: url('/img/tpl_img/mobile/shop/brands_cover/cover_suzuki.png') center center no-repeat;
+                        background-size: cover;
+                        width: 100%;
+                        //width: 373px;
+                        height: 68px;
+
+                        img {
+
+
+                        }
+
+                        .brand-catalog {
+                            background: url('/img/tpl_img/mobile/shop/brands_logo/suzuki.png') center center no-repeat;
+                            width: 194px;
+                            height: 30px;
+                            left: 8px;
+                        }
+                    }
+
+                }
+
+
+            }
+
+
+            ///////////////////////////// End Box Catalog OEM
+
+
+            /////// Box Catalog Spare B/Y
+
+
+            /////// End Box Catalog Spare B/Y
+
+            .wrapper-box-catalog {
+                .box-catalog {
+                    width: 100% !important;
+                    background-size: cover !important;
+
+                    .link-box-catalog {
+
+                        &:hover {
+
+                        }
+
+
+                        .img-cover-catalog {
+
+                        }
+
+                        /////// List Brands Catalog
+                        .brand-catalog.brand-catalog-motul-motorcycle {
+
+                        }
+
+                        .brand-catalog.brand-catalog-yamaha-oem, .brand-catalog.brand-catalog-yamaha-by {
+
+
+                        }
+
+                        .brand-catalog.brand-catalog-suzuki-oem, .brand-catalog.brand-catalog-suzuki-by {
+
+                        }
+
+                        .brand-catalog.brand-catalog-honda-oem, .brand-catalog.brand-catalog-honda-by {
+
+                        }
+
+                        .brand-catalog.brand-catalog-kawasaki-oem {
+
+                        }
+
+                        .brand-catalog.brand-catalog-kawasaki-by {
+
+                        }
+
+                        .brand-catalog.brand-catalog-motor-harley-davidson-oem {
+
+                        }
+
+                        .brand-catalog.brand-catalog-triumph-by {
+
+                        }
+
+                        .brand-catalog.brand-catalog-ducati-by {
+
+                        }
+
+                        .brand-catalog.brand-catalog-motor-harley-davidson-by, .brand-catalog.brand-catalog-motor-harley-davidson-motorcycle {
+
+                        }
+
+                        .brand-catalog {
+
+                        }
+
+                        /////// End List Brands Catalog
+
+                    }
+
+                }
+            }
+
+            /////// End Box Catalog
+
+
+        }
+
+        /////////////////////// END DEFAULT LIST CATALOGS
+
+        //////////////////////// Left Block Catalog
+        .left-block-catalog {
+            ///// Box Catalog
+
+            /////////////// CATALOGS SHOPS
+
+            .box-catalog.box-catalog-hd {
+                background: url('/img/tpl_img/mobile/shop/bg_cover_catalog_shop/hd.png') no-repeat;
+                width: 325px;
+                height: 125px;
+                box-sizing: border-box;
+
+                img {
+                    display: none;
+                }
+            }
+
+            .box-catalog.box-catalog-hd, .box-catalog.box-catalog-orig-sparts {
+
+
+            }
+
+            .box-catalog.box-catalog-orig-sparts {
+                background: url('/img/tpl_img/mobile/shop/bg_cover_catalog_harley/orig_hd.png') no-repeat;
+                width: 325px;
+                height: 125px;
+                box-sizing: border-box;
+
+
+
+                img {
+                    display: none;
+                }
+
+                .block-name-catalog {
+                    margin-left: 0px;
+                    margin: 0 auto;
+                    margin-top: -34px;
+                    padding-left: 10px;
+                    padding-right: 10px;
+                    text-align: center;
+
+                    .name-catalog {
+                        font-size: 20px;
+                        line-height: 24px;
+                    }
+
+                    .link-catalog {
+                        top: 67px;
+                    }
+                }
+
+            }
+
+            /////////////// END CATALOGS SHOPS
+
+
+            .box-catalog {
+                width: 100% !important;
+                background-size: cover !important;
+
+                .cover-catalog {
+
+                }
+
+                .block-name-catalog {
+                    margin-left: 0px;
+                    margin: 0 auto;
+                    margin-top: -25px;
+                    text-align: center;
+                    ///Name Catalog
+                    .name-catalog {
+                        font-size: 30px;
+                        line-height: 37px;
+                        text-align: center;
+                        color: #FFFFFF;
+                    }
+
+                    ///End Name Catalog
+
+                    /// Link Catalog
+                    .link-catalog {
+                        margin: auto;
+                        left: 0;
+                        right: 0;
+                        top: 33px;
+                        width: 132px;
+                        height: 30px;
+                        background: url(/img/tpl_img/mobile/shop/arrow_catalog_mobile.png) #F38000 89% 50% no-repeat;
+
+                        &:hover {
+
+                        }
+
+                        .text-link-catalog {
+                            font-size: 14px;
+                            line-height: 17px;
+                        }
+                    }
+
+                    /// End Link Catalog
+
+
+                }
+            }
+
+            ///// End Box Catalog
+
+        }
+
+        //////////////////////// End Left Block Catalog
+
+
+        ////////////////////////  Right Block Catalog
+        .right-block-catalog {
+            margin-left: 0px;
+            margin: 0 auto;
+
+            .box-catalog.box-catalog-oem-spare {
+                background: url('/img/tpl_img/mobile/shop/bg_cover_catalog_shop/oem.png') no-repeat;
+                width: 325px;
+                height: 125px;
+                box-sizing: border-box;
+
+                img {
+                    display: none;
+                }
+            }
+
+            .box-catalog.box-catalog-by-spare {
+                background: url('/img/tpl_img/mobile/shop/bg_cover_catalog_shop/by_sparts.png') no-repeat;
+                width: 325px;
+                height: 125px;
+                margin-top: 10px;
+                box-sizing: border-box;
+
+                img {
+                    display: none;
+                }
+            }
+
+            .box-catalog.box-catalog-motul-spare {
+                background: url('/img/tpl_img/mobile/shop/bg_cover_catalog_shop/motorcycle.png') center center no-repeat;
+                width: 325px;
+                height: 125px;
+                box-sizing: border-box;
+
+                img {
+                    display: none;
+                }
+            }
+
+            .box-catalog.box-catalog-by-hd {
+                background: url('/img/tpl_img/mobile/shop/bg_cover_catalog_harley/zap_hd.png.png') center center no-repeat;
+                width: 325px;
+                height: 125px;
+                box-sizing: border-box;
+                margin-top: 10px;
+
+                .block-name-catalog {
+                    margin-top: -47px;
+
+                    .name-catalog {
+                        font-size: 20px;
+                        line-height: 24px;
+                    }
+
+                    .link-catalog {
+                        top: 78px;
+                    }
+                }
+            }
+
+            .box-catalog.box-catalog-interior-items {
+                background: url('/img/tpl_img/mobile/shop/bg_cover_catalog_harley/in_hd.png') no-repeat;
+                width: 325px;
+                height: 125px;
+                box-sizing: border-box;
+                margin-top: 10px;
+
+                .block-name-catalog {
+                    margin-top: -45px;
+
+                    .name-catalog {
+                        font-size: 20px;
+                        line-height: 24px;
+                    }
+
+                    .link-catalog {
+                        top: 75px;
+                    }
+                }
+            }
+
+            .box-catalog.box-catalog-garage-products {
+                background: url('/img/tpl_img/mobile/shop/bg_cover_catalog_harley/product_hd.png') no-repeat;
+                width: 325px;
+                height: 125px;
+                box-sizing: border-box;
+                margin-top: 10px;
+
+                .block-name-catalog {
+                    margin-top: -45px;
+
+                    .name-catalog {
+                        font-size: 20px;
+                        line-height: 24px;
+                    }
+
+                    .link-catalog {
+                        top: 75px;
+                    }
+                }
+            }
+
+            //////// Box Catalog
+            .box-catalog {
+                width: 100% !important;
+                background-size: cover !important;
+
+                .cover-catalog {
+                }
+
+                .block-name-catalog {
+                    margin-left: 0px;
+                    margin: 0 auto;
+                    margin-top: -25px;
+                    ///Name Catalog
+                    .name-catalog {
+
+                        font-size: 30px;
+                        line-height: 37px;
+                        text-align: center;
+
+
+                    }
+
+                    ///End Name Catalog
+
+
+                    /// Link Catalog
+                    .link-catalog {
+                        width: 132px;
+                        height: 30px;
+                        margin: auto;
+                        top: 33px;
+                        background: url(/img/tpl_img/mobile/shop/arrow_catalog_mobile.png) #F38000 89% 50% no-repeat;
+                        left: 0;
+                        right: 0;
+
+                        &:hover {
+
+                        }
+
+                        .text-link-catalog {
+                            font-size: 14px;
+                            line-height: 17px;
+                        }
+                    }
+
+                    /// End Link Catalog
+
+
+                }
+
+
+            }
+
+            //////// End d Box Catalog
+
+        }
+
+        ////////////////////////  End Right Block Catalog
+
+
+    }
+
+    //////// End List Catalogs
+
+
+    @import "resources/sass/mobile/product/layouts/list_products_in_catalog";
+
+    //////////// HTML CATALOG
+    .html-catalog.html-catalog-harley-davidson {
+        padding-bottom: 0px;
+    }
+
+    .html-catalog {
+        @import "layouts/block_shop_spare_parts_order";
+        @import "layouts/block_shop_delivery";
+        @import "layouts/block_shop_cover_product";
+        ////////// BLOCK LIST PRODUCTS
+        //@import "resources/sass/desktop/product/layouts/list_products";
+        ////////// END BLOCK LIST PRODUCTS
+    }
+
+    //////////// END HTML CATALOG
+
+
+}

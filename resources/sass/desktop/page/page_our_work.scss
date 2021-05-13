@@ -1,0 +1,292 @@
+///////////////////////////////////////////// СТРАНИЦА НАШИ РАБОТЫ
+.description-page.description-page-nashi-raboti {
+
+
+}
+
+
+.html-page.html-page-nashi-raboti {
+
+    /////////////////////////////////////////////////////// BOX GALLERY
+    .box-gallery {
+        &:not(:first-child) {
+            margin-top: 52px;
+        }
+
+        &:first-child {
+            margin-top: 39px;
+        }
+
+        //////////////////// BLOCK IMAGES GALLERY
+        .block-images-gallery {
+            position: relative;
+            margin-top: 8px;
+            min-height: max-content;
+
+
+            //padding: 0px;
+            //padding-left: 15px;
+
+            .box-list-img {
+                //padding: 0px;
+                //padding-left: 15px;
+            }
+
+            .box-list-thumbnails-img {
+                padding: 0px;
+                position: relative;
+                right: 7px;
+                top: 2px;
+            }
+
+
+            //////////////// NAVIGATION ARROWS
+            .nav-arrows {
+                position: absolute;
+                right: 23px;
+                top: 18px;
+                width: auto;
+                height: 40px;
+                border: 1px solid #DBE0E8;
+                border-radius: 5px;
+                z-index: 1;
+                background: rgba(255, 255, 255, 0.7);
+                mix-blend-mode: normal;
+
+
+                &:after {
+                    content: "";
+                    position: absolute;
+                    z-index: 2;
+                    top: 0;
+                    bottom: 0;
+                    left: 50%;
+                    border-left: 1px solid #DBE0E8;
+
+                }
+
+
+                // slick carousel  bt prev
+                .slick-arrow.slick-carousel-control-prev {
+                    width: 59px;
+                    height: 40px;
+                    background: url('/img/tpl_img/arrows_nav/arrow_nav_left.png') 50% 50% no-repeat;
+                    border: none;
+                    outline: none;
+                    //border-bottom-right-radius: 5px;
+                    //border-top-left-radius: 5px;
+                }
+
+                // slick carousel  bt next
+                .slick-arrow.slick-carousel-control-next {
+                    width: 59px;
+                    height: 40px;
+                    background: url('/img/tpl_img/arrows_nav/arrow_nav_right.png') 50% 50% no-repeat;
+                    border: none;
+                    outline: none;
+                    //border-top-left-radius: 5px;
+                    //border-top-right-radius: 5px;
+                    //border-bottom-right-radius: 5px;
+                }
+
+            }
+
+            //////////////// END NAVIGATION ARROWS
+
+            //////////// slick carousel our work
+            .slick-carousel {
+
+                .slick-track {
+
+
+                    /////// BOX SLICK ITEM
+                    .box-slick-item {
+                        height: auto;
+
+                        &:not(:first-child) {
+                            margin-top: 4px;
+                        }
+
+                        .box-slick-item-link {
+                            text-decoration: none;
+                            height: auto;
+                            display: block;
+min-height: max-content;
+                            &:hover {
+                                cursor: pointer;
+                                text-decoration: none;
+                            }
+
+                            .box-slick-item-img {
+                                height: auto;
+                            }
+                        }
+
+                    }
+
+                    /////// END BOX SLICK ITEM
+                }
+
+            }
+
+            //////////// end slick carousel our work
+
+
+            //////////// slick carousel our work thumbnails
+            .slick-carousel-thumbnails {
+
+                /////// BOX SLICK ITEM
+                .box-slick-item {
+                    width: 140px;
+                    height: 90px;
+                    overflow: hidden;
+
+                    &:not(:first-child) {
+                        margin-top: 3.5px;
+                    }
+
+                    .box-slick-item-link {
+                        display: block;
+                        border: none;
+                        outline: none;
+                        text-decoration: none;
+
+                        &:hover {
+                            cursor: pointer;
+                            text-decoration: none;
+                        }
+
+
+                        .box-slick-item-img {
+                            width: 122px;
+                            height: auto;
+                            overflow: hidden;
+                        }
+                    }
+
+                }
+
+                /////// END BOX SLICK ITEM
+
+
+            }
+
+            //////////// endslick carousel our work thumbnails
+
+        }
+
+        //////////////////// END BLOCK IMAGES GALLERY
+
+
+        //////////////////// BLOCK DESCRIPTION GALLERY
+        .block-description-gallery {
+
+
+            ///// TITLE GALLERY
+            .title-gallery {
+                font-family: Open Sans;
+                font-style: normal;
+                font-weight: 800;
+                font-size: 20px;
+                line-height: 27px;
+                color: #141414;
+
+            }
+
+            ///// END TITLE GALLERY
+
+
+            ////// TEXT GALLERY
+            .text-gallery {
+                margin-top: 25px;
+                margin-left: 3px;
+
+                p {
+                    font-family: Open Sans;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 14px;
+                    color: #141414;
+                    line-height: 24px;
+
+                    &:not(:first-child) {
+                        margin-top: 27px;
+                    }
+                }
+
+                .text-gallery-top {
+
+                }
+
+
+                .text-gallery-bottom {
+
+                }
+
+            }
+
+            ////// END TEXT GALLERY
+
+
+            ////////////////// BLOCK VIEW READMORE
+            .block-view-readmore {
+                margin-top: 73px;
+
+                .link-readmore {
+                    font-family: Montserrat;
+                    font-style: normal;
+                    margin-left: 0px;
+                    font-weight: 800;
+                    font-size: 16px;
+                    line-height: 20px;
+                    border: none;
+                    outline: none;
+                    text-transform: uppercase;
+                    display: block;
+                    text-align: center;
+                    background: #F9FAFC;
+                    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+                    border-radius: 4px;
+                    //border: 1px solid #DBE0E8;
+                    padding: 0px 30px 0px 30px;
+                    line-height: 39.05px;
+                    float: left;
+                    color: #535963;
+
+                    &:hover {
+                        text-decoration: none;
+                    }
+                }
+
+
+                .date-publish-gallery {
+                    font-family: Open Sans;
+                    font-style: normal;
+                    font-weight: 300;
+                    font-size: 15px;
+                    color: #141414;
+                    float: right;
+                    margin-top: 13px;
+                    position: relative;
+                    right: 0px;
+                }
+
+
+            }
+
+            ////////////////// END BLOCK VIEW READMORE
+
+
+        }
+
+        //////////////////// END BLOCK DESCRIPTION GALLERY
+
+
+    }
+
+    /////////////////////////////////////////////////////// END BOX GALLERY
+
+
+}
+
+///////////////////////////////////////////// КОНЕЦ СТРАНИЦА НАШИ РАБОТЫ

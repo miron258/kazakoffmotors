@@ -1,0 +1,340 @@
+//////////////////////////////////////////////////////////////// СТРАНИЦА КОНТАКТЫ
+.description-page.description-page-kontakti {
+    margin-top: 18px;
+    margin-left: 0px;
+
+    p {
+
+    }
+
+
+}
+
+/////HTML PAGE СТРАНИЦА КОНТАКТЫ
+.html-page.html-page-kontakti {
+    padding-top: 5px;
+
+
+    @import './slick-carousel/slick-carousel-contacts-mobile.scss';
+
+
+
+    ////////////////// ROW CONTACTS
+    .row-contacts {
+
+
+        .box-contact.box-contact-left {
+
+
+        }
+
+        .box-contact.box-contact-middle {
+
+
+        }
+
+        .box-contact.box-contact-right {
+
+
+        }
+
+
+        ///////////////////// BOX CONTACT
+        .box-contact {
+            height: auto;
+            padding-bottom: 22px;
+
+            .header-box-contact {
+                font-size: 16px;
+                line-height: 20px;
+                padding-left: 0px;
+            }
+
+            ///// block line address
+            .block-line-address {
+
+                .header-line-address {
+                    font-family: Montserrat;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 16px;
+                    line-height: 20px;
+                    letter-spacing: -0.025em;
+                    color: #000000;
+                    padding-left: 42px;
+
+                    &:before {
+                        left: 12px;
+                    }
+                }
+
+
+                .text-line-address {
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 14px;
+                    line-height: 17px;
+                    letter-spacing: -0.025em;
+                    color: #141414;
+                    margin-top: 13px;
+                    padding-left: 15px;
+                }
+
+            }
+
+            ///// end block line address
+
+
+            ///// block line phone
+            .block-line-phone {
+                margin-top: 0px;
+
+                .header-line-phone {
+                    font-family: Montserrat;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 16px;
+                    line-height: 20px;
+                    color: #000000;
+                    margin-top: 12px;
+                    padding-left: 42px;
+
+                    &:before {
+                        left: 12px;
+                    }
+                }
+
+                .text-line-phone {
+                    padding-left: 15px;
+                    margin-top: 8px;
+
+                    .link-phone {
+                        font-family: Montserrat;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 14px;
+                        line-height: 17px;
+                        color: #141414;
+                    }
+                }
+
+            }
+
+            ///// end block line phone
+
+
+            ///// block line email
+            .block-line-email {
+                margin-top: 0px;
+
+                .header-line-email {
+                    font-family: Montserrat;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 16px;
+                    line-height: 20px;
+                    color: #000000;
+                    margin-top: 9px;
+                    padding-left: 43px;
+
+                    &:before {
+                        left: 12px;
+                        top: 7px;
+                    }
+                }
+
+
+                .text-line-email {
+                    padding-left: 15px;
+                    margin-top: 8px;
+
+                    .link-email {
+                        font-family: Montserrat;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 14px;
+                        line-height: 17px;
+                        color: #141414;
+                    }
+                }
+
+
+            }
+
+            ///// end block line email
+
+
+            ///// block line timework
+            .block-line-time-work {
+                margin-top: 0px;
+
+                .header-line-time-work {
+                    font-family: Montserrat;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 16px;
+                    line-height: 20px;
+                    color: #000000;
+                    margin-top: 13px;
+                    padding-left: 42px;
+
+                    &:before {
+                        left: 12px;
+                        top: 5px;
+                    }
+                }
+
+                .text-line-time-work {
+                    font-family: Montserrat;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 14px;
+                    line-height: 17px;
+                    color: #141414;
+                    margin-top: 10px;
+                    padding-left: 19px;
+                }
+
+                .text-help-time-work {
+                    font-family: Montserrat;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 14px;
+                    line-height: 17px;
+                    color: #141414;
+                    padding-left: 15px;
+                }
+
+            }
+
+            ///// end block line timework
+
+
+            /// Link in map address
+            .link-in-map-address {
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 20px;
+                color: #141414;
+                margin: 0 auto;
+                margin-top: 26px;
+            }
+
+            /// End Link in map address
+
+
+        }
+
+        //////////////////// END BOX CONTACT
+
+
+
+        /////////////// BLOCK MAP CONTACTS
+        .block-map-contacts {
+            position: relative;
+            margin-top: 10px;
+            //height: 224px;
+            //margin-left: -23px;
+            //margin-right: -23px;
+
+
+
+        }
+
+        /////////////// END BLOCK MAP CONTACTS
+
+        ////////// BLOCK IMAGES CONTACT
+        .block-images-contacts {
+            margin-top: 17px;
+            position: relative;
+
+
+            ///////// SLICK CAROUSEL NAVIGATION
+            .nav-arrows {
+                position: absolute;
+                right: 0px;
+                bottom: -20px;
+                width: 82px;
+                height: 32px;
+                border-radius: 5px;
+                z-index: 1;
+                border: 1px solid #DBE0E8;
+
+                &:after {
+                    position: absolute;
+                    content: "";
+                    z-index: 2;
+                    top: 0;
+                    bottom: 0;
+                    left: 50%;
+                    border-left: 1px solid #DBE0E8;
+                }
+
+                .slick-arrow.slick-carousel-control-prev {
+                    width: 40px;
+                    height: 30px;
+                    background: url(/img/tpl_img/mobile/arrow_mobile_slider_left.png) #fff 50% 50% no-repeat;
+                    outline: none;
+                    border: none;
+                    border-bottom-left-radius: 5px;
+                    border-top-left-radius: 5px;
+                }
+
+                .slick-arrow.slick-carousel-control-next {
+                    width: 40px;
+                    height: 30px;
+                    background: url(/img/tpl_img/mobile/arrow_mobile_slider_right.png) #fff 50% 50% no-repeat;
+                    outline: none;
+                    border: none;
+                    border-bottom-right-radius: 5px;
+                    border-top-right-radius: 5px;
+                }
+            }
+
+            ///////// END SLICK CAROUSEL NAVIGATION
+
+
+            .box-img-contact.box-img-contact1 {
+
+            }
+
+            .box-img-contact.box-img-contact2 {
+
+            }
+
+
+            .box-img-contact {
+
+                .text-contact {
+                    margin-top: 19px;
+                    font-family: Montserrat;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 10px;
+                    line-height: 12px;
+                    text-align: left;
+                    color: #141414;
+                    max-width: 240px;
+                }
+
+            }
+
+        }
+
+        ////////// END BLOCK IMAGES CONTACT
+
+
+
+    }
+
+    ////////////////// END ROW CONTACTS
+
+
+}
+
+/////END HTML PAGE СТРАНИЦА КОНТАКТЫ
+
+
+//////////////////////////////////////////////////////////////// КОНЕЦ СТРАНИЦА КОНТАКТЫ

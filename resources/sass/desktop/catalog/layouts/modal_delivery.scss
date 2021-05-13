@@ -1,0 +1,82 @@
+.dialog-content {
+    padding-bottom: 80px;
+
+    .header-modal-delivery {
+        background: #F38000;
+        position: relative;
+        height: 44px;
+        padding-top: 10px;
+
+        .title-modal-delivery {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 16px;
+            color: #FFFFFF;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .button-close-modal {
+            background: url('/img/tpl_img/modal_close.png') no-repeat;
+            width: 20px;
+            height: 20px;
+            outline: none;
+            border: none;
+            position: absolute;
+            right: 10px;
+            top: 12px;
+
+        }
+    }
+
+    .list-delivery-methods {
+        list-style: none;
+
+        margin: 0 auto;
+        margin-top: 73px;
+        padding-left: 206px;
+
+        .item-delivery {
+            position: relative;
+            text-align: left;
+
+            &:not(:first-child) {
+                margin-top: 45px;
+            }
+
+            &:before {
+                content: "";
+                display: block;
+                position: absolute;
+                width: 9px;
+                height: 57px;
+                background: rgba(243, 128, 0, 0.5);
+                left: -20px;
+                top: 2px;
+            }
+
+
+            .title-delivery {
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 22px;
+                color: #000000;
+
+            }
+
+            .text-delivery {
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: 300;
+                font-size: 16px;
+                line-height: 20px;
+                color: #000000;
+            }
+
+        }
+
+    }
+}

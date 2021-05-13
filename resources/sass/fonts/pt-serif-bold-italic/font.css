@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'PTSerif-BoldItalic';
+  src: url('PTSerif-BoldItalic.woff') format('woff'),
+       url('PTSerif-BoldItalic.ttf') format('truetype'),
+       url('PTSerif-BoldItalic.svg#PTSerif-BoldItalic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'pt-serif-bold-italic';
+  src: url('pt-serif-bold-italic.eot');
+  src: url('pt-serif-bold-italic.woff2') format('woff2'),
+       url('pt-serif-bold-italic.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+

@@ -1,0 +1,328 @@
+/*************************************************** FOOTER ************************************************/
+.footer {
+    background: url('/img/tpl_img/bg_footer.jpg') center center no-repeat;
+    height: 324px;
+    background-size: cover;
+    padding-top: 78px;
+    border-top: 26px solid #F38000;
+
+    .block-copyright {
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 18px;
+        color: #9DA6B8;
+        margin-top: 16px;
+    }
+
+    /////////////////// BLOCK FOOTER MENU
+    .block-footer-menu {
+
+        .header-block-footer-menu {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 800;
+            font-size: 14px;
+            line-height: 25px;
+            text-transform: uppercase;
+            letter-spacing: -0.21px;
+            color: #FFFFFF;
+        }
+
+    }
+
+    //Footer Menu 1
+    .block-footer-menu1 {
+
+        .footer-menu1 {
+            list-style: none;
+            padding-left: 0px;
+
+            .item-footer-menu1.active{
+                .link-item-footer-menu1{
+                    color: #F38000;
+                    text-decoration: none;
+                    &:after {
+                        width: 100%;
+                    }
+                }
+            }
+
+            .item-footer-menu1 {
+
+                &:not(:first-child) {
+                    margin-top: 1px;
+                }
+
+
+
+                .link-item-footer-menu1 {
+                    font-family: Montserrat;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 14px;
+                    line-height: 25px;
+                    letter-spacing: -0.21px;
+                    text-transform: uppercase;
+                    color: #FFFFFF;
+                    text-decoration: none;
+                    position: relative;
+
+
+                    &:after {
+                        content: "";
+                        transition: 0.2s all ease;
+                        -webkit-backface-visibility: hidden;
+                        backface-visibility: hidden;
+                        position: absolute;
+                        left: 50%;
+                        height: 2px;
+                        width: 0;
+                        bottom: 0px;
+                        -ms-transform: translateX(-50%);
+                        -webkit-transform: translateX(-50%);
+                        transform: translateX(-50%);
+                        background-color: #F38000;
+                    }
+
+
+                    &:hover {
+                        color: #F38000;
+                        text-decoration: none;
+                        &:after {
+                            width: 100%;
+                        }
+                    }
+
+
+                }
+
+            }
+        }
+
+    }
+
+    //End Footer Menu 1
+
+    //Footer Menu 2
+    .block-footer-menu2 {
+        margin-left: 2px;
+
+        .footer-menu2 {
+            list-style: none;
+            padding-left: 0px;
+
+            .item-footer-menu2.active{
+                .link-item-footer-menu2{
+                    color: #F38000;
+                    text-decoration: none;
+                    &:after {
+                        width: 100%;
+                    }
+                }
+            }
+
+            .item-footer-menu2 {
+
+                &:not(:first-child) {
+                    margin-top: 14px;
+                }
+
+                .link-item-footer-menu2 {
+                    font-family: Montserrat;
+                    font-style: normal;
+                    font-weight: 800;
+                    font-size: 14px;
+                    line-height: 25px;
+                    text-transform: uppercase;
+                    letter-spacing: -0.21px;
+                    color: #FFFFFF;
+position: relative;
+                    &:after {
+                        content: "";
+                        transition: 0.2s all ease;
+                        -webkit-backface-visibility: hidden;
+                        backface-visibility: hidden;
+                        position: absolute;
+                        left: 50%;
+                        height: 2px;
+                        width: 0;
+                        bottom: 0px;
+                        -ms-transform: translateX(-50%);
+                        -webkit-transform: translateX(-50%);
+                        transform: translateX(-50%);
+                        background-color: #F38000;
+                    }
+
+
+                    &:hover {
+                        color: #F38000;
+                        text-decoration: none;
+                        &:after {
+                            width: 100%;
+                        }
+                    }
+
+
+                }
+
+            }
+        }
+
+    }
+
+    //End Footer Menu 2
+
+
+    //////////////////// BLOCK FOOTER MENU
+
+
+    /////////////// BLOCK FOOTER CONTACTS
+    .block-footer-contacts {
+        margin-top: -4px;
+        float: right;
+        //// BLOCK ADDRESS
+        .block-address {
+            line-height: 20px;
+
+            .link-address {
+                position: relative;
+                font-family: Open Sans;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 14px;
+                color: #FFFFFF;
+
+                &:hover {
+                    -webkit-transition: .3s ease-in-out;
+                    transition: .3s ease-in-out;
+                    color: #F38000;
+                }
+
+                &:before {
+                    content: "";
+                    display: block;
+                    position: absolute;
+                    background: url('/img/tpl_img/icon_footer_location.png') no-repeat;
+                    width: 21px;
+                    height: 27px;
+                    left: -35px;
+                    top: 12px;
+                }
+
+                text-decoration: none;
+
+                &:hover {
+
+
+                }
+
+            }
+        }
+
+        //// END BLOCK ADDRESS
+
+
+        //BLOCK PHONE
+        .block-phone {
+            margin-top: 16px;
+
+            .link-phone {
+                position: relative;
+                font-family: Open Sans;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 24px;
+                line-height: 33px;
+                color: #FFFFFF;
+
+                &:hover {
+                    -webkit-transition: .1s ease-in-out;
+                    transition: .1s ease-in-out;
+                    color: #F38000;
+                }
+
+                &:before {
+                    content: "";
+                    display: block;
+                    position: absolute;
+                    background: url('/img/tpl_img/icon_footer_phone.png') no-repeat;
+                    width: 21px;
+                    height: 21px;
+                    left: -35px;
+                    top: 12px;
+                }
+
+                text-decoration: none;
+
+                &:hover {
+                    text-decoration: none;
+                }
+            }
+
+        }
+
+        //END BLOCK PHONE
+
+
+        /// BLOCK EMAIL ADDRESS
+        .block-email-address {
+            margin-top: 17px;
+
+            .header-email-address {
+                font-family: Open Sans;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 13px;
+                line-height: 18px;
+                color: #9DA6B8;
+            }
+
+            .link-email-address {
+                position: relative;
+                text-decoration: none;
+                font-family: Open Sans;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 19px;
+                color: #FFFFFF;
+                display: block;
+
+                &:hover {
+                    -webkit-transition: .1s ease-in-out;
+                    transition: .1s ease-in-out;
+                    color: #F38000;
+                }
+
+                &:before {
+                    display: block;
+                    content: "";
+                    position: absolute;
+                    background: url('/img/tpl_img/icon_footer_email.png') no-repeat;
+                    width: 23px;
+                    height: 18px;
+                    left: -37px;
+                    bottom: 2px;
+                }
+
+                &:hover {
+                    text-decoration: none;
+                }
+
+            }
+
+        }
+
+        /// END BLOCK EMAIL ADDRESS
+
+
+    }
+
+    /////////////// END BLOCK FOOTER CONTACTS
+
+
+}
+
+/*************************************************** END FOOTER ************************************************/

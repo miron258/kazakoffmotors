@@ -1,0 +1,7 @@
+@import "desktop/search/search";
+//@media (max-width: 1069px) {
+//    //@import "tablet/catalog/catalog_tablet";
+//}
+@media (max-width: 576px) {
+    @import "mobile/search/search_mobile";
+}

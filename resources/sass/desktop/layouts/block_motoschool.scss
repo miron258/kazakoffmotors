@@ -1,0 +1,393 @@
+.block-motoschool {
+    padding-top: 52px;
+    padding-bottom: 98px;
+    background: #fff;
+
+
+    .link-view-motoschool {
+        width: 282px;
+        height: 66px;
+        background: url(/img/tpl_img/arrow_link_catalog.png) #F38000 84% 50% no-repeat;
+        display: block;
+        box-shadow: 0px 10px 28.5px rgba(84, 89, 97, 0.29);
+        border-radius: 5px;
+        text-decoration: none;
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 108px;
+
+        .text-link {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 800;
+            font-size: 16px;
+            line-height: 66px;
+            text-transform: uppercase;
+            text-align: center;
+            margin: 0 auto;
+            position: relative;
+            display: block;
+            right: 12px;
+            color: #FFFFFF;
+        }
+    }
+
+    .header-block-benefits-motoschool {
+        margin-left: 12px;
+
+        h2 {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 800;
+            font-size: 40px;
+            line-height: 49px;
+            color: #333333;
+            text-align: left;
+            position: relative;
+
+            &:after {
+                content: "";
+                position: absolute;
+                display: inline-block;
+                background: url('/img/tpl_img/h_star.png') no-repeat;
+                width: 24px;
+                height: 22px;
+                right: -45px;
+                top: 15px;
+            }
+        }
+
+    }
+
+
+    .benefits-description-mobile {
+        display: none;
+    }
+
+    /****** CONTENT BLOCK BENEFTIS ******/
+    .content-block-benefits-motoschool {
+        padding-left: 14px;
+        padding-top: 25px;
+
+        p {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 24px;
+            color: #535963;
+        }
+
+    }
+
+    /****** END CONTENT BLOCK BENEFTIS ******/
+
+
+    /******* BLOCK LIST BENEFITS *******/
+    .block-list-benefits {
+
+
+        /***** Firts Benefits *****/
+        .first-block-benefits-motoschool {
+
+            .block-text-benefits {
+                padding-top: 80px;
+
+
+            }
+
+
+            /***** List Block Text Benefits *****/
+            .block-text-benefits1 {
+
+            }
+
+            .block-text-benefits.block-text-benefits2 {
+                margin-top: 10px;
+                right: 10px;
+                .text-benefits {
+                    text-align: left !important;
+                    position: relative !important;
+                    left: 40px !important;
+                    bottom: 12px !important;
+                }
+
+                .icon-benefits-left {
+                    right: 46px !important;
+                    top: 12px !important;
+                }
+            }
+
+            .block-text-benefits3 {
+                margin-top: 8px;
+                .text-benefits {
+                    margin-top: -20px !important;
+                }
+
+            }
+
+            /***** End List Block Text Benefits *****/
+
+            .block-text-benefits-left {
+                position: relative;
+
+                /***** Text Benefits *****/
+                .text-benefits {
+                    text-align: right;
+                    margin-right: 150px;
+                    position: relative;
+
+                    .norm-benefits {
+                        font-family: Montserrat;
+                        font-style: normal;
+                        font-size: 16px;
+                        line-height: 24px;
+                        text-align: right;
+                        color: #535963;
+                    }
+
+                    .bold-benefits {
+                        font-style: normal;
+                        font-weight: bold;
+                        font-family: Montserrat;
+                        font-size: 16px;
+                        line-height: 24px;
+                        text-align: right;
+                        color: #535963;
+                    }
+
+                    /***** Icon Benefits ****/
+                    .icon-benefits-left {
+                        content: "";
+                        display: inline-block;
+                        background: url('/img/tpl_img/icon_benefits_left.png') no-repeat;
+                        width: 26px;
+                        height: 26px;
+                        position: absolute;
+                        right: -50px;
+                        top: 24px;
+                    }
+
+                    /***** End Icon Benefits ****/
+
+                }
+
+
+                .num-benefits {
+                    font-family: Montserrat;
+                    font-style: normal;
+                    font-weight: 300;
+                    font-size: 100px;
+                    line-height: 24px;
+                    color: #E7EDF4;
+                    text-align: right;
+                    position: relative;
+                }
+
+                /******* Num Benefits List *******/
+                .num-benefits1 {
+                    bottom: 48px;
+                    right: 12px;
+                }
+
+                .num-benefits2 {
+                    bottom: 53px;
+                    right: 52px;
+
+                }
+
+                .num-benefits3 {
+                    bottom: 50px;
+
+                }
+
+                /******* End Num Benefits List *******/
+
+            }
+
+
+        }
+
+
+        /***** Center Benefits *****/
+        .center-block-benefits-motoschool {
+            .img-center-block-benefits-motoschool {
+                position: relative;
+                top: 60px;
+                right: 14px;
+            }
+
+        }
+
+        /***** End Center Benefits *****/
+
+
+        /***** Last Benefits *****/
+        .last-block-benefits-motoschool {
+            .block-text-benefits {
+                padding-top: 80px;
+            }
+
+
+            /***** List Block Text Benefits *****/
+            .block-text-benefits4 {
+
+            }
+
+            .block-text-benefits5 {
+                margin-top: 75px;
+                right: 15px;
+            }
+
+            .block-text-benefits6 {
+
+            }
+
+            /***** End List Block Text Benefits *****/
+
+            .block-text-benefits-right {
+                position: relative;
+
+                /***** Text Benefits *****/
+                .text-benefits {
+                    text-align: right;
+                    /*                    margin-right: 150px;*/
+                    position: relative;
+
+                    /*                    .bottom-row{
+                                            position: relative;
+                                            left: 65px;
+                                        }*/
+
+                    .norm-benefits {
+                        font-family: Montserrat;
+                        font-style: normal;
+                        font-size: 16px;
+                        line-height: 24px;
+                        text-align: right;
+                        color: #535963;
+                    }
+
+                    .bold-benefits {
+                        font-style: normal;
+                        font-family: Montserrat;
+                        font-weight: bold;
+                        font-size: 16px;
+                        line-height: 24px;
+                        text-align: right;
+                        color: #535963;
+                    }
+
+                    /***** Icon Benefits ****/
+                    .icon-benefits-right {
+                        content: "";
+                        display: inline-block;
+                        background: url('/img/tpl_img/icon_benefits_right.png') no-repeat;
+                        width: 26px;
+                        height: 26px;
+                        position: absolute;
+                    }
+
+                    .icon-benefits-right4 {
+                        left: -50px;
+                        top: 25px;
+                    }
+
+                    .icon-benefits-right5 {
+                        left: -50px;
+                        top: 29px;
+                    }
+
+                    .icon-benefits-right6 {
+                        left: -50px;
+                        top: 23px;
+                    }
+
+                    /***** End Icon Benefits ****/
+
+                }
+
+
+                /********* List Text Benefits *********/
+                .text-benefits4 {
+                    text-align: left;
+                    float: right;
+                    right: 90px;
+
+                    .icon-benefits-right {
+
+                    }
+                }
+
+                .text-benefits5 {
+                    right: 27px;
+                    bottom: 24px;
+                    text-align: left;
+                    float: right;
+
+                    .icon-benefits-right {
+
+                    }
+                }
+
+                .text-benefits6 {
+                    text-align: left;
+                    float: right;
+                    top: 67px;
+                    right: 97px;
+
+                    .icon-benefits-right {
+
+                    }
+
+                }
+
+                /********* End List Text Benefits *********/
+
+
+                .num-benefits {
+                    font-family: Montserrat;
+                    font-style: normal;
+                    font-weight: 300;
+                    font-size: 100px;
+                    line-height: 24px;
+                    color: #E7EDF4;
+                    text-align: left;
+                }
+
+                /******* Num Benefits List *******/
+                .num-benefits4 {
+                    position: relative;
+                    top: 20px;
+                    left: -10px;
+                }
+
+                .num-benefits5 {
+                    position: absolute;
+                    left: 56px;
+                    bottom: -24px;
+                }
+
+                .num-benefits6 {
+                    position: relative;
+                    top: 90px;
+                    left: -20px;
+                }
+
+                /******* End Num Benefits List *******/
+
+            }
+
+
+        }
+
+        /***** End Last Benefits *****/
+
+
+    }
+
+    /******* END BLOCK LIST BENEFITS *******/
+
+
+}
+

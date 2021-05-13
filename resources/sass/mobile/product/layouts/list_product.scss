@@ -1,0 +1,136 @@
+.block-list-products {
+
+
+    .title-list-products {
+
+
+        &:after {
+
+        }
+    }
+
+    .products-empty {
+
+    }
+
+    .wrapper-row-list-products {
+
+        /****************** AJAX LOADER *******************/
+        .loader-gif {
+
+
+            .ajax-loader {
+
+            }
+        }
+
+        /****************** END AJAX LOADER *******************/
+
+
+
+
+
+
+        .row-list-products {
+
+
+
+            &:not(:first-child) {
+
+            }
+
+            /////////// BOX PRODUCT
+            .wrapper-box-product {
+
+
+                &:not(:first-child) {
+
+                }
+
+                .box-product {
+
+
+                    ////// Block Img Product
+                    .block-img-product {
+
+
+                        .link-product {
+
+                            &:hover {
+
+                            }
+                            .img-product {
+                                min-width: auto;
+                                max-height: 170px;
+                            }
+                        }
+                    }
+
+                    ////// End Block Img Product
+
+
+                    ////// Title Product
+                    .link-title-product {
+
+
+                        &:hover {
+
+                        }
+                    }
+
+                    ////// End Title Product
+
+
+                    ////// Block Price Product
+                    .block-price-product {
+
+
+                        .price-product {
+
+                        }
+
+                        .ruble {
+
+                        }
+
+                    }
+
+                    ////// End Block Price Product
+
+
+                    ///// Button Add To Cart
+                    .bt-add-to-cart {
+
+
+
+                        &:before{
+                            display: none;
+                        }
+                        &:hover{
+
+                        }
+
+
+                        &:disabled {
+
+
+                            &:after {
+
+                            }
+                        }
+                        .text-button {
+
+                        }
+                    }
+
+                    ///// End Button Add To Cart
+
+                }
+
+            }
+
+            /////////// END BOX PRODUCT
+
+        }
+    }
+}

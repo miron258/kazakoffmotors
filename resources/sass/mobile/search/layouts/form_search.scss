@@ -1,0 +1,106 @@
+/////////// BOX SEARCH CATALOG
+.wrapper-box-search-catalog {
+
+    .box-search-catalog {
+
+
+        //// form search catalog
+        .form-search-catalog.loading {
+            &:after {
+
+            }
+        }
+
+        .form-search-catalog {
+
+
+            /////////// Close Search
+            .close-search.close-search-visible {
+
+            }
+
+            .close-search {
+                right: -270px;
+
+                &:hover {
+
+                }
+            }
+
+            /////////// End Close Search
+
+
+            .field-input-search {
+
+            }
+
+            .button-search {
+
+
+                .text-button-search {
+
+                }
+            }
+
+
+        }
+
+        //// end form search catalog
+
+
+        //////////// Live Search Results
+        .live-search-results {
+
+
+            .row-search-products {
+
+
+                &:hover {
+
+                }
+
+                //////// Box Search Product
+                .box-search-product {
+
+                    .block-img-product {
+
+                        .link-img-product {
+
+
+                            &:hover {
+
+                            }
+
+                            .img-product {
+
+                            }
+                        }
+
+                    }
+
+                    .link-product.padding-product {
+
+                    }
+
+                    .link-product {
+                        font-size: 12px;
+
+                        &:hover {
+
+                        }
+                    }
+                }
+
+                //////// End Box Search Product
+            }
+
+        }
+
+        //////////// End Live Search Results
+
+
+    }
+}
+
+/////////// END BOX SEARCH CATALOG
+

@@ -1,0 +1,56 @@
+/*************************** BLOCK BREADCRUMBS *************************/
+.block-breadcrumbs {
+
+    .breadcrumb {
+        background: none !important;
+        border-radius: 0px !important;
+        padding-left: 0px !important;
+        padding-top: 19px;
+        margin-bottom: 0px;
+        //Breadcrumb Item Active
+        .breadcrumb-item.active {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 200;
+            font-size: 12px;
+            line-height: 15px;
+            color: black;
+
+            &:before {
+
+            }
+        }
+
+        //Breadcrumb Item
+        .breadcrumb-item {
+            position: relative;
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 200;
+            font-size: 12px;
+            line-height: 15px;
+            color: #000000;
+            //&:last-child{
+            //    font-weight: 500;
+            //}
+            a {
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: 200;
+                font-size: 12px;
+                line-height: 15px;
+                color: #000000;
+
+                &:before {
+
+                }
+
+            }
+        }
+
+    }
+
+
+}
+
+/*************************** END BLOCK BREADCRUMBS *************************/

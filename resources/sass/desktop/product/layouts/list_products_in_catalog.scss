@@ -1,0 +1,165 @@
+/////// Вывод списка товара в конкретном каталоге
+.block-list-products.block-list-products-in-catalog {
+    margin-top: 0px;
+    padding-bottom: 100px;
+    position: relative;
+
+    .container {
+        position: relative;
+    }
+
+    //////// Loader Ajax Icon
+    .loader-gif {
+        position: absolute;
+        margin: auto;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 1000;
+        opacity: 0.8;
+
+        .ajax-loader {
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+        }
+    }
+
+    //////// End Loader Ajax Icon
+
+    .wrapper-row-list-products {
+
+        .row-list-products {
+            &:not(:first-child) {
+                margin-top: 38px;
+            }
+
+            ////////// BOX PRODUCT
+            .wrapper-box-product {
+
+                .box-product {
+                    width: 262px;
+
+                    ////// Block Img Product
+                    .block-img-product {
+                        min-height: 182px;
+
+                        .link-product {
+                            min-height: 182px;
+
+                            .img-product {
+                                max-height: 170px;
+                            }
+                        }
+
+
+                        .img-empty {
+
+                        }
+                    }
+
+                    ////// End Block Img Product
+
+                    ////// Link Title Product
+                    .link-title-product {
+                        font-size: 16px;
+                        line-height: 20px;
+                        min-height: 80px;
+                        margin-top: 13px;
+                        padding-left: 22px;
+                        padding-right: 22px;
+                    }
+
+                    ////// End Link Title Product
+
+                    .title-not-available{
+                        font-size: 10px;
+                        line-height: 12px;
+                        color: red;
+                        font-family: Montserrat;
+                        font-style: normal;
+                        font-weight: 600;
+                        padding-left: 22px;
+                        padding-right: 22px;
+                    }
+
+
+                    ////// Block Price Product
+                    .block-price-product {
+                        margin-top: 16px;
+                        padding-left: 22px;
+
+                        .price-product {
+                            font-size: 20px;
+                        }
+
+                        .ruble {
+                            font-size: 20px;
+                        }
+                    }
+
+                    ////// End Block Price Product
+
+                    //////////// Button Add To Cart
+                    .bt-add-to-cart {
+                        background: #F38000;
+                        height: 49.99px;
+                        position: relative;
+
+                        &:before {
+                            content: "";
+                            position: absolute;
+                            display: block;
+                            opacity: 0;
+                            background: url(/img/tpl_img/icon_catalog_cart.png);
+                            width: 17px;
+                            height: 16px;
+                            margin: auto;
+                            right: 0px;
+                            top: 0;
+                            bottom: 0;
+                            transition: all 200ms ease;
+                        }
+
+                        &:hover{
+                            &:before{
+                                opacity: 1;
+                                right: 30px;
+                            }
+                        }
+
+
+                        .text-button {
+
+                        }
+                    }
+
+                    //////////// End Button Add To Cart
+
+                }
+
+            }
+
+            ////////// END BOX PRODUCT
+
+
+        }
+
+        ////////////////// Pagination
+        @import "resources/sass/desktop/product/layouts/pagination";
+        ////////////////// End Pagination
+
+
+    }
+
+}
+
+/////// КОНЕЦ Вывод списка товара в конкретном каталоге

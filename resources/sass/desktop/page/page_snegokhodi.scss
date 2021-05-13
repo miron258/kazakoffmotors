@@ -1,0 +1,211 @@
+///////// Description Page
+.description-page.description-page-snegokhodi{
+    position :relative;
+
+    .link-phone{
+        position: absolute;
+        display: block;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 20px;
+        color: #F38000;
+        text-decoration: none;
+        right: 0px;
+        top: 48px;  
+        &:hover{
+            text-decoration: none; 
+        }
+
+        &:before{
+            position: absolute;
+            left: -33px;
+            top: 2px;
+            content: "";
+            display: block;
+            background: url('/img/tpl_img/icon_page_phone.png') no-repeat;
+            width: 22px;
+            height: 21px;
+        }
+
+    }
+
+
+}
+
+///////////////////////////////////////////// СТРАНИЦА МОТОТЕХНИКА
+.html-page.html-page-snegokhodi{
+
+
+    //Block Boxs MotoTekhnika
+    .block-boxs-snegokhodi{
+        margin-top: 0px;
+
+        /////////////////////// BOX ITEM
+        .box-snegokhodi1{
+
+        }
+        .box-snegokhodi2{
+            margin-top: 45px;
+        }
+
+
+        .box-snegokhodi{
+
+            &:first-child{
+                margin-top: 32px;
+
+            }
+
+            &:not(:first-child){
+
+            }
+
+            /////// ICONS BOX ITEM
+            .icon-box-item.icon-box-item1{
+
+            }
+            .icon-box-item.icon-box-item2{
+                bottom: -8px;
+            }
+
+            .icon-box-item{
+                bottom: -5px;
+                text-align: center;
+                position: relative;
+                left: 29px;
+                .item-icon-img{
+
+                }
+
+            }
+            /////// END ICONS BOX ITEM
+
+            /////// NAME BOX ITEM
+            .name-box-item{
+                text-align: left;
+                margin-left: 45px;
+                line-height: 29px;
+                .header-name{
+                    font-family: Open Sans;
+                    font-style: normal;
+                    font-weight: 800;
+                    font-size: 20px;
+                    color: #141414;
+                    text-transform: uppercase;
+                }
+
+                //List Services
+                .list-services{
+
+                    .name-service{
+                        font-family: Open Sans;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 15px;
+                        color: #141414;
+                        line-height: 24px;
+                        &:not(:first-child){
+                            margin-top: -5px;
+                        }
+
+                    }
+
+                }
+                //End List Services
+
+
+                .desc-name{
+                    font-family: Open Sans;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 15px;
+                    color: #141414;
+                    line-height: 25px;
+                }
+
+
+            }
+            /////// END NAME BOX ITEM
+
+
+            /////// PRICE BOX ITEM
+            .price-box-item{
+                float: right;
+                position: relative;
+                left: 2px;
+                margin-top: 14px;
+
+
+                //////Item Price
+                .item-price {
+
+                    .price{
+                        font-family: Open Sans;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 15px;
+                        text-align: right;
+                        color: #141414;
+                    }
+
+                    .rubl{
+                        font-family:'Als Rubl';
+                        font-size: 15px;
+                        text-align: right;
+                        color: #141414;
+                    }
+                }
+                //////End Item Price
+
+
+
+            }
+            /////// END PRICE BOX ITEM
+
+
+
+        }
+        /////////////////////// END BOX ITEM
+
+
+
+        ///////////////////////////////////////////// BOX LIST IMAGES
+        .box-list-img{
+            margin-top: 5px;
+            //Item IMG
+            .item-img {
+                &:not(:first-child){
+                    margin-top: 30px;
+                }
+
+                .img-motosrv{
+
+                }
+            }
+            //END Item IMG
+
+        }
+        ///////////////////////////////////////////// END BOX LIST IMAGES
+
+
+
+    }
+    //End Block Boxs MotoTekhnika
+
+
+    //Html Page Bottom Text
+    .html-page-bottom-text{
+        margin-top: 110px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 25px;
+        text-align: center;
+        letter-spacing: -0.21px;
+        color: #141414;
+    }
+    //END Html Page Bottom Text
+}
+///////////////////////////////////////////// КОНЕЦ СТРАНИЦА МОТОТЕХНИКА

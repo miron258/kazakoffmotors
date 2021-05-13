@@ -1,0 +1,64 @@
+////// Form Send Spare Part
+.container-form-spare-part {
+    margin-top: 20px;
+    padding-left: 11px;
+    padding-right: 11px;
+
+
+    //////// Loader Ajax Icon
+    .loader-gif {
+
+
+        .ajax-loader {
+
+        }
+    }
+
+    //////// End Loader Ajax Icon
+    .message-order-spare-part {
+        padding-left: 0px;
+        font-size: 12px;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .form-send-spare-part {
+        padding-left: 0px;
+
+
+        .form-group {
+            //margin-bottom: 0.7rem;
+
+            &:not(:first-child) {
+                margin-top: 0px;
+            }
+
+            //// Error Validate
+            .invalid-feedback {
+                font-size: 11px;
+            }
+
+            //// End Error Validate
+
+
+            .form-control {
+                font-size: 12px;
+            }
+        }
+
+
+        .form-group.form-group-bt-send {
+
+
+            .btn-send-form {
+                width: 152.73px;
+                height: 40px;
+                font-size: 9px;
+                line-height: 11px;
+
+            }
+        }
+    }
+}
+
+////// End Form Send Spare Part

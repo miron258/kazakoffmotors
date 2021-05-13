@@ -1,0 +1,798 @@
+/////// Breadcrumbs Catalog
+.wrapper-inner-product {
+
+    padding-top: 42px;
+}
+
+/////// End Breadcrumbs Catalog
+.block-product {
+    margin-top: 0px;
+
+    ////////////////////// container view product mobile
+    .container-view-product-mobile {
+        padding-left: 0px;
+        padding-right: 0px;
+
+        ////// Product Mobile
+        .product-mobile {
+
+
+            ////////////// Product Properties
+            .product-properties {
+                padding-left: 63px;
+                padding-top: 20px;
+                padding-bottom: 12px;
+                background: #F4F4F4;
+                position: relative;
+
+                .link-back-return-mobile {
+                    position: absolute;
+                    background: url('/img/tpl_img/mobile/shop/arrow_prev_mobile.png') no-repeat;
+                    width: 22px;
+                    height: 22px;
+                    left: 20px;
+                }
+
+                .title-product {
+                    font-family: Montserrat;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 20px;
+                    line-height: 24px;
+                    color: #000000;
+                    padding-right: 10px;
+                    margin-bottom: 0.3rem;
+                }
+
+                ///////// Block Number Product
+                .block-number-product {
+
+
+                    .title-number-product {
+                        font-family: Montserrat;
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 12px;
+                        color: #606878;
+                    }
+
+                    .value-number-product {
+                        font-family: Montserrat;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 12px;
+                        color: #606878;
+
+                    }
+
+                }
+
+                ///////// End Block Number Product
+
+
+                ///////// Block Not Available
+                .block-not-available{
+                    .text-not-available{
+                        font-family: Montserrat;
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 12px;
+                        color: red;
+                    }
+                }
+                ///////// End Block Not Available
+
+                ///////// Block Price Product
+                .block-price-product {
+
+                    position: relative;
+
+                    &:after {
+
+                    }
+
+
+                    .price-product {
+                        font-family: Montserrat;
+                        font-style: normal;
+                        font-weight: 300;
+                        font-size: 20px;
+                        color: #000000;
+                    }
+
+                    .rub {
+                        font-family: "Als Rubl";
+                        font-style: normal;
+                        font-weight: 300;
+                        font-size: 20px;
+                        color: #000000;
+                    }
+                }
+
+                ///////// End Block Price Product
+
+
+                ///////// Block Features Product
+                .block-features-product {
+                    margin-top: 3px;
+
+
+                    ul {
+                        list-style-type: none;
+                        padding-left: 0px;
+                        margin-bottom: 0.4rem;
+
+                        li {
+
+                            span {
+                                font-family: Montserrat;
+                                font-style: normal;
+                                font-weight: 600;
+                                font-size: 12px;
+                                color: #606878;
+                            }
+                        }
+                    }
+
+
+                }
+
+                ///////// End Block Features Product
+
+
+            }
+
+            ////////////// End Product Properties
+
+
+            //////////////// Block Tabs Product
+            .block-tabs-product {
+                background: #fff;
+                padding-top: 26px;
+                padding-left: 25px;
+                padding-right: 25px;
+                padding-bottom: 80px;
+                ////// Tabs Product
+                .tabs-product {
+                    @import "resources/sass/mobile/layouts/tabs_mobile.scss";
+                    ////// End Tabs Product
+
+
+                    .block-slick-carousel-product {
+                        .column-list-images-product {
+
+                            .slick-slider {
+                                position: relative;
+
+                                .slick-list{
+
+                                    .slick-track{
+                                        //min-height: 250px;
+
+
+                                        .slick-slide{
+                                            min-height: 400px;
+                                            max-height: min-content;
+                                            //min-height: 200px;
+                                            //max-height: 750px;
+                                        }
+                                    }
+
+                                }
+
+
+                                ///////////////////// Slick Arrow
+                                .slick-arrow {
+                                    position: absolute;
+                                    margin: auto;
+                                    top: 0;
+                                    bottom: 0;
+                                    width: auto;
+                                    z-index: 1;
+                                    text-indent: -9999px;
+
+                                    &:before {
+                                        display: none;
+                                    }
+
+
+                                }
+
+
+                                .slick-arrow.slick-prev {
+                                    width: 26px;
+                                    height: 18px;
+                                    left: 0;
+                                    background: url('/img/tpl_img/img_shop/arrow_prev.png') 50% 50% no-repeat;
+                                    border: none;
+                                    outline: none;
+                                }
+
+                                .slick-arrow.slick-next {
+                                    width: 26px;
+                                    height: 18px;
+                                    right: 0;
+                                    background: url('/img/tpl_img/img_shop/arrow_next.png') 50% 50% no-repeat;
+                                    border: none;
+                                    outline: none;
+                                }
+
+                                //////////////// End Slick Arrow
+
+                            }
+
+
+                        }
+                    }
+
+                }
+
+                /////////// Product Block Add To Cart
+                .product-block-add-to-cart {
+                    margin: 0 auto;
+                    text-align: center;
+                    margin-top: 22px;
+
+                    ///////// Block Number Product
+                    .block-number-product {
+                        margin-top: 18px;
+
+                        .title-number-product {
+                            font-family: Montserrat;
+                            font-style: normal;
+                            font-weight: 600;
+                            font-size: 16px;
+                            color: #606878;
+                        }
+
+                        .value-number-product {
+                            font-family: Montserrat;
+                            font-style: normal;
+                            font-weight: 600;
+                            font-size: 16px;
+                            color: #606878;
+                        }
+
+                    }
+
+
+                    ////////// Block Select Count Product
+                    .block-select-count-product.block-select-count-product-top {
+                        margin-top: 26px;
+                    }
+
+                    .block-select-count-product {
+
+                        ////// Form Count Product
+                        .form-count-product {
+
+                            .form-group-count-product {
+
+                                margin: 0 auto;
+                                text-align: center;
+
+                                .number-input {
+                                    width: 83px;
+
+                                    .number-input__input {
+                                        padding: 7px 2px;
+                                    }
+
+                                    .number.input {
+                                        font-weight: 500;
+                                        font-size: 14px;
+                                    }
+
+                                    .number-input__button {
+                                        width: 1.5rem;
+
+                                        &:before {
+                                            height: 2px;
+                                        }
+
+                                        &:after {
+                                            width: 2px;
+                                        }
+                                    }
+
+                                    .number-input__button.number-input__button--minus {
+                                        border-right: none;
+                                    }
+
+                                    .number-input__button.number-input__button--plus {
+                                        border-left: none;
+
+                                        &:before {
+                                            background-color: #F38000;
+                                        }
+
+                                        &:after {
+                                            height: 32%;
+                                            background-color: #F38000;
+                                        }
+
+                                    }
+
+                                }
+
+                            }
+                        }
+
+                        ////// End Form Count Product
+                    }
+
+                    ////////// End Block Select Count Product
+
+
+                    ///////////////////////// Button Add To Cart
+                    .button-add-to-cart.in-cart {
+
+                    }
+
+                    .button-add-to-cart {
+                        border: none;
+                        outline: none;
+                        background: #F38000;
+                        box-shadow: 0px 10px 28.5px rgba(84, 89, 97, 0.29);
+                        width: 309px;
+                        height: 47px;
+                        border-radius: 5px;
+                        margin-top: 4px;
+                        position: relative;
+                        background: url(/img/tpl_img/mobile/shop/icon_cart_mobile_product.png) #F38000 92% 47% no-repeat;
+
+
+                        &:disabled {
+                            opacity: 0.5;
+
+                            &:after {
+                                content: "";
+                                display: block;
+                                background: url('/img/tpl_img/ajax-loader.gif');
+                                width: 32px;
+                                height: 32px;
+                                position: absolute;
+                                top: 0;
+                                bottom: 0;
+                                right: 0;
+                                left: 0;
+                                margin: auto;
+                            }
+                        }
+
+
+                        .text-button {
+                            font-family: Montserrat;
+                            font-style: normal;
+                            font-weight: 800;
+                            font-size: 18px;
+                            position: relative;
+                            right: 20px;
+                            text-transform: uppercase;
+                            color: #FFFFFF;
+                        }
+                    }
+                }
+
+                //////////// End Product Block Add To Cart
+
+
+            }
+
+            //////////////// End Block Tabs Product
+
+
+        }
+
+        ////// End Product Mobile
+
+    }
+
+    ////////////////////// end container view product mobile
+
+
+    .container-view-product {
+
+
+        //////////////// Product Slider
+        .product-slider {
+
+            .block-slick-carousel-product {
+
+
+                //////// Column List Images Product
+                .column-list-images-product {
+
+
+                    ///// Box SLick Item
+                    .box-slick-item {
+                        .box-slick-item-link {
+
+
+                            &:hover {
+
+                            }
+
+                            .box-slick-item-img {
+
+                            }
+                        }
+                    }
+
+                    ///// End Box SLick Item
+
+
+                }
+
+                //////// End Column List Images Product
+
+
+                //////// Column List Thumbnails Images Product
+                .column-list-thumbnails-product {
+
+
+                    ///// Box SLick Item
+                    .box-slick-item {
+
+                        &:not(:first-child) {
+
+                        }
+
+                        .box-slick-item-link {
+
+
+                            &:hover {
+
+                            }
+
+                            .box-slick-item-img {
+
+                            }
+                        }
+
+                    }
+
+                    ///// End Box SLick Item
+
+                }
+
+                //////// End Column List Thumbnails Images Product
+
+
+            }
+
+
+        }
+
+        //////////////// End Product Slider
+
+
+        //////////////// Product Properties
+        .product-properties {
+
+            .title-product {
+
+            }
+
+
+            ///////// Block Number Product
+            .block-number-product {
+
+
+                .title-number-product {
+
+                }
+
+                .value-number-product {
+
+                }
+
+            }
+
+            ///////// End Block Number Product
+
+            ///////// Block Price Product
+            .block-price-product {
+
+
+                &:after {
+
+                }
+
+
+                .price-product {
+
+                }
+
+                .rub {
+
+                }
+            }
+
+            ///////// End Block Price Product
+
+
+            ///////// Block Features Product
+            .block-features-product {
+
+
+                ul {
+
+                    li {
+
+                        span {
+
+                        }
+                    }
+                }
+
+
+            }
+
+            ///////// End Block Features Product
+
+
+            ////////// Block Select Count Product
+            .block-select-count-product.block-select-count-product-top {
+
+            }
+
+            .block-select-count-product {
+
+                ////// Form Count Product
+                .form-count-product {
+                    .form-group-count-product {
+
+
+                        .number-input {
+
+
+                            .number-input__input {
+
+                            }
+
+                            .number.input {
+
+                            }
+
+                            .number-input__button {
+
+
+                                &:before {
+
+                                }
+
+                                &:after {
+
+                                }
+                            }
+
+                            .number-input__button.number-input__button--minus {
+
+                            }
+
+                            .number-input__button.number-input__button--plus {
+
+
+                                &:before {
+
+                                }
+
+                                &:after {
+
+                                }
+
+                            }
+
+                        }
+
+                    }
+                }
+
+                ////// End Form Count Product
+            }
+
+            ////////// End Block Select Count Product
+
+
+            ///////////////////////// Button Add To Cart
+            .button-add-to-cart.in-cart {
+
+            }
+
+            .button-add-to-cart {
+
+
+                &:disabled {
+
+
+                    &:after {
+
+                    }
+                }
+
+                &:hover {
+
+
+                    .text-button {
+
+                    }
+
+                }
+
+                .text-button {
+
+                }
+            }
+
+
+        }
+
+        //////////////// End Product Properties
+
+
+        .product-description {
+
+            //////// Block Description
+            .block-description {
+
+
+                &:after {
+
+                }
+
+                .wrapper-title-block-description {
+
+
+                    .title-block-description {
+
+                    }
+
+                    .link-toggle-description {
+
+
+                        &:hover {
+                            text-decoration: none;
+                        }
+                    }
+                }
+
+                .text-product {
+
+
+                    .list-product-benefits {
+
+                        .item-benefits {
+
+                        }
+
+                    }
+
+                    p {
+
+                    }
+
+                    * {
+
+                    }
+
+                    ul {
+
+
+                        li {
+
+                        }
+                    }
+                }
+
+            }
+
+            //////// End Block Description
+
+
+            ////////// Block Compatibility
+            .block-compatibility {
+
+
+                &:after {
+
+                }
+
+                .wrapper-title-block-compatibility {
+                    position: relative;
+
+                    .title-block-compatibility {
+
+                    }
+
+                    .link-toggle-compatibility {
+
+
+                        &:hover {
+                            text-decoration: none;
+                        }
+                    }
+                }
+
+                .text-compatibility {
+
+
+                    p {
+
+                    }
+
+                    * {
+
+                    }
+                }
+
+            }
+
+            ////////// End  Block Compatibility
+
+
+            ////////// Block Features
+            .block-features {
+
+
+                &:after {
+
+                }
+
+                .wrapper-title-block-features {
+
+
+                    .title-block-features {
+
+                    }
+
+                    .link-toggle-features {
+
+
+                        &:hover {
+                            text-decoration: none;
+                        }
+                    }
+                }
+
+
+                .text-features {
+
+
+                    p {
+
+                    }
+
+                    * {
+
+                    }
+
+                    ul {
+
+
+                        li {
+
+                        }
+                    }
+
+                    .list-features {
+                        .item-feature {
+
+
+                        }
+                    }
+
+
+                }
+
+            }
+
+            ////////// End Block Features
+
+
+        }
+
+    }
+
+
+}

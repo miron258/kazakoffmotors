@@ -1,0 +1,455 @@
+/////// Breadcrumbs Cart
+.wrapper-inner-cart {
+    background: url('/img/tpl_img/bg_page.png');
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+    .block-form-order {
+
+        padding-bottom: 50px;
+
+        .container-view-form-order {
+            @import 'layouts/form_order_success';
+
+
+
+            ///// Title Form Order
+            .title-form-order {
+
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: 800;
+                font-size: 40px;
+                text-transform: uppercase;
+                color: #141414;
+                width: max-content;
+                position: relative;
+
+                &:after {
+                    content: "";
+                    display: block;
+                    position: absolute;
+                    background: url('/img/tpl_img/icon_head_shop_star.png') no-repeat;
+                    width: 23px;
+                    height: 21px;
+                    right: -34px;
+                    top: 20px;
+                }
+
+            }
+
+            ///// End Title Form Order
+
+            ///// Link Back Return
+            .link-back-return {
+
+                margin-top: 18px;
+                padding-left: 71px;
+                position: relative;
+                text-decoration: none;
+                display: block;
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                text-transform: uppercase;
+                color: #000000;
+                background: #DADADA;
+                height: 42px;
+                width: 100%;
+                line-height: 42px;
+
+                &:before {
+                    content: "";
+                    display: block;
+                    position: absolute;
+                    margin: auto;
+                    bottom: 0;
+                    top: 0;
+                    left: 37px;
+                    width: 19px;
+                    height: 16px;
+                    background: url('/img/tpl_img/icon_arrow_return.png') no-repeat;
+                }
+
+            }
+
+            ///// End Link Back Return
+
+
+
+
+
+
+            /////////////// CONTAINER FORM ORDER
+            .container-form-order {
+                position: relative;
+
+
+
+                //@import 'layouts/form_order_success';
+
+
+                /****************** AJAX LOADER *******************/
+                .loader-gif {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    z-index: 1000;
+                    background-color: #fff;
+                    opacity: 0.8;
+
+                    .ajax-loader {
+                        position: absolute;
+                        left: 0;
+                        right: 0;
+                        top: 50%;
+                        transform: translateY(-50%);
+                        margin-left: auto;
+                        margin-right: auto;
+                        display: block;
+                    }
+                }
+
+                /****************** END AJAX LOADER *******************/
+
+
+                //////////////////// Message Form Order
+                .message-form-order {
+                    font-family: Montserrat;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 16px;
+                    text-align: center;
+                    color: #000000;
+                }
+
+                //////////////////// End Message Form Order
+
+
+                //////////////////////////// FORM ORDER
+                .form-order {
+                    padding-top: 9px;
+                    padding-bottom: 50px;
+                    /////////// Row Boxes Form Order
+                    .row-boxes-form-order {
+                        margin-top: 2px;
+
+                        /////// Wrapper Left Box
+                        .wrapper-left-box {
+
+                            .box-left-form-order {
+                                width: 554px;
+                                box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.15);
+                                background: #FFFFFF;
+                                padding-top: 25px;
+                                padding-left: 57px;
+                                padding-right: 57px;
+                                //padding-bottom: 43px;
+                                height: 1040px;
+                                ////// Title Box
+                                .title-box {
+                                    position: relative;
+                                    font-family: Montserrat;
+                                    font-style: normal;
+                                    font-weight: 600;
+                                    font-size: 30px;
+                                    text-align: center;
+                                    color: #000000;
+
+                                    &:after {
+                                        content: "";
+                                        display: block;
+                                        position: absolute;
+                                        height: 1px;
+                                        width: 100%;
+                                        background: #000000;
+                                        bottom: -23px;
+                                    }
+                                }
+
+                                ////// End Title Box
+
+                                @import "layouts/block_select_delivery";
+                                @import "layouts/block_select_payment";
+
+
+                            }
+
+                        }
+
+                        /////// End Wrapper Left Box
+
+
+                        /////// Wrapper Right Box
+                        .wrapper-right-box {
+
+                            .box-right-form-order {
+                                width: 554px;
+                                box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.15);
+                                background: #FFFFFF;
+                                padding-top: 20px;
+                                padding-left: 57px;
+                                padding-right: 57px;
+                                //padding-bottom: 43px;
+                                height: 1040px;
+                                ////// Title Box
+                                .title-box {
+                                    position: relative;
+                                    font-family: Montserrat;
+                                    font-style: normal;
+                                    font-weight: 600;
+                                    font-size: 30px;
+                                    text-align: center;
+                                    color: #000000;
+
+                                    &:after {
+                                        content: "";
+                                        display: block;
+                                        position: absolute;
+                                        height: 1px;
+                                        width: 100%;
+                                        background: #000000;
+                                        bottom: -28px;
+                                    }
+
+                                }
+
+                                ////// Title Box
+
+
+                                @import "layouts/block_personal_data";
+                                @import "layouts/block_address_delivery";
+
+
+                            }
+
+                        }
+
+                        /////// End Wrapper Right Box
+
+                    }
+
+                    /////////// End Row Boxes Form Order
+
+
+                    /////////////////////////// Row Box Text Order
+                    .row-boxes-text-order {
+                        margin-left: 0px;
+                        margin-right: 0px;
+                        margin-top: 30px;
+                        padding-top: 30px;
+                        padding-bottom: 18px;
+                        background: #FFFFFF;
+                        box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.15);
+                        /////////////////// Wrapper Box Text Order
+                        .wrapper-box-text-order {
+                            padding-left: 65px;
+
+                            .form-group.form-group-text-order {
+
+                                .label-text-order {
+                                    font-family: Montserrat;
+                                    font-style: normal;
+                                    font-weight: 500;
+                                    font-size: 20px;
+                                    color: #000000;
+                                    margin-bottom: 6px;
+                                }
+
+                                .form-control.form-control-text-order {
+                                    border: 1px solid #615C59;
+                                    box-sizing: border-box;
+                                    border-radius: 0px;
+                                    box-shadow: none;
+                                    outline: none;
+                                    width: 682px;
+                                    height: 175px;
+                                }
+
+                            }
+
+
+                        }
+
+                        /////////////////// End Wrapper Box Text Order
+
+                        ///////////////// Wrapper Box Total Price Order
+                        .wrapper-box-total-price-order {
+                            padding-right: 29px;
+
+                            ////////// Block Total Price
+                            .block-total-price {
+                                float: right;
+                                margin-top: 7px;
+                                margin-right: 35px;
+                                ////// Total Price Sum
+                                .total-price-sum {
+                                    position: relative;
+                                    //right: 15px;
+
+                                    .total-price-text {
+                                        font-family: Montserrat;
+                                        font-style: normal;
+                                        font-weight: bold;
+                                        font-size: 20px;
+                                        color: #000000;
+                                    }
+
+                                    .total-price {
+                                        .price {
+                                            font-family: Montserrat;
+                                            font-style: normal;
+                                            font-weight: bold;
+                                            font-size: 20px;
+                                            color: #000000;
+                                        }
+
+                                        .ruble {
+                                            font-family: "Als Rubl";
+                                            font-style: normal;
+                                            font-weight: bold;
+                                            font-size: 20px;
+                                            color: #000000;
+                                        }
+
+                                    }
+
+
+                                }
+
+                                ////// End Total Price Sum
+
+                                ///// Block Total Price Order
+                                .total-price-order {
+                                    position: relative;
+                                    bottom: 9px;
+
+                                    .total-price-text {
+                                        font-family: Montserrat;
+                                        font-style: normal;
+                                        font-weight: 500;
+                                        font-size: 20px;
+                                        color: #000000;
+                                    }
+
+                                    .total-price {
+                                        .price {
+                                            font-family: Montserrat;
+                                            font-style: normal;
+                                            font-weight: 500;
+                                            font-size: 20px;
+                                            color: #000000;
+                                        }
+
+                                        .ruble {
+                                            font-family: "Als Rubl";
+                                            font-style: normal;
+                                            font-weight: 500;
+                                            font-size: 20px;
+                                            color: #000000;
+                                        }
+
+                                    }
+                                }
+
+                                ///// End Block Total Price Order
+
+
+                                ///// Block Total Price Delivery
+                                .total-price-delivery {
+                                    position: relative;
+                                    bottom: 18px;
+
+
+                                    .total-price-text {
+                                        font-family: Montserrat;
+                                        font-style: normal;
+                                        font-weight: 500;
+                                        font-size: 20px;
+                                        color: #000000;
+                                    }
+
+                                    .total-price {
+                                        .price {
+                                            font-family: Montserrat;
+                                            font-style: normal;
+                                            font-weight: 500;
+                                            font-size: 20px;
+                                            color: #000000;
+                                        }
+
+                                        .ruble {
+                                            font-family: "Als Rubl";
+                                            font-style: normal;
+                                            font-weight: 500;
+                                            font-size: 20px;
+                                            color: #000000;
+                                        }
+
+                                    }
+                                }
+
+                                ///// End Block Total Price Delivery
+
+
+                            }
+
+                            ////////// End Block Total Price
+
+
+                            /////////// Button Form Order
+                            .button-form-order {
+                                margin-top: 39px;
+                                margin-right: 35px;
+                                font-family: Montserrat;
+                                font-style: normal;
+                                font-weight: 800;
+                                float: right;
+                                font-size: 16px;
+                                text-align: center;
+                                text-transform: uppercase;
+                                color: #FFFFFF;
+                                width: 249px;
+                                height: 63px;
+                                line-height: 63px;
+                                background: #F38000;
+                                border: none;
+                                outline: none;
+                                border-radius: 5px;
+                                box-shadow: 0px 10px 28.5px rgba(84, 89, 97, 0.29);
+
+                                &:disabled{
+                                    opacity: 0.6;
+                                }
+                            }
+
+                            /////////// End Button Form Order
+
+                        }
+
+                        ///////////////// End Wrapper Box Total Price Order
+
+                    }
+
+                    /////////////////////////// End Row Box Text Order
+                }
+                //////////////////////////// END FORM ORDER
+
+
+            }
+            /////////////// END CONTAINER FORM ORDER
+        }
+
+    }
+
+

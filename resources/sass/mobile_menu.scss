@@ -1,0 +1,354 @@
+
+.bt-mmenu {
+    background: #000000;
+    font-size: 16px;
+    margin-left: 0px;
+    margin-right: 0px;
+    font-weight: bold;
+    color: #fff;
+    line-height: 40px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    height: 50px;
+    padding: 0 0px;
+    position: fixed;
+    bottom: 0px;
+    z-index: 9;
+
+
+    //.item-mmenu.item-mmenu-mburger {
+    //
+    //    .link-item-mmenu {
+    //        color: #FFFFFF;
+    //        bottom: 10px;
+    //        left: 16px;
+    //
+    //        b {
+    //
+    //
+    //            width: 25px;
+    //
+    //
+    //        }
+    //    }
+    //
+    //    .text-burger {
+    //        font-family: Montserrat;
+    //        font-style: normal;
+    //        font-weight: 500;
+    //        font-size: 9px;
+    //        line-height: 12px;
+    //        color: #FFFFFF;
+    //        position: absolute;
+    //        top: 34px;
+    //        width: max-content;
+    //        left: 42px;
+    //
+    //    }
+    //
+    //
+    //}
+
+
+
+    .link-bt {
+        display: inline-block;
+        position: relative;
+        width: 50px;
+        height: 50px;
+        text-decoration: none;
+
+        &:hover {
+            text-decoration: none;
+        }
+
+    }
+
+    .link-bt-menu {
+        left: -12px;
+        top: -5px;
+
+        span {
+
+        }
+
+        background: url('/img/tpl_img/mobile/icons_mobile_menu/menu.png') center center no-repeat;
+
+        .text-bt {
+            display: block;
+            position: absolute;
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 6px;
+            line-height: 11px;
+            text-align: center;
+            text-transform: uppercase;
+            color: #FFFFFF;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            margin: auto;
+        }
+
+    }
+
+
+    .link-bt-phone {
+        background: url('/img/tpl_img/mobile/icons_mobile_menu/icon_mmenu_phone.png') center center no-repeat;
+        position: relative;
+        right: 2px;
+        top: -5px;
+
+        .text-bt {
+            display: block;
+            position: absolute;
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 6px;
+            line-height: 11px;
+            text-align: center;
+            text-transform: uppercase;
+            color: #FFFFFF;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            margin: auto;
+        }
+    }
+
+    .link-bt-address {
+        background: url('/img/tpl_img/mobile/icons_mobile_menu/icon_mmenu_address.png') center center no-repeat;
+        right: 0px;
+        top: -5px;
+
+        .text-bt {
+            display: block;
+            position: absolute;
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 6px;
+            line-height: 11px;
+            text-align: center;
+            text-transform: uppercase;
+            color: #FFFFFF;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            margin: auto;
+        }
+    }
+
+    .link-bt-cart {
+        background: url('/img/tpl_img/mobile/icons_mobile_menu/icon_mmenu_cart.png') center center no-repeat;
+        right: 0px;
+        top: -5px;
+
+        .total-product {
+            display: block;
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 8px;
+            position: absolute;
+            margin: auto;
+            top: -6px;
+            right: 0;
+            left: 2px;
+            bottom: 0;
+            text-align: center;
+            text-transform: uppercase;
+            color: #FFFFFF;
+            width: 20px;
+            height: 20px;
+            line-height: 20px;
+            border-radius: 20px;
+            background: #F38000;
+        }
+
+        .text-bt {
+            display: block;
+            position: absolute;
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 6px;
+            line-height: 11px;
+            text-align: center;
+            text-transform: uppercase;
+            color: #FFFFFF;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            margin: auto;
+        }
+    }
+
+}
+
+
+/*************** BLOCK MOBILE MENU ****************/
+
+.mm-menu {
+
+
+}
+
+.mm-menu.mobile-menu {
+
+    --mm-offset-top: 0px;
+    --mm-offset-bottom: 50px;
+
+
+    .mm-navbars_bottom {
+        border: none;
+        flex-shrink: initial;
+    }
+
+    .mm-panels {
+        --mm-color-background: #000000;
+        border: none;
+        /*            background: #151515;*/
+    }
+
+    .mm-panel {
+        --mm-color-background: #000000;
+    }
+
+    .mm-navbar > * {
+        display: block;
+        align-items: flex-start;
+        justify-content: left;
+        border: none;
+        box-shadow: none;
+        min-height: initial;
+    }
+
+    .mm-navbar {
+
+        &:last-child{
+        padding-bottom: 40px;
+    }
+
+        --mm-navbar-size: initial;
+        --mm-color-background: #000000;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 18px !important;
+        display: block;
+
+        &:not(:first-child) {
+
+        }
+
+        .list-social-icon {
+            text-align: left;
+
+            .item-link {
+                padding: 0px;
+
+                &:not(:first-child) {
+                    margin-left: 10px;
+                }
+
+            }
+        }
+
+        .link-menu-phone {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 800;
+            font-size: 12px;
+            line-height: 15px;
+            color: #FFFFFF;
+            text-align: left;
+        }
+
+        .link-menu-cart {
+            font-family: 'Montserrat Bold';
+            font-style: normal;
+            font-weight: bold;
+            font-size: 12px;
+            line-height: 15px;
+            color: #FFFFFF;
+            text-align: left;
+        }
+
+
+        .block-menu-address {
+            text-align: left;
+            padding: 0px;
+
+            .header-address-top {
+
+            }
+
+            .header-address-bottom {
+                margin-top: 0px;
+            }
+
+            .header-address {
+                margin-top: 0px;
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 10px;
+                line-height: 12px;
+                color: #FFFFFF;
+            }
+
+            .link-address {
+                margin-top: 5px;
+                display: block;
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 10px;
+                line-height: 12px;
+                color: #FFFFFF;
+            }
+
+            .link-address-top {
+
+            }
+
+            .link-address-bottom {
+
+            }
+
+        }
+
+
+        .block-menu-address-top {
+
+        }
+
+        .block-menu-address-bottom {
+
+        }
+
+    }
+
+    .mm-listitem {
+        &:after {
+            display: none;
+        }
+
+        .mm-listitem__text {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 12px;
+            text-transform: uppercase;
+            color: #FFFFFF;
+        }
+
+    }
+
+
+}
+
+/*************** END BLOCK MOBILE MENU ****************/

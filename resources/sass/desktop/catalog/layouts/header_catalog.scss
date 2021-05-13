@@ -1,0 +1,117 @@
+.header.header-mini.header-catalog {
+    background: url('/img/tpl_img/bg_header_catalog.png') center center no-repeat;
+    background-size: cover;
+    height: 278px;
+    position: relative;
+
+
+    .header-leftblock {
+        position: relative;
+
+        &:after {
+            position: absolute;
+            display: block;
+            content: "";
+            background: #606878;
+            mix-blend-mode: normal;
+            opacity: 0.5;
+            width: 100%;
+            height: 1px;
+            bottom: -22px;
+        }
+
+        .block-list-social-icon {
+
+
+
+
+
+        }
+    }
+
+
+    ///// Header Logo
+    .header-block-logo {
+        right: -20px;
+        padding-top: 10px;
+
+        .link-logo {
+
+            .img-logo {
+
+            }
+
+
+        }
+
+        &:after {
+            display: none;
+        }
+    }
+
+    ///// End Header Logo
+
+
+    ////////// Row Shop Menu
+    .row-shop-menu {
+        margin-top: 10px;
+        padding-left: 5px;
+        position: relative;
+
+
+        &:after{
+            content: "";
+            display: block;
+            position: absolute;
+            background: url(/img/tpl_img/header_star.png) no-repeat;
+            width: 217px;
+            height: 24px;
+            margin: auto;
+            right: 0;
+            left: 0;
+            bottom: -29px;
+        }
+
+        /////////// BOX SHOP MENU
+        .wrapper-box-shop-menu {
+
+            .box-shop-menu {
+                margin-top: 0px;
+                @import "menu_shop";
+            }
+        }
+
+        /////////// END BOX SHOP MENU
+
+
+
+    }
+
+    ////////// End Row Shop Menu
+
+    /////// Header Shop Menu
+
+
+    .container-header-shop-menu {
+        position: absolute;
+        bottom: 0px;
+        background: #F38000;
+
+
+        .block-header-shop-menu {
+            height: 42px;
+            @import "menu_shop_catalog";
+        }
+    }
+    .container-header-shop-menu.vue-fixed-header--isFixed {
+        position: fixed;
+        left: 0;
+        top: 0;
+        bottom: initial;
+        padding-left: 0px;
+        z-index: 1000;
+        width: 100vw;
+    }
+    /////// End Header Shop Menu
+
+}

@@ -1,0 +1,55 @@
+//////////////////////// Block Spare Parts Order
+.block-shop-spare-parts-order {
+    margin-top: 38px;
+    background: url(/img/tpl_img/mobile/shop/bg_parts_order_mobile.png) center center no-repeat;
+    height: 498px;
+    background-size: cover;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 30px;
+
+    .container {
+        padding-left: 0px;
+        padding-right: 0px;
+        .row{
+            margin-left: 0px;
+            margin-right: 0px;
+        }
+    }
+
+    /////// Left Block Spare Parts
+    .left-block-spare-parts {
+        padding-top: 0px;
+
+        .title-left-block-spare-parts {
+            text-align: center;
+            font-size: 30px;
+            line-height: 31px;
+        }
+
+        .text-block-spare-parts {
+            font-size: 11px;
+            line-height: 13px;
+            text-align: center;
+            margin-top: 20px;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+    }
+
+    /////// End Left Block Spare Parts
+
+
+    /////// Right Block Spare Parts
+    .right-block-spare-parts {
+        padding-top: 0px;
+
+        @import "form_order_sparts";
+    }
+
+    /////// End Right Block Spare Parts
+
+}
+
+//////////////////////// End Block Spare Parts Order

@@ -1,0 +1,53 @@
+///////////////////////////////// ALL PAGES STYLES DEFAULTS
+.block-view-page{
+    padding-top: 22px;
+    padding-left: 0px;
+    margin-top: 0px;
+    padding-bottom: 70px;
+
+    .header-block-view-page{
+        h1{
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 800;
+            font-size: 20px;
+            line-height: 24px;
+            color: #000000;
+            &:after{
+                background: url('/img/tpl_img/mobile/header_star_mini.png') no-repeat;
+                width: 16px;
+                height: 14px;
+                top: 5px;
+                right: -17px;
+            }
+        }
+    }
+
+    /// DESCRIPTION PAGE
+    .description-page{
+        margin-top: 18px;
+        p{
+            font-family: Open Sans;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 10px;
+            line-height: 14px;
+            color: #141414;
+        }
+
+
+    }
+    /// END DESCRIPTION PAGE
+
+    @import 'page_mobile_mototekhnika.scss';
+    @import 'page_mobile_kvadrotsikli.scss';
+    @import 'page_mobile_evakuatsiya.scss';
+    @import 'page_mobile_snegokhodi.scss';
+    @import 'page_mobile_zimnee_khranenie.scss';
+    @import 'page_mobile_zapaks.scss';
+    @import 'page_mobile_contacts.scss';
+    @import 'page_mobile_our_work.scss';
+    @import 'page_tarifi';
+
+}
+///////////////////////////////// END ALL PAGES STYLE

@@ -1,0 +1,22 @@
+@media (max-width: 576px) {
+    /************************* INNER PAGES DEFAULTS **********************/
+    .wrapper-inner-page{
+        background: url('/img/tpl_img/bg_modile_page.png');
+    }
+    /************************* END INNER PAGES DEFAULTS **********************/
+
+
+    @import 'layouts/header_mini';
+    @import 'layouts/header_catalog';
+    @import 'layouts/header';
+    @import 'layouts/block_services';
+    @import 'layouts/block_company';
+    @import 'layouts/block_hd';
+    @import 'layouts/block_our_work';
+    @import 'layouts/block_shop_catalogs';
+    @import 'layouts/block_motoschool';
+
+
+
+
+}

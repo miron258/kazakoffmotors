@@ -1,0 +1,256 @@
+//////////////////////////////////////////////////////////////// СТРАНИЦА ЗИМНЕЕ ХРАНЕНИЕ
+.description-page.description-page-zimneekhranenie {
+    margin-top: 18px;
+    margin-left: 0px;
+    p{
+        margin-bottom: 10px;
+    }
+
+
+    .link-phone{
+        display: none;
+    }
+
+}
+
+/////HTML PAGE ЗИМНЕЕ ХРАНЕНИЕ
+.html-page.html-page-zimneekhranenie {
+    padding-bottom: 0px;
+
+    ///////////////// BOX LIST CHECK SERVICES
+    .boxs-list-check-services{
+        margin-top: 0px;
+        .list-check-services.list-check-services-right{
+            margin-left: 0px;
+            padding-left: 0px;
+        }
+
+
+        .list-check-services.list-check-services-left{
+            margin-left: 0px;
+            padding-left: 0px;
+            margin-bottom: 0px;
+        }
+
+        .list-check-services{
+
+            /// ITEM CHECK SERVICES
+            .item-check-services{
+                font-family: Open Sans;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 10px;
+                line-height: 19px;
+                .icon-check{
+                    font-size: 10px;
+                }
+
+            }
+            /// END ITEM CHECK SERVICES
+
+
+        }
+
+    }
+    ///////////////// END BOX LIST CHECK SERVICES
+
+
+
+
+    //////////////// html page bottom text
+    .html-page-bottom-text{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 10px;
+        line-height: 14px;
+        text-align: center;
+        letter-spacing: -0.21px;
+        color: #141414;
+        margin-top: 20px;
+    }
+    //////////////// end html page bottom text
+
+
+
+    /////// BLOCK BOXS ZIMNEE KHRANENIE
+    .block-boxs-zimneekhranenie{
+        margin-top: 4px;
+
+
+        ////////////// BOX LIST IMAGES
+        .box-list-img{
+            margin-top: 40px;
+
+            .item-img{
+
+            }
+
+
+        }
+        ////////////// END BOX LIST IMAGES
+
+
+        ////////////// list box zimneekhranenie
+        .box-zimneekhranenie.box-zimneekhranenie2{
+            margin-top: 22px;
+        }
+        .box-zimneekhranenie.box-zimneekhranenie3{
+            margin-top: 22px;
+
+
+        }
+        ////////////// end list box zimneekhranenie
+
+
+
+
+        /////// BOX ZIMNEE
+        .box-zimneekhranenie{
+
+            &:first-child{
+                margin-top: 0px;
+            }
+
+            &:not(:first-child){
+
+            }
+
+
+            ////////icons box item
+            .icon-box-item{
+                bottom: 0px;
+                top: 0px;
+                left: 0px;
+
+            }
+            .icon-box-item.icon-box-item2{
+                bottom: -10px;
+                left: -2px;
+            }
+            .icon-box-item.icon-box-item3{
+
+            }
+            ////////end icons box item
+
+
+
+
+            //////// name box item
+            .name-box-item{
+                margin-left: 0px;
+                position: relative;
+                right: 2px;
+                width: 200px;
+
+                //////// LIST TYPE BIKES
+                .list-type-bike{
+                    padding-left: 5px;
+                    margin-top: 3px;
+
+
+                    // item type bike
+                    .item-type-bike{
+                        font-family: Open Sans;
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 10px;
+                        line-height: 14px;
+                        color: #141414;
+
+                        &:before{
+                            width: 2px;
+                            height: 2px;
+                            border-radius: 2px;
+                            left: -4px;
+                            top: 7px;
+                        }
+
+                        &:not(:first-child){
+
+
+                        }
+
+                    }
+                    // end item type bike
+
+
+
+                }
+                //////// END LIST TYPE BIKES
+
+
+
+                .header-name{
+                    font-family: Open Sans;
+                    font-style: normal;
+                    font-weight: 800;
+                    font-size: 16px;
+                    color: #141414;
+                    line-height: 16px;
+                }
+
+                .desc-name.desc-name-mini{
+                    font-family: Open Sans;
+                    font-style: italic;
+                    font-weight: 400;
+                    font-size: 10px;
+                    line-height: 14px;
+                    color: #141414;
+                }
+
+                .desc-name{
+
+                    position: relative;
+                    bottom: 0px;
+                }
+
+            }
+            //////// end name box item
+
+
+            //////////// price box item
+            .price-box-item{
+                left: 8px;
+                margin-top: -5px;
+                width: 90px;
+
+
+
+                .item-price{
+
+                    &:not(:first-child){
+                        margin-top: -4px;
+                    }
+
+                    .price{
+                        font-family: Open Sans;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 10px;
+                        color: #141414;
+                    }
+
+                    .rubl{
+                        font-size: 10px;
+                    }
+
+                }
+
+            } 
+            //////////// end  price box item
+
+
+
+        }
+        /////// END BOX ZIMNEE
+
+
+
+
+    }
+
+}
+/////КОНЕЦ HTML PAGE ЗИМНЕЕ ХРАНЕНИЕ
+
+////////////////////////////////////////////////////////////////////////// КОНЕЦ СТРАНИЦА ЗИМНЕЕ ХРАНЕНИЕ

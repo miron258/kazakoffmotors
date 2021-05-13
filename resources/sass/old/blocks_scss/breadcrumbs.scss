@@ -1,0 +1,46 @@
+/*************************** BLOCK BREADCRUMBS *************************/
+.block-breadcrumbs {
+
+    .breadcrumb {
+        background: none !important;
+        border-radius: 0px !important;
+        padding-left: 0px !important;
+        padding-top: 5px !important;
+        margin-bottom: 0px;
+        //Breadcrumb Item Active
+        .breadcrumb-item.active {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 200;
+            font-size: 12px;
+            line-height: 15px;
+            color: #141414;
+
+            &:before {
+
+            }
+        }
+
+        //Breadcrumb Item
+        .breadcrumb-item {
+            a {
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: 200;
+                font-size: 12px;
+                line-height: 15px;
+                color: #000000;
+
+                &:before {
+
+                }
+
+            }
+        }
+
+    }
+
+
+}
+
+/*************************** END BLOCK BREADCRUMBS *************************/

@@ -1,0 +1,7 @@
+@import "desktop/form_order/form_order";
+//@media (max-width: 1069px) {
+//    //@import "tablet/catalog/catalog_tablet";
+//}
+@media (max-width: 576px) {
+    @import "mobile/form_order/form_order_mobile";
+}

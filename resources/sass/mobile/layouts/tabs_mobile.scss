@@ -1,0 +1,111 @@
+.tabs-component {
+
+    /////////// Tabs Component Tabs
+    .tabs-component-tabs {
+        list-style: none;
+        padding-left: 0px;
+
+        .tabs-component-tab {
+            display: inline-block;
+
+            ///// Link Tab
+            .tabs-component-tab-a {
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 10px;
+                text-transform: uppercase;
+                padding: 3px 15px 3px 15px;
+                color: #615C59;
+                text-decoration: none;
+                display: block;
+
+                &:hover {
+                    background: #F38000;
+                    border-radius: 5px;
+                    color: #fff;
+                    text-decoration: none;
+                }
+
+            }
+
+            ///// End Link Tab
+
+
+            &:not(:first-child) {
+                margin-left: 5px;
+            }
+
+        }
+
+        .tabs-component-tab.is-active {
+            background: #F38000;
+            border-radius: 5px;
+
+            .tabs-component-tab-a {
+                color: #fff;
+            }
+        }
+    }
+
+    /////////// End Tabs Component Tabs
+
+
+    /////////// Tabs Component Panel
+    .tabs-component-panel {
+        padding-top: 36px;
+        position: relative;
+        .row{
+            display: flex;
+            //align-items: center;
+            min-height: initial;
+        }
+
+        &:before {
+            content: "";
+            position: absolute;
+            display: block;
+            height: 1px;
+            width: 100%;
+            background: #000000;
+            top: 22px;
+        }
+
+        &:after {
+            content: "";
+            position: absolute;
+            display: block;
+            height: 1px;
+            width: 100%;
+            background: #000000;
+            bottom: -15px;
+        }
+
+        p {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 17px;
+            color: #000000;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        * {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 17px;
+            color: #000000;
+        }
+
+
+    }
+
+    /////////// End Tabs Component Panel
+
+}

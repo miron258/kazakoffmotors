@@ -1,0 +1,174 @@
+/////////// BOX SEARCH CATALOG
+.wrapper-box-search-catalog {
+    margin-top: 5px;
+    .box-search-catalog {
+        position: relative;
+
+        //// form search catalog
+        .form-search-catalog.loading {
+            &:after {
+                position: absolute;
+                content: "";
+                margin: auto;
+                left: 0;
+                top: 0;
+                bottom: 0;
+                right: 0;
+                display: block;
+                width: 32px;
+                height: 32px;
+                background: url('/img/tpl_img/ajax-loader.gif') no-repeat;
+            }
+        }
+
+        .form-search-catalog {
+            border: 1px solid #F38000;
+            box-sizing: border-box;
+            position: relative;
+            margin-bottom: 0px;
+
+            /////////// Close Search
+            .close-search.close-search-visible{
+                display: block;
+            }
+            .close-search {
+                position: absolute;
+                border: none;
+                display: none;
+                outline: none;
+                background: url(/img/tpl_img/icon_close_panel_cart.png) no-repeat;
+                width: 21px;
+                height: 21px;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: -80px;
+                margin: auto;
+                text-decoration: none;
+
+                &:hover{
+                    text-decoration: none;
+                }
+            }
+            /////////// End Close Search
+
+
+            .field-input-search {
+                background: #DADADA;
+                padding-left: 8px;
+                font-family: Montserrat;
+                font-style: normal;
+                height: 40px;
+                width: 310px;
+                border: none;
+                outline: none;
+                box-shadow: none;
+                font-weight: normal;
+                font-size: 16px;
+                letter-spacing: -0.025em;
+                color: #292929;
+            }
+
+            .button-search {
+                border: none;
+                outline: none;
+                height: 40px;
+                width: 182px;
+
+                background: url('/img/tpl_img/icon_search.png') 30% 50% #F38000 no-repeat;
+
+                .text-button-search {
+                    font-family: Montserrat;
+                    font-style: normal;
+                    font-weight: 800;
+                    font-size: 14px;
+                    text-transform: uppercase;
+                    letter-spacing: -0.21px;
+                    color: #FFFFFF;
+                    position: relative;
+                    left: 20px;
+                }
+            }
+
+
+        }
+
+        //// end form search catalog
+
+
+        //////////// Live Search Results
+        .live-search-results {
+            position: absolute;
+            z-index: 100;
+            border-bottom: 1px solid #F38000;
+            border-left: 1px solid #F38000;
+            border-right: 1px solid #F38000;
+            width: 100%;
+            height: auto;
+            max-height: 200px;
+            margin: auto;
+            background: rgba(255, 255, 255, 1);
+
+            .row-search-products {
+                //background: rgba(255, 255, 255, 0.96);
+                border-bottom: 1px solid #DEDEDE;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-left: 0px;
+
+                &:hover {
+                    background: #DADADA;
+                }
+
+                //////// Box Search Product
+                .box-search-product {
+
+                    .block-img-product{
+
+                        .link-img-product{
+
+                            text-decoration: none;
+
+                            &:hover{
+                                text-decoration: none;
+                            }
+
+                            .img-product{
+
+                            }
+                        }
+
+                    }
+
+                    .link-product.padding-product{
+                        padding-left: 10px;
+                    }
+
+                    .link-product {
+                        font-family: Montserrat;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 16px;
+                        color: #757575;
+                        text-decoration: none;
+                       padding-left: 0px;
+
+                        &:hover {
+                            text-decoration: none;
+                        }
+                    }
+                }
+
+                //////// End Box Search Product
+            }
+
+        }
+
+        //////////// End Live Search Results
+
+
+    }
+}
+
+/////////// END BOX SEARCH CATALOG
+

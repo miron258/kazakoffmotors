@@ -1,0 +1,183 @@
+///////// Description Page
+.description-page.description-page-tariffs {
+    margin-top: 38px;
+
+    .subtitle {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 24px;
+        text-align: center;
+        text-transform: uppercase;
+        margin: 0 auto;
+    }
+
+    .help-block {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        margin: 0 auto;
+        margin-top: 23px;
+        text-align: center;
+        color: #141414;
+    }
+
+
+    ////// Table Tariffs
+    .table-tariffs.table-repair {
+
+
+    }
+
+    .wrapper-table.wrapper-table-repair {
+        margin-top: 10px;
+    }
+    .wrapper-table.wrapper-table-washing {
+        margin-top: 43px;
+    }
+    .wrapper-table.wrapper-table-storage {
+        margin-top: 43px;
+    }
+
+    .wrapper-table {
+
+        ////// Header table
+        .header-table {
+            position: relative;
+            background: #F38000;
+            padding: 18px 20px 10px 38px;
+
+            h3 {
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: 800;
+                font-size: 24px;
+                text-transform: uppercase;
+                color: #FFFFFF;
+            }
+
+            .link-toggle {
+                position: absolute;
+                right: 20px;
+                top: 30px;
+                display: block;
+                background: url('/img/tpl_img/aarrow_toggle_open.png') no-repeat;
+                width: 24px;
+                height: 15px;
+                text-decoration: none;
+
+                &:hover {
+                    text-decoration: none;
+                }
+            }
+        }
+
+        ////// End Header table
+
+
+        ///// Table Tariffs
+        .table-tariffs {
+
+
+            ////// Thead
+            .thead {
+                background: #fff;
+
+                /// Thead TR
+                .thead-tr {
+
+                    th {
+                        font-family: Montserrat;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 18px;
+                        text-align: center;
+                        text-transform: uppercase;
+                        color: #000000;
+                        border: none;
+                    }
+
+                    .ruble {
+                        font-family: "Als Rubl";
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 18px;
+                        color: #000000;
+                        text-transform: initial;
+                    }
+
+                    th:nth-child(1) {
+                        border-right: 1px solid #757575;
+                    }
+
+                    th:nth-child(2) {
+                        border-right: 1px solid #757575;
+                    }
+
+                    th:nth-child(3) {
+
+                    }
+
+                }
+
+                /// End Thead TR
+
+            }
+
+
+            /////// Tbody
+            .tbody {
+
+                tr:nth-child(odd) {
+                    background: #C4C4C4;
+                }
+
+                tr:nth-child(even) {
+                    background: #fff;
+
+                }
+
+                //// Tbody TR
+                .tbody-tr {
+
+                    td {
+                        font-family: Montserrat;
+                        font-style: normal;
+                        font-size: 16px;
+                        border: none;
+                        line-height: 18px;
+                    }
+
+                    td:nth-child(1) {
+                        font-weight: normal;
+                        border-right: 1px solid #757575;
+                    }
+
+                    td:nth-child(2) {
+                        font-weight: 600;
+                        border-right: 1px solid #757575;
+                    }
+
+                    td:nth-child(3) {
+                        font-weight: normal;
+                    }
+
+                }
+
+                //// End Tbody TR
+
+            }
+
+
+        }
+
+        ///// End Table Tariffs
+
+    }
+
+    ////// End Table Tarifi
+
+
+}

@@ -1,0 +1,165 @@
+.menu-shop-catalog {
+    position: absolute;
+    top: 42px;
+    width: 100%;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    height: max-content;
+    background: #F38000;
+    z-index: 100;
+    padding-left: 40px;
+    padding-bottom: 10px;
+    ////////// Dropdown Menu
+    .item-menu-shop-catalog.dropdown.show {
+
+
+        .link-item-menu-shop-catalog {
+
+
+            &:after {
+
+            }
+        }
+    }
+
+    .item-menu-shop-catalog.dropdown {
+        &:hover {
+
+        }
+
+        .link-item-menu-shop-catalog {
+
+
+            &:hover {
+
+            }
+
+            &:after {
+
+            }
+        }
+
+
+        ////// Раскрытое выпадающее меню
+        .sub-menu.dropdown-menu.mega-menu.show {
+            position: static;
+            float: none;
+            padding: 0px;
+        }
+
+        ////// Конец Раскрытое выпадающее меню
+
+        .sub-menu.dropdown-menu.mega-menu {
+            box-shadow: none;
+            background: none;
+
+            &:before {
+                display: none;
+            }
+
+            ////////// Mega Menu Column
+            .mega-menu-column {
+
+
+                ////// List Items Column Menu
+                .list-items-column-menu {
+
+                    ////// Item Menu Shop Catalog
+                    .item-menu-shop-catalog {
+
+
+                        &:not(:first-child) {
+                            margin-left: 0px;
+                        }
+
+                        .link-item-menu-shop-catalog {
+                            color: #fff;
+
+                            &:hover {
+
+                            }
+
+                        }
+                    }
+
+                    ////// End Item Menu Shop Catalog
+
+                }
+
+                ////// End List Items Column Menu
+
+
+            }
+
+            ////////// End Mega Menu Column
+
+
+        }
+
+    }
+
+
+    ////////// End Dropdown Menu
+
+
+
+        .item-menu-shop-catalog {
+            display: block;
+            height: initial;
+            line-height: 30px;
+            position: relative;
+            width: max-content;
+
+
+            &:not(:first-child) {
+                margin-left: 0px;
+            }
+
+            .wrapper-link {
+                position: relative;
+                display: block;
+                width: max-content;
+                .link-item-menu-shop-catalog {
+                    position: relative;
+
+
+                    &:hover {
+
+                    }
+                }
+
+
+
+                .arrow-menu-catalog {
+                    width: 35px;
+                    outline: none;
+                    border: none;
+                    box-shadow: none;
+                    height: 20px;
+                    margin: auto;
+                    bottom: 0;
+                    top: 10px;
+                    right: -50px;
+                    position: absolute;
+                    content: "";
+                    background: url(/img/tpl_img/arrow_menu_open.png) no-repeat;
+
+                    &:after {
+                        display: none;
+                    }
+                }
+
+                .arrow-menu-catalog.collapsed {
+
+                    background: url(/img/tpl_img/arrow_menu_close.png) no-repeat;
+
+                }
+
+            }
+
+
+        }
+
+
+}

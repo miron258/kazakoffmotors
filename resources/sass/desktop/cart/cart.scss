@@ -1,0 +1,435 @@
+/////// Breadcrumbs Cart
+.wrapper-inner-cart {
+    background: url('/img/tpl_img/bg_page.png');
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 30px;
+
+
+}
+
+/////// End Breadcrumbs Catalog
+
+
+.cart {
+
+    ///// Header h1 Cart
+    .title-cart {
+
+
+        h1 {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 800;
+            font-size: 40px;
+            text-transform: uppercase;
+            color: #141414;
+            width: max-content;
+            position: relative;
+
+            &:after {
+                content: "";
+                display: block;
+                position: absolute;
+                background: url('/img/tpl_img/icon_head_shop_star.png') no-repeat;
+                width: 23px;
+                height: 21px;
+                right: -30px;
+                top: 13px;
+            }
+        }
+
+
+    }
+
+    ///// End Header h1 Cart
+
+    //////// Link Back Return
+    .link-back-return {
+        margin-top: 27px;
+        padding-left: 71px;
+        position: relative;
+        text-decoration: none;
+        display: block;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        text-transform: uppercase;
+        color: #000000;
+        background: #DADADA;
+        height: 42px;
+        width: 100%;
+        line-height: 42px;
+
+        &:before {
+            content: "";
+            display: block;
+            position: absolute;
+            margin: auto;
+            bottom: 0;
+            top: 0;
+            left: 37px;
+            width: 19px;
+            height: 16px;
+            background: url('/img/tpl_img/icon_arrow_return.png') no-repeat;
+        }
+
+        &:hover {
+            text-decoration: none;
+        }
+
+    }
+
+    //////// End Link Back Return
+
+    .wrapper-cart-row {
+
+
+        ///////////////// Column List Products In Cart
+        .column-list-products-in-cart {
+            @import "layouts/block_cart";
+
+
+            .block-cart {
+                margin-top: 28px;
+
+                /////// Row Product
+                .row-product {
+
+                    &:not(:last-child):after {
+                        width: 100%;
+                        left: 15px;
+                    }
+
+                    .box-info-product {
+                        margin-left: -16px;
+
+                        .block-features-product {
+                            margin-top: 25px
+                        }
+                    }
+
+                    &:first-child {
+
+                    }
+
+                    &:last-child {
+                        &:after {
+                            display: none;
+                        }
+                    }
+
+                }
+
+                /////// End Row Product
+
+
+            }
+
+        }
+
+        ///////////////// End Column List Products In Cart
+
+
+        //////////////////// Column Order
+        .column-order {
+            margin-top: 75px;
+
+            .box-order {
+                background: #DADADA;
+                width: 457px;
+                float: right;
+                padding-top: 28px;
+                padding-bottom: 30px;
+                padding-left: 54px;
+                padding-right: 54px;
+
+                .title-box-order {
+                    font-family: Montserrat;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 30px;
+                    color: #000000;
+                    text-align: center;
+                }
+
+
+                /////////// Block Total Sum
+                .block-order-total-sum {
+                    position: relative;
+                    margin-top: 82px;
+
+                    &:before {
+                        content: "";
+                        display: block;
+                        position: absolute;
+                        height: 1px;
+                        width: 100%;
+                        background: #000000;
+                        top: -28px;
+                    }
+
+                    &:after {
+                        content: "";
+                        display: block;
+                        position: absolute;
+                        height: 1px;
+                        width: 100%;
+                        background: #000000;
+                        bottom: -28px;
+                    }
+
+                    .text-total-sum {
+                        font-family: Montserrat;
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 16px;
+                        color: #000000;
+                    }
+
+
+                    /////// Block Price
+                    .block-price {
+                        float: right;
+
+                        .price {
+                            font-family: Montserrat;
+                            font-style: normal;
+                            font-weight: 300;
+                            font-size: 16px;
+                            color: #000000;
+                        }
+
+                        .ruble {
+                            font-family: "Als Rubl";
+                            font-style: normal;
+                            font-weight: 300;
+                            font-size: 16px;
+                            color: #000000;
+                        }
+
+
+                    }
+
+                    /////// End Block Price
+
+
+                }
+
+                /////////// End Block Total Sum
+
+
+                //////////////// Block Payment Methods
+                .block-order-payment-method {
+                    text-align: center;
+                    margin-top: 47px;
+
+                    .title-payment-method {
+                        font-family: Montserrat;
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 16px;
+                        color: #000000;
+                    }
+
+                    .list-payment-methods {
+                        list-style: none;
+                        padding-left: 0px;
+                        margin-top: 21px;
+
+                        .item-payment-method {
+                            display: inline-block;
+
+                            &:not(:first-child) {
+                                margin-left: 30px;
+                            }
+
+                            .img-payment-method {
+
+                            }
+                        }
+
+                    }
+
+
+                }
+
+                //////////////// End Block Payment Methods
+
+
+                .link-form-order {
+                    width: 249px;
+                    height: 63px;
+                    line-height: 63px;
+                    font-family: Montserrat;
+                    font-style: normal;
+                    font-weight: 800;
+                    font-size: 16px;
+                    text-align: center;
+                    margin: 0 auto;
+                    margin-top: 43px;
+                    text-transform: uppercase;
+                    color: #FFFFFF;
+                    display: block;
+                    background: #F38000;
+                    box-shadow: 0px 10px 28.5px rgba(84, 89, 97, 0.29);
+                    border-radius: 5px;
+
+                    &:hover {
+                        text-decoration: none;
+                    }
+
+                    text-decoration: none;
+                }
+
+                ///////////////////////// Block Order Contacts
+                .block-order-contacts {
+                    margin-top: 45px;
+
+                    .title-block-order-contacts.open-contacts {
+
+
+                        &:after {
+                            content: "";
+                            display: block;
+                            position: absolute;
+                            background: url('/img/tpl_img/arrow_order_open.png') no-repeat;
+                            width: 12px;
+                            height: 8px;
+                            right: -18px;
+                            top: 9px;
+                        }
+
+
+                    }
+
+                    .title-block-order-contacts.close-contacts {
+
+
+                        &:after {
+                            content: "";
+                            display: block;
+                            position: absolute;
+
+                        }
+                    }
+
+                    .title-block-order-contacts {
+                        position: relative;
+                        font-family: Montserrat;
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 16px;
+                        text-align: center;
+                        color: #000000;
+                        width: max-content;
+                        margin: 0 auto;
+                    }
+
+
+                    /////////////// Box Feedback
+                    .box-feedback {
+                        margin-top: 10px;
+
+                        .title-box-feedback {
+                            font-family: Montserrat;
+                            font-style: normal;
+                            font-weight: normal;
+                            font-size: 16px;
+                            text-align: center;
+                            color: #000000;
+                        }
+
+                        .link-phone-feedback {
+                            font-family: Montserrat;
+                            font-style: normal;
+                            font-weight: 300;
+                            font-size: 16px;
+                            text-align: center;
+                            color: #000000;
+                            line-height: 20px;
+                            display: block;
+                            text-decoration: none;
+
+                            &:hover {
+                                text-decoration: none;
+                            }
+                        }
+
+
+                        .link-email-feedback {
+                            font-family: Montserrat;
+                            font-style: normal;
+                            font-weight: 300;
+                            font-size: 16px;
+                            text-align: center;
+                            color: #000000;
+                            display: block;
+                            text-decoration: none;
+                            line-height: 20px;
+
+                            &:hover {
+                                text-decoration: none;
+                            }
+                        }
+
+                        .block-time-work {
+                            font-family: Montserrat;
+                            font-style: normal;
+                            font-weight: 300;
+                            font-size: 16px;
+                            text-align: center;
+                            color: #000000;
+                            line-height: 20px;
+
+
+                            .num-minutes.num-minutes-first {
+
+                            }
+
+                            .num-minutes.num-minutes-last {
+
+                            }
+
+                            .num-minutes {
+
+                            }
+
+
+                        }
+                    }
+
+                    /////////////// Box Feedback
+
+                }
+
+                ///////////////////////// End Block Order Contacts
+
+
+            }
+
+        }
+
+        //////////////////// End Column Order
+
+    }
+
+
+    /////////////// List Products
+    @import "../product/layouts/list_products";
+
+
+    .block-list-products {
+
+        margin-top: 113px;
+        padding-bottom: 100px;
+    }
+
+    /////////////// End List Products
+
+}
+

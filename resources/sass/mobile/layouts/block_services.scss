@@ -1,0 +1,262 @@
+/********************** BLOCK SERVICES *********************/
+.block-services {
+    background: url('/img/tpl_img/mobile/bg_mobile_services.png') #fff center center no-repeat;
+    height: 418px;
+    background-size: 100%;
+    padding-top: 10px;
+
+    .header-block-services {
+        margin-left: 6px;
+
+        h2 {
+            font-size: 20px;
+            line-height: 20px;
+
+            &:after {
+                background: url('/img/tpl_img/mobile/header_star_mini.png') no-repeat;
+                width: 16px;
+                height: 14px;
+                top: 3px;
+                right: -20px;
+            }
+        }
+    }
+
+
+    ////////BLOCK LIST SERVICES
+    .block-list-services {
+        margin-top: 40px;
+
+        .list-services {
+
+
+            ////////////// LEFTBLOCK SERVICES
+            .leftblock-services {
+                margin-left: 0px;
+
+                .box-services.box-services1 {
+
+                }
+
+                .box-services.box-services2 {
+
+                }
+
+                .box-services.box-services3 {
+
+                }
+
+                .box-services.box-services4 {
+
+                }
+
+                .box-services.box-services5 {
+
+                }
+
+                .box-services.box-services6 {
+
+                }
+
+
+                /////BOX SERVICES
+                .box-services {
+                    margin-left: 40px;
+
+                    &:not(:first-child) {
+                        margin-top: 60px;
+                    }
+
+
+                    .name-services {
+
+                        .icon-services {
+                            left: -35px;
+                            top: 16px;
+                        }
+
+                        .icon-services.icon-services1 {
+                            background: url('/img/tpl_img/mobile/block_services/icon1.png') no-repeat;
+                            width: 31px;
+                            height: 34px;
+                            left: -35px;
+                            top: 16px;
+                        }
+
+                        .icon-services.icon-services3 {
+                            background: url('/img/tpl_img/mobile/block_services/icon3.png') no-repeat;
+                            width: 36px;
+                            height: 32px;
+                            left: -39px;
+                        }
+
+                        .icon-services.icon-services5 {
+                            background: url('/img/tpl_img/mobile/block_services/icon5.png') no-repeat;
+                            width: 39px;
+                            height: 28px;
+                            left: -40px;
+                            top: 22px;
+                        }
+
+
+                        .num-services.num-services1 {
+
+                        }
+
+                        .num-services.num-services3 {
+
+                        }
+
+                        .num-services.num-services5 {
+
+                        }
+
+                        .num-services {
+                            font-size: 37px;
+                            left: -22px;
+                            top: -27px;
+                        }
+
+                        .text-services.text-services1 {
+
+                        }
+
+                        .text-services.text-services3 {
+
+                        }
+
+                        .text-services.text-services5 {
+
+                        }
+
+                        .text-services {
+                            font-size: 16px;
+                            position: relative;
+                            top: 30px;
+                            line-height: 22px;
+
+                            &:hover{
+                                font-size: initial;
+                                transform: initial;
+                            }
+                        }
+                    }
+
+                }
+
+                /////END BOX SERVICES
+
+
+            }
+
+            ////////////// END LEFTTBLOCK SERVICES
+
+
+            ////////////// RIGHTBLOCK SERVICES
+            .rightblock-services {
+                margin-left: -33px;
+
+                /////BOX SERVICES
+                .box-services {
+
+
+                    &:not(:first-child) {
+                        margin-top: 60px;
+                    }
+
+
+                    /////NAME SERVICES
+                    .name-services {
+
+                        .icon-services {
+                            left: -35px;
+                            top: 16px;
+                        }
+
+                        .icon-services.icon-services2 {
+                            background: url('/img/tpl_img/mobile/block_services/icon2.png') no-repeat;
+                            width: 35px;
+                            height: 35px;
+                            left: -35px;
+                            top: 16px;
+                        }
+
+                        .icon-services.icon-services4 {
+                            background: url('/img/tpl_img/mobile/block_services/icon4.png') no-repeat;
+                            width: 41px;
+                            height: 30px;
+                        }
+
+                        .icon-services.icon-services6 {
+                            background: url('/img/tpl_img/mobile/block_services/icon6.png') no-repeat;
+                            width: 46px;
+                            height: 36px;
+                            left: -37px;
+                            top: 18px;
+                        }
+
+
+                        .num-services.num-services2 {
+
+                        }
+
+                        .num-services.num-services4 {
+
+                        }
+
+                        .num-services.num-services6 {
+
+                        }
+
+                        .num-services {
+                            font-size: 37px;
+                            left: -22px;
+                            top: -27px;
+                        }
+
+                        .text-services.text-services2 {
+
+                        }
+
+                        .text-services.text-services4 {
+                            top: 26px;
+                        }
+
+                        .text-services.text-services6 {
+
+                        }
+
+                        .text-services {
+                            font-size: 16px;
+                            position: relative;
+                            top: 30px;
+                            left: 10px;
+                            line-height: 16px;
+                        }
+
+                    }
+
+                    /////END NAME SERVICES
+
+
+                }
+
+                /////END BOX SERVICES
+
+
+            }
+
+            ////////////// END RIGHTBLOCK SERVICES
+
+
+        }
+
+    }
+
+    ////////END BLOCK LIST SERVICES
+
+
+}
+
+
+/********************** END BLOCK SERVICES *********************/

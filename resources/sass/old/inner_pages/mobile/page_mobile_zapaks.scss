@@ -1,0 +1,214 @@
+//////////////////////////////////////////////////////////////// СТРАНИЦА ЗАПЧАСТИ И АКСЕССУАРЫ
+.description-page.description-page-zapaks {
+    margin-top: 18px;
+    margin-left: 0px;
+    br{
+        display: none;
+    }
+    p{
+
+    }
+
+
+    .link-phone{
+        display: none;
+    }
+
+}
+
+/////HTML PAGE ЗАПЧАСТИ И АКСЕССУАРЫ
+.html-page.html-page-zapaks {
+    padding-top: 9px;
+
+
+    //////////////// html page bottom text
+    .html-page-bottom-text{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 10px;
+        line-height: 14px;
+        text-align: center;
+        letter-spacing: -0.21px;
+        color: #141414;
+        margin-top: 20px;
+    }
+    //////////////// end html page bottom text
+
+
+
+
+    .block-boxs-zapaks{
+        margin-top: 0px;
+
+
+        ////// LINK SHOP CATALOG
+        .link-shop-catalog{
+            background: url(/img/tpl_img/mobile/arrow_bt_mini.png) #F38000 90% 50% no-repeat;
+            width: 152.73px;
+            height: 40px;
+            margin: 0 auto;
+            margin-top: 27px;
+            box-shadow: 0px 10px 28.5px rgba(84, 89, 97, 0.29);
+            position: relative;
+            right: 15px;
+
+            .text-shop-catalog{
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: 800;
+                font-size: 9px;
+                line-height: 40px;
+                color: #FFFFFF;
+                right: 7px;
+            }
+
+        }
+        ////// END LINK SHOP CATALOG
+
+
+        ////////////// BOX LIST IMAGES
+        .box-list-img{
+            margin-top: 22px;
+
+            .item-img{
+
+            }
+
+
+        }
+        ////////////// END BOX LIST IMAGES
+
+
+        ////////////// list box zapaks
+        .box-zapaks2{
+            margin-top: 20px;
+        }
+        .box-zapaks3{
+            margin-top: 23px;
+        }
+        ////////////// end list box zapaks
+
+
+
+
+        /////// BOX ЗАПЧАСТИ И АКСЕССУАРЫ
+        .box-zapaks{
+
+
+
+            &:first-child{
+                margin-top: 0px;
+            }
+            &:not(:first-child){
+                /*                margin-top: 28px !important;*/
+            }
+
+
+            ////////icons box item
+            .icon-box-item{
+                bottom: 0px;
+                top: 10px;
+                left: 6px;
+
+            }
+
+
+
+            ////////end icons box item
+
+
+
+
+            //////// name box item
+            .name-box-item{
+                margin-left: 0px;
+                position: relative;
+                right: 0px;
+
+
+
+                //////// LIST SERVICES
+                .list-services{
+
+                    .name-service {
+                        font-family: Open Sans;
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 10px;
+                        line-height: 14px;
+                        color: #141414;
+                        position: relative;
+                        bottom: 0px;
+
+
+                        &:not(:first-child){
+                            margin-top: 0px;
+                        }
+
+                    }
+                }
+                //////// END LIST SERVICES
+
+
+
+                .header-name{
+                    font-family: Open Sans;
+                    font-style: normal;
+                    font-weight: 800;
+                    font-size: 16px;
+                    color: #141414;
+                    line-height: 18px;
+                }
+                .desc-name{
+                    font-family: Open Sans;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 10px;
+                    line-height: 14px;
+                    color: #141414;
+                    position: relative;
+                    bottom: 0px;
+                }
+
+            }
+            //////// end name box item
+
+
+            //////////// price box item
+            .price-box-item{
+                left: -2px;
+                margin-top: 8px;
+                .item-price{
+
+                    .price{
+                        font-family: Open Sans;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 10px;
+                        color: #141414;
+                    }
+
+                    .rubl{
+                        font-size: 10px;
+                    }
+
+                }
+
+            } 
+            //////////// end  price box item
+
+
+
+        }
+        /////// END BOX ЗАПЧАСТИ И АКСЕССУАРЫ
+
+
+
+
+    }
+
+}
+/////КОНЕЦ HTML PAGE ЗАПЧАСТИ И АКСЕССУАРЫ
+
+////////////////////////////////////////////////////////////////////////// КОНЕЦ СТРАНИЦА ЗАПЧАСТИ И АКСЕССУАРЫ

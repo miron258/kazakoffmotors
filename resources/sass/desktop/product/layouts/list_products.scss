@@ -1,0 +1,259 @@
+.block-list-products {
+    margin-top: 62px;
+    position: relative;
+
+
+    .container{
+        position: relative;
+    }
+
+
+    //////// Loader Ajax Icon
+    .loader-gif {
+        position: absolute;
+        margin: auto;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 1000;
+        opacity: 0.8;
+
+        .ajax-loader {
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+        }
+    }
+
+    //////// End Loader Ajax Icon
+
+    .title-list-products {
+        position: relative;
+        font-family: Montserrat;
+        font-style: normal;
+        text-transform: uppercase;
+        font-weight: 800;
+        font-size: 40px;
+        color: #141414;
+        width: max-content;
+
+        &:after {
+            content: "";
+            display: block;
+            position: absolute;
+            background: url(/img/tpl_img/icon_head_shop_star.png) no-repeat;
+            width: 23px;
+            height: 21px;
+            right: -30px;
+            top: 13px;
+        }
+    }
+
+    .products-empty {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        color: #000000;
+    }
+
+    .wrapper-row-list-products {
+        position: relative;
+
+
+
+        .row-list-products {
+
+            margin-top: 30px;
+
+            &:not(:first-child) {
+
+            }
+
+            /////////// BOX PRODUCT
+            .wrapper-box-product {
+
+
+                &:not(:first-child) {
+                    padding-left: 8px;
+                }
+
+                .box-product {
+                    width: 211px;
+                    //border: 1px solid #DADADA;
+                    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.15);
+                    border-radius: 3px;
+                    background: #fff;
+
+                    ////// Block Img Product
+                    .block-img-product {
+                        border-bottom: 1px solid #DADADA;
+
+                        .link-product {
+                            text-decoration: none;
+                            display: block;
+                            height: 166px;
+                            position: relative;
+                            overflow: hidden;
+
+                            &:hover {
+                                text-decoration: none;
+                            }
+
+                            .img-product {
+                                position: absolute;
+                                margin: auto;
+                                max-height: 160px;
+                                left: 0;
+                                right: 0;
+                                bottom: 0;
+                                top: 0;
+                            }
+                        }
+                    }
+
+                    ////// End Block Img Product
+
+
+                    ////// Title Product
+                    .link-title-product {
+                        font-family: Montserrat;
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 12px;
+                        display: block;
+                        line-height: 15px;
+                        min-height: 60px;
+                        word-break: break-word;
+                        color: #000000;
+                        margin-top: 8px;
+                        padding-left: 16px;
+                        padding-right: 16px;
+                        text-decoration: none;
+
+                        &:hover {
+                            text-decoration: none;
+                        }
+                    }
+
+                    ////// End Title Product
+                    .title-not-available{
+                        font-size: 10px;
+                        line-height: 12px;
+                        color: red;
+                        font-family: Montserrat;
+                        font-style: normal;
+                        font-weight: 600;
+                        padding-left: 22px;
+                        padding-right: 22px;
+                    }
+
+                    ////// Block Price Product
+                    .block-price-product {
+                        margin-top: 19px;
+                        padding-left: 17px;
+
+                        .price-product {
+                            font-family: Montserrat;
+                            font-style: normal;
+                            font-weight: 800;
+                            font-size: 16px;
+                            color: #000000;
+                        }
+
+                        .ruble {
+                            font-family: 'Als Rubl';
+                            font-weight: bold;
+                            font-size: 16px;
+                        }
+
+                    }
+
+                    ////// End Block Price Product
+
+
+                    ///// Button Add To Cart
+                    .bt-add-to-cart {
+                        border: none;
+                        outline: none;
+                        box-shadow: none;
+                        border-radius: 3px;
+                        background: #F38000;
+                        width: 100%;
+                        height: 41px;
+                        line-height: 41px;
+                        margin-top: 6px;
+                        position: relative;
+
+
+                        &:before {
+                            content: "";
+                            position: absolute;
+                            display: block;
+                            opacity: 0;
+                            background: url('/img/tpl_img/icon_small_cart.png');
+                            width: 13px;
+                            height: 13px;
+                            margin: auto;
+                            right: 0px;
+                            top: 0;
+                            bottom: 0;
+                            transition: all 200ms ease;
+                        }
+
+                        &:hover{
+                            &:before {
+                                opacity: 1;
+                                right: 20px;
+                            }
+                        }
+
+
+                        &:disabled {
+                            opacity: 0.5;
+
+                            &:after {
+                                content: "";
+                                display: block;
+                                background: url('/img/tpl_img/ajax-loader.gif');
+                                width: 32px;
+                                height: 32px;
+                                position: absolute;
+                                top: 0;
+                                bottom: 0;
+                                right: 0;
+                                left: 0;
+                                margin: auto;
+                            }
+                        }
+
+                        .text-button {
+                            font-family: Montserrat;
+                            font-style: normal;
+                            font-weight: 800;
+                            font-size: 16px;
+                            text-transform: uppercase;
+                            color: #FFFFFF;
+                            position: relative;
+                        }
+                    }
+
+                    ///// End Button Add To Cart
+
+                }
+
+            }
+
+            /////////// END BOX PRODUCT
+
+        }
+    }
+}

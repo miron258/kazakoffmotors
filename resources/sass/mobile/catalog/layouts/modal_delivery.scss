@@ -1,0 +1,48 @@
+.dialog-content {
+
+
+    .header-modal-delivery {
+
+
+        .title-modal-delivery {
+
+        }
+
+        .button-close-modal {
+
+
+        }
+    }
+
+    .list-delivery-methods {
+        padding-left: 40px;
+        padding-right: 15px;
+        margin-top: 43px;
+
+        .item-delivery {
+            br {
+                display: none;
+            }
+
+            &:not(:first-child) {
+
+            }
+
+            &:before {
+
+            }
+
+
+            .title-delivery {
+                font-size: 14px;
+
+            }
+
+            .text-delivery {
+                font-size: 14px;
+            }
+
+        }
+
+    }
+}

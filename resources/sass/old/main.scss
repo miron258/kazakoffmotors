@@ -1,0 +1,33 @@
+.wrapper-inner-page{
+    background: url('/img/tpl_img/bg_page.png');
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@import 'blocks_scss/breadcrumbs';
+@import 'blocks_scss/header_mini';
+@import 'blocks_scss/header';
+@import 'blocks_scss/block_services';
+@import 'blocks_scss/block_company';
+@import 'blocks_scss/block_hd';
+@import 'blocks_scss/block_our_work';
+@import 'blocks_scss/block_shop_catalogs';
+@import 'blocks_scss/block_motoschool';
+@import 'blocks_scss/footer';
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,141 @@
+.wrapper-inner-search {
+    padding-top: 42px;
+}
+
+.block-view-search {
+    padding-top: 30px;
+
+    //////// Title Search
+    .title-view-search {
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 20px;
+        line-height: 24px;
+
+        .word-search {
+            font-size: 16px;
+        }
+
+    }
+
+
+    /////////// Searching Results
+    .searching-results {
+
+        ////////////////// BLOCK LIST PRODUCTS IN SEARCH
+        .block-list-products.block-list-products-search {
+            margin-top: 30px;
+
+            .wrapper-row-list-products {
+
+                .row-list-products {
+                    margin-top: 0px;
+
+                    &:not(:first-child) {
+                        margin-top: 15px;
+                    }
+
+                    ////////// BOX PRODUCT
+                    .wrapper-box-product {
+
+                        .box-product {
+                            width: 100%;
+                            position: relative;
+
+                            ////// Block Img Product
+                            .block-img-product {
+                                min-height: 110px;
+
+                                .link-product {
+                                    height: 115px;
+                                    min-height: 110px;
+
+                                    .img-product {
+                                        width: 121px;
+                                    }
+                                }
+
+
+                                .img-empty {
+
+                                }
+                            }
+
+                            ////// End Block Img Product
+
+                            ////// Link Title Product
+                            .link-title-product {
+                                font-size: 10px;
+                                line-height: 12px;
+                                margin-top: 3px;
+                                padding-left: 12px;
+                                padding-right: 12px;
+                                height: 36px;
+                                min-height: 50px;
+                            }
+
+                            ////// End Link Title Product
+
+                            ////// Block Price Product
+                            .block-price-product {
+                                margin-top: 0px;
+                                padding-left: 12px;
+
+                                .price-product {
+                                    font-size: 14px;
+                                    line-height: 17px;
+                                }
+
+                                .ruble {
+                                    font-size: 14px;
+                                    line-height: 17px;
+                                }
+                            }
+
+                            ////// End Block Price Product
+
+                            //////////// Button Add To Cart
+                            .bt-add-to-cart {
+                                background: url(/img/tpl_img/mobile/shop/icon_cart_mobile.png) #F38000 88% 40% no-repeat;
+                                height: 28.66px;
+                                position: relative;
+                                margin-top: 0px;
+                                line-height: initial;
+
+                                .text-button {
+                                    font-size: 14px;
+                                    right: 10px;
+                                    top: 0px;
+                                }
+                            }
+
+                            //////////// End Button Add To Cart
+
+                        }
+
+                    }
+
+                    ////////// END BOX PRODUCT
+
+
+                }
+
+                ////////////////// Pagination
+                @import "resources/sass/mobile/product/layouts/pagination";
+                ////////////////// End Pagination
+
+
+            }
+
+        }
+
+        ////////////////// END BLOCK LIST PRODUCTS IN SEARCH
+
+
+        ///// Search Empty
+        .searching-results-empty {
+
+        }
+    }
+
+}

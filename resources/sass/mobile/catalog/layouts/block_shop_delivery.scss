@@ -1,0 +1,56 @@
+//////////////////////// Block Delivery
+.block-shop-delivery {
+    margin-top: 45px;
+    padding-bottom: 50px;
+    .container-block-shop-delivery {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    ////// Box Shop Delivery
+    .box-shop-delivery {
+        background: url(/img/tpl_img/mobile/shop/bg_shop_delivery_mobile.png) center center no-repeat;
+        height: 163px;
+        background-size: cover;
+
+        .map-delivery {
+            background: url(/img/tpl_img/mobile/shop/bg_map_delivery_mobile.png) no-repeat;
+            width: 289px;
+            height: 150px;
+        }
+
+        .title-box-shop-delivery {
+            font-size: 30px;
+            line-height: 37px;
+        }
+
+        .button-box-shop-delivery {
+
+            font-size: 11px;
+            line-height: 13px;
+
+            &:after {
+                bottom: -2px;
+                width: 60px;
+
+            }
+
+
+            &:hover {
+                &:after {
+
+                }
+
+
+            }
+
+        }
+
+
+    }
+
+    ////// End Box Shop Delivery
+
+}
+
+//////////////////////// End Block Delivery

@@ -1,0 +1,240 @@
+.block-address-delivery {
+    margin-top: 51px;
+    position: relative;
+    padding-left: 25px;
+    padding-right: 25px;
+
+    &:before {
+        display:none;
+    }
+
+    .title-address-delivery {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        color: #000000;
+        position: relative;
+        &:before {
+            content: "";
+            display: block;
+            position: absolute;
+            height: 1px;
+            width: 100%;
+            background: #000000;
+            top: -22px;
+        }
+    }
+    .title-notification-form{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 12px;
+        color: red;
+    }
+
+    /////////////////////// FORM GROUP
+    .form-group.form-group-select-city {
+        margin-top: 28px;
+        position: relative;
+
+
+
+        .form-control-city {
+            border-radius: 0px;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            background-color: rgba(38, 50, 56, 0.06);
+            border: none;
+            border-bottom: 1px solid #263238;
+            position: relative;
+            display: flex;
+            align-items: center;
+
+            /////// Dropdown Menu
+            .menu.visible{
+                margin: 0px;
+                border: none;
+                .item{
+                    font-family: Montserrat;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 10px;
+                    letter-spacing: 0.01em;
+                    color: #263238;
+                }
+            }
+            /////// End Dropdown Menu
+
+
+            .dropdown.icon {
+                background: url(/img/tpl_img/mobile/shop/arrow_bottom_select.png) no-repeat;
+                width: 9px;
+                height: 7px;
+                right: 17px;
+                position: absolute;
+                margin: auto;
+                bottom: 0;
+                top: 0;
+                padding: 0px;
+                &:before {
+                    display: none;
+                }
+            }
+
+            input[name=city] {
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 12px;
+                letter-spacing: 0.01em;
+                color: #263238;
+                width: 100%;
+                height: 37.21px;
+                line-height: 37.21px;
+            }
+
+
+
+            .text, .text.default {
+                border-top-left-radius: 5px;
+                border-top-right-radius: 5px;
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 12px;
+                letter-spacing: 0.01em;
+                color: #263238;
+            }
+
+            .search {
+
+            }
+
+
+            outline: none;
+            box-shadow: none;
+            //margin-left: 10px;
+            //padding-left: 10px;
+            //padding-top: 4px;
+            appearance: none;
+            -moz-appearance: none;
+            -webkit-appearance: none;
+
+
+            option {
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 12px;
+                letter-spacing: 0.01em;
+                color: #263238;
+            }
+        }
+
+    }
+
+    .form-group.form-group-street {
+        margin-top: 16px;
+    }
+
+    .form-group.form-group-zip-code {
+        margin-top: 16px;
+    }
+
+    .form-group {
+        position: relative;
+        .invalid-feedback {
+            position: absolute;
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 10px;
+            line-height: 10px;
+            letter-spacing: 0.01em;
+            color: red;
+        }
+        .form-control-zip-code, .form-control-street, .form-control-city {
+            width: 100%;
+            height: 37.21px;
+        }
+        //// Не валидное поле
+        .form-control.is-invalid {
+            border-bottom: 1px solid red;
+        }
+
+        ////Вылидное поле
+        .form-control.is-valid {
+            border-bottom: 2px solid #F38000;
+            background-color: rgba(243, 128, 0, 0.06);
+        }
+        .form-control {
+            border-radius: 0px;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            border: none;
+            outline: none;
+            box-shadow: none;
+            border-bottom: 1px solid #263238;
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 12px;
+            letter-spacing: 0.01em;
+            color: #263238;
+            padding: 0px;
+            padding-left: 15px;
+
+            background-color: rgba(38, 50, 56, 0.06);
+        }
+    }
+
+    /////////////////////// END FORM GROUP
+
+
+    ////// FORM GROUP ROW
+
+    .form-group-row.form-group-row {
+
+    }
+
+    .form-group-row {
+
+        margin-top: 0.6rem;
+
+
+        ////// Box Field Form
+        .box-field-form {
+
+            .form-control-structure, .form-control-office, .form-control-house-num, .form-control-corps {
+                width: 100%;
+                height: 37.21px;
+            }
+
+            .form-control-structure {
+
+            }
+
+            .form-control-office {
+
+            }
+
+            .form-control-house-num {
+
+            }
+
+            .form-control-corps {
+
+            }
+
+
+        }
+
+        ////// End Box Field Form
+
+
+    }
+
+    ////// END FORM GROUP ROW
+
+}

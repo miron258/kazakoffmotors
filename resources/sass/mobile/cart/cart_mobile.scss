@@ -1,0 +1,176 @@
+/////// Breadcrumbs Cart
+.wrapper-inner-cart {
+
+    padding-top: 42px;
+}
+
+/////// End Breadcrumbs Catalog
+
+
+.cart {
+
+    .container-view-cart {
+
+    }
+
+
+    .container-view-cart-mobile {
+        padding-left: 0px;
+        padding-right: 0px;
+        //////////////// Cart Mobile
+        .cart-mobile {
+
+
+            //////////////////// Cart Mobile Description
+            .cart-mobile-description {
+                background: #F4F4F4;
+                padding-top: 20px;
+                padding-bottom: 3px;
+                padding-left: 62px;
+                padding-right: 25px;
+                position: relative;
+
+                .link-back-return-mobile {
+                    position: absolute;
+                    background: url('/img/tpl_img/mobile/shop/arrow_prev_mobile.png') no-repeat;
+                    width: 22px;
+                    height: 22px;
+                    left: 20px;
+                }
+
+                .title-cart {
+                    font-family: Montserrat;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 20px;
+                    line-height: 24px;
+                    text-transform: uppercase;
+                    color: #000000;
+                    margin-bottom: 0.4rem;
+                }
+
+                /////// Block Total Cart
+                .block-total-cart {
+
+                    .text-total-cart {
+                        font-family: Montserrat;
+                        font-style: normal;
+                        font-weight: 300;
+                        font-size: 16px;
+                        line-height: 20px;
+                        color: #000000;
+                    }
+
+                    .total-cart {
+                        position: relative;
+                        display: inline-block;
+                        float: right;
+                        right: 87px;
+
+                        .price {
+                            font-family: Montserrat;
+                            font-style: normal;
+                            font-weight: 300;
+                            font-size: 16px;
+                            line-height: 20px;
+                            color: #000000;
+                        }
+
+                        .ruble {
+                            font-family: 'Als Rubl';
+                            font-style: normal;
+                            font-weight: 300;
+                            font-size: 16px;
+                            line-height: 20px;
+                            color: #000000;
+                        }
+                    }
+
+                }
+
+                /////// End Block Total Cart
+
+
+                //////////////// Block Payment Methods
+                .block-order-payment-method {
+                    margin-top: 30px;
+
+                    .title-payment-method {
+                        font-family: Montserrat;
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 14px;
+                        color: #000000;
+                    }
+
+                    .list-payment-methods {
+                        list-style: none;
+                        padding-left: 0px;
+                        margin-top: 5px;
+
+                        .item-payment-method {
+                            display: inline-block;
+
+                            &:not(:first-child) {
+                                margin-left: 20px;
+                            }
+
+                            .img-payment-method {
+
+                            }
+                        }
+
+                    }
+
+
+                }
+
+                //////////////// End Block Payment Methods
+
+            }
+
+            //////////////////// End Cart Mobile Description
+
+
+            ////////////////////////// Cart Products
+            .cart-wrapper {
+                background: #fff;
+                @import "layouts/block_cart";
+
+
+                .link-form-order{
+                    display: block;
+                    width: 309px;
+                    position: relative;
+                    z-index: 3;
+                    height: 47px;
+                    line-height: 47px;
+                    font-family: Montserrat;
+                    font-style: normal;
+                    font-weight: 800;
+                    font-size: 16px;
+                    text-align: center;
+                    margin: 0 auto;
+                    margin-top: 70px;
+                    text-transform: uppercase;
+                    color: #FFFFFF;
+                    background: #F38000;
+                    box-shadow: 0px 10px 28.5px rgba(84, 89, 97, 0.29);
+                    border-radius: 5px;
+                    text-decoration: none;
+                }
+
+            }
+
+            ////////////////////////// End Cart Products
+
+        }
+
+        //////////////// End Cart Mobile
+
+
+    }
+
+
+}
+

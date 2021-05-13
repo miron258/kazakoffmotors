@@ -1,0 +1,223 @@
+///////// Description Page
+.description-page.description-page-evakuatsiya{
+    position :relative;
+
+    .link-phone{
+        position: absolute;
+        display: block;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 20px;
+        color: #F38000;
+        text-decoration: none;
+        right: 0px;
+        top: initial;
+        bottom: 0px;
+        &:hover{
+            text-decoration: none; 
+        }
+
+        &:before{
+            position: absolute;
+            left: -33px;
+            top: 2px;
+            content: "";
+            display: block;
+            background: url('/img/tpl_img/icon_page_phone.png') no-repeat;
+            width: 22px;
+            height: 21px;
+        }
+
+    }
+
+
+}
+///////////////////////////////////////////// СТРАНИЦА ЭВАКУАЦИЯ
+.html-page.html-page-evakuatsiya{
+
+
+    //Block Boxs Evakuatsiya
+    .block-boxs-evakuatsiya{
+        margin-top: 0px;
+
+        /////////////////////// BOX ITEM
+
+        .box-evakuatsiya1{
+            margin-top: 54px;
+        }
+        .box-evakuatsiya2{
+            margin-top: 45px;
+        }
+        .box-evakuatsiya3{
+            margin-top: 44px;
+        }
+
+        .box-evakuatsiya{
+            //Первый дочерний БОКС
+            &:first-child{ 
+                margin-top: 30px;
+            }
+
+            //Все кроме первого дочернего элемента
+            &:not(:first-child){
+
+            }
+
+            /////// ICONS BOX ITEM
+            .icon-box-item.icon-box-item1{
+
+            }
+            .icon-box-item.icon-box-item2{
+                bottom: -8px;
+                left: 18px;
+            }
+            .icon-box-item.icon-box-item3{
+                bottom: -16px;
+            }
+
+            .icon-box-item{
+                bottom: -13px;
+                text-align: center;
+                position: relative;
+                left: 20px;
+                .item-icon-img{
+
+                }
+
+            }
+            /////// END ICONS BOX ITEM
+
+            ///// BOX LIST SERVICES LI
+            .box-list-services-li{
+
+                .list-services-li{
+                    list-style: none;
+                    padding-left: 15px;
+                    .item-services-li{
+                        font-family: Open Sans;
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 12px;
+                        line-height: 24px;
+
+                        color: #141414;
+                    }
+                }
+
+            }
+            ///// END BOX LIST SERVICES LI
+
+            /////// NAME BOX ITEM
+            .name-box-item{
+                text-align: left;
+                margin-left: 15px;
+                line-height: 29px;
+                .header-name{
+                    font-family: Open Sans;
+                    font-style: normal;
+                    font-weight: 800;
+                    font-size: 20px;
+                    color: #141414;
+                    text-transform: uppercase;
+                }
+
+                //List Services
+                .list-services{
+
+                    .name-service{
+                        font-family: Open Sans;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 15px;
+                        color: #141414;
+                        line-height: 27px;
+                        &:not(:first-child){
+                            margin-top: -5px;
+                        }
+
+                    }
+
+                }
+                //End List Services
+
+
+                .desc-name{
+                    font-family: Open Sans;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 15px;
+                    color: #141414;
+                    line-height: 25px;
+                }
+
+
+            }
+            /////// END NAME BOX ITEM
+
+
+            /////// PRICE BOX ITEM
+            .price-box-item{
+                float: right;
+                position: relative;
+                left: 2px;
+                margin-top: 14px;
+
+
+                //////Item Price
+                .item-price {
+
+                    .price{
+                        font-family: Open Sans;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 15px;
+                        text-align: right;
+                        color: #141414;
+                    }
+
+                    .rubl{
+                        font-family:'Als Rubl';
+                        font-size: 15px;
+                        text-align: right;
+                        color: #141414;
+                    }
+                }
+                //////End Item Price
+
+
+
+            }
+            /////// END PRICE BOX ITEM
+
+
+
+        }
+        /////////////////////// END BOX ITEM
+
+
+
+        ///////////////////////////////////////////// BOX LIST IMAGES
+        .box-list-img{
+            margin-top: 43px;
+            //Item IMG
+            .item-img {
+                &:not(:first-child){
+                    margin-top: 24px;
+                }
+
+
+            }
+            //END Item IMG
+
+        }
+        ///////////////////////////////////////////// END BOX LIST IMAGES
+
+
+
+    }
+    //End Block Boxs 
+
+
+}
+///////////////////////////////////////////// КОНЕЦ СТРАНИЦА ЭВАКУАЦИЯ

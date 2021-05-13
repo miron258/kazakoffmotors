@@ -1,0 +1,87 @@
+.wrapper-inner-page{
+    background: url('/img/tpl_img/bg_page.png');
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.block-view-page {
+    margin-top: 30px;
+    padding-bottom: 34px;
+
+
+
+    /*    padding-bottom: 106px;*/
+    /////////// Header Page
+    .header-block-view-page {
+        width: max-content;
+
+        h1 {
+            position: relative;
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 800;
+            font-size: 40px;
+            line-height: 49px;
+            color: #000000;
+
+
+            &:after {
+                display: block;
+                content: "";
+                position: absolute;
+                background: url('/img/tpl_img/h_star.png') no-repeat;
+                width: 24px;
+                height: 22px;
+                top: 15px;
+                right: -38px;
+            }
+        }
+    }
+
+    /////////// End Header Page
+
+    .description-page {
+        position: relative;
+        margin-top: 30px;
+
+        * {
+            font-family: Open Sans;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 15px;
+            line-height: 24px;
+            color: #141414;
+        }
+
+        p {
+
+        }
+
+    }
+
+    ///////// End Description Page
+
+    //Импорт стилей для Страницы Мототехника
+    @import 'page_mototekhnika';
+    //Импорт стилей для Страницы Квадроциклы
+    @import 'page_kvadrotsikli';
+    //Импорт стилей для Страницы Снегоходы
+    @import 'page_snegokhodi';
+    //Импорт стилей для Страницы Эвакуация
+    @import 'page_evakuatsiya';
+    //Импорт стилей для Страницы Зимнее Хранение
+    @import 'page_zimnee_khranenie';
+    //Импорт стилей для Страницы Запчасти и Аксессуары
+    @import 'page_zapaks';
+    //Импорт стилей для Страницы Контакты
+    @import 'page_contacts';
+    //Импорт стилей для Страницы Наши работы
+    @import 'page_our_work';
+
+
+    //// Импорт стилей для Страницы Тарифы
+    @import 'page_tarifi';
+
+}

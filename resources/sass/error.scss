@@ -1,0 +1,121 @@
+.wrapper-error-page {
+    background: url(/img/tpl_img/bg_page.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 20px;
+    min-height: 850px;
+
+    .link-main-page {
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+
+        .img-logo {
+
+        }
+    }
+
+    .wrapper-img-404 {
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 50px;
+
+        .img-404 {
+
+        }
+    }
+
+    .title-page {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 38px;
+        line-height: 46px;
+        text-align: center;
+        color: #000000;
+    }
+
+    .link-return-main-page {
+        display: block;
+        text-decoration: none;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 37px;
+        position: relative;
+        color: #F38000;
+        margin: 0 auto;
+        text-align: center;
+        width: max-content;
+
+        &:after {
+            content: "";
+            display: block;
+            position: absolute;
+            background: url('/img/tpl_img/arrow_return_404.png') no-repeat;
+            width: 20px;
+            height: 17px;
+            right: -25px;
+            top: 13px;
+        }
+
+        &:hover {
+            text-decoration: none;
+        }
+    }
+
+
+}
+
+
+@media (max-width: 576px) {
+    .wrapper-error-page {
+        height: auto;
+
+        .link-main-page {
+            padding-left: 40px;
+            padding-right: 40px;
+
+            .img-logo {
+
+            }
+        }
+
+        .wrapper-img-404 {
+            padding-left: 40px;
+            padding-right: 40px;
+
+            .img-404 {
+
+            }
+        }
+
+        .title-page {
+            font-size: 28px;
+            line-height: 26px;
+            margin: 0 auto;
+            margin-top: 20px;
+        }
+
+        .link-return-main-page {
+            margin-top: 10px;
+            font-size: 18px;
+            line-height: initial;
+
+            &:after {
+                right: -25px;
+                top: 4px;
+            }
+
+            &:hover {
+
+            }
+        }
+
+
+    }
+
+}

@@ -1,0 +1,202 @@
+
+/*************************************************** BLOCK SHOP CATALOGS ************************************************/
+.block-shop-catalogs {
+    background: url('/img/tpl_img/bg_block_catalogs.jpg') center center no-repeat;
+    height: 670px;
+
+    .header-block-shop-catalogs {
+
+        margin-left: 4px;
+        padding-top: 82px;
+
+        h2 {
+            position: relative;
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 800;
+            font-size: 40px;
+            line-height: 49px;
+            color: #fff;
+            width: max-content;
+
+            &:after {
+                display: block;
+                content: "";
+                position: absolute;
+                background: url('/img/tpl_img/h_star.png') no-repeat;
+                width: 24px;
+                height: 22px;
+                top: 15px;
+                right: -42px;
+            }
+
+
+        }
+
+        //Text Shop Catalogs
+        .text-block-shop-catalogs {
+            margin-top: 18px;
+            margin-left: 3px;
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 24px;
+            color: #FFFFFF;
+
+        }
+
+        //End Text Shop Catalogs
+
+
+    }
+
+
+    //////////////// LIST CATALOGS
+    .list-catalogs {
+        margin-top: 30px;
+
+        //Box Catalog
+        .box-catalog {
+            width: 262px;
+            height: 296.51px;
+            overflow: hidden;
+
+            .block-img-catalog {
+                position: relative;
+                display: block;
+                text-decoration: none;
+                overflow: hidden;
+
+
+                .overlay-img {
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    bottom: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    overflow: hidden;
+                    opacity: 0;
+                    -webkit-transition: all .4s ease-in-out;
+                    transition: all .4s ease-in-out;
+                    background: rgba(97, 92, 89, 0.6);
+                }
+
+                /***************** FIGURE IMAGES HOVER ****************/
+                &:hover {
+
+                    .name-catalog {
+
+                        bottom: 140px;
+                    }
+
+                    .overlay-img {
+                        opacity: 1.0;
+                    }
+
+
+                    figure {
+
+                        .img-catalog {
+                            -webkit-transform: scale(1.3);
+                            transform: scale(1.3);
+                        }
+                    }
+
+                    text-decoration: none;
+                }
+
+                /***************** END FIGURE IMAGES HOVER ****************/
+
+
+                /***************** FIGURE IMAGES ****************/
+                figure {
+                    position: relative;
+                    width: 262px;
+                    height: 296.51px;
+                    margin: 0;
+                    padding: 0;
+                    overflow: hidden;
+                    border: 2px inset #DADADA;
+
+                    .img-catalog {
+                        -webkit-transform: scale(1);
+                        transform: scale(1);
+                        -webkit-transition: .3s ease-in-out;
+                        transition: .3s ease-in-out;
+                    }
+                }
+
+                /***************** END FIGURE IMAGES ****************/
+
+                .name-catalog {
+                    position: absolute;
+                    font-family: Montserrat;
+                    font-style: normal;
+                    font-weight: 800;
+                    font-size: 22px;
+                    line-height: 27px;
+                    text-align: center;
+                    margin: 0 auto;
+                    text-transform: uppercase;
+                    color: #FFFFFF;
+                    width: 262px;
+                    bottom: 20px;
+                    -webkit-transform: scale(1);
+                    transform: scale(1);
+                    -webkit-transition: .5s ease-in-out;
+                    transition: .5s ease-in-out;
+                }
+
+            }
+
+        }
+
+        //End Box Catalog
+    }
+
+    //////////////// END LIST CATALOGS
+
+    //Link All Catalogs
+    .link-view-shop {
+        width: 252px;
+        height: 66px;
+        background: url('/img/tpl_img/arrow_link_catalog.png') #F38000 92% 50% no-repeat;
+        display: block;
+        box-shadow: 0px 10px 28.5px rgba(84, 89, 97, 0.29);
+        border-radius: 5px;
+        text-decoration: none;
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 53px;
+
+        &:hover {
+            text-decoration: none;
+        }
+
+        .text-link {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 800;
+            font-size: 16px;
+            line-height: 66px;
+            text-transform: uppercase;
+            text-align: center;
+            margin: 0 auto;
+            position: relative;
+            display: block;
+            right: 12px;
+            color: #FFFFFF;
+
+
+        }
+
+    }
+
+    //End Link All Catalogs
+
+}
+
+/*************************************************** END BLOCK SHOP CATALOGS ************************************************/

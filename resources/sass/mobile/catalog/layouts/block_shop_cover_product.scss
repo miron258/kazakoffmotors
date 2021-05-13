@@ -1,0 +1,96 @@
+//////////////////// BLOCK SHOP COVER PRODUCT DEFAULT
+.block-shop-cover-product.block-shop-spare-oem{
+
+}
+.block-shop-cover-product.block-shop-spare-by{
+
+}
+.block-shop-cover-product.block-shop-motul{
+    .box-shop-cover-products.box-shop-motul {
+        .wrapper-description-cover-products {
+
+        }
+    }
+}
+.block-shop-cover-product.block-shop-harley-davidson{
+
+
+    .box-shop-cover-products.box-shop-harley-davidson {
+        .wrapper-description-cover-products {
+
+        }
+    }
+}
+.block-shop-cover-product.block-shop-motul{
+
+}
+.block-shop-cover-product {
+
+
+
+    .box-shop-cover-products.box-shop-harley-davidson {
+
+
+    }
+    .box-shop-cover-products.box-shop-spare-by {
+
+    }
+    .box-shop-cover-products.box-shop-motul {
+
+    }
+    .box-shop-cover-products.box-shop-spare-oem {
+
+
+    }
+
+    .box-shop-cover-products {
+
+
+
+        .wrapper-description-cover-products {
+
+            .title-box-shop-cover-products {
+
+            }
+
+
+            .list-type-products {
+
+
+                .item-type-products {
+
+
+                    &:not(:first-child) {
+
+                    }
+
+                    .link-type-products {
+
+
+                        &:after {
+
+
+                        }
+
+                        &:hover {
+                            &:after {
+                                display: none
+                            }
+
+                            text-decoration: none;
+                        }
+
+
+                    }
+
+                }
+            }
+        }
+
+
+    }
+
+
+}
+
+//////////////////// END BLOCK SHOP COVER PRODUCT DEFAULT

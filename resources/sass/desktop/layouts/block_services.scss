@@ -1,0 +1,379 @@
+/******************************************** BLOCK SERVICES ***********************************************/
+.block-services {
+    background: url('/img/tpl_img/bg_services.png') #fff center center no-repeat;
+    background-size: cover;
+    height: 702px;
+    padding-top: 50px;
+    @keyframes pulse-white {
+        0% {
+            transform: scale(0.95);
+            box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.7);
+        }
+
+        70% {
+            transform: scale(1);
+            box-shadow: 0 0 0 10px rgba(255, 255, 255, 0);
+        }
+
+        100% {
+            transform: scale(0.95);
+            box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+        }
+    }
+
+    @keyframes pulse-black {
+        0% {
+            transform: scale(0.95);
+            box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
+        }
+
+        70% {
+            transform: scale(1);
+            box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+        }
+
+        100% {
+            transform: scale(0.95);
+            box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+        }
+    }
+
+
+    /* Create the parallax scrolling effect */
+    //background-attachment: fixed;
+    //background-position: center;
+    //background-repeat: no-repeat;
+    //background-size: cover;
+
+    /***** Header Block Services *****/
+    .header-block-services {
+        width: max-content;
+
+        h2 {
+            position: relative;
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 800;
+            font-size: 40px;
+            line-height: 49px;
+            color: #000000;
+
+
+            &:after {
+                display: block;
+                content: "";
+                position: absolute;
+                background: url('/img/tpl_img/h_star.png') no-repeat;
+                width: 24px;
+                height: 22px;
+                top: 15px;
+                right: -38px;
+            }
+        }
+    }
+
+    /***** End Header Block Services *****/
+
+
+    /****************** LIST SERVICES ******************/
+    .block-list-services {
+        margin-top: 114px;
+
+        .list-services {
+
+
+            //LEFTBLOCK SERVICES
+            .leftblock-services {
+                margin-left: 82px;
+                position: relative;
+
+
+                .box-services1 {
+
+                }
+
+
+                .box-services3 {
+
+                }
+
+
+                .box-services5 {
+
+                }
+
+                /*********** Box Services ***********/
+                .box-services {
+                    margin-left: 50px;
+
+
+                    &:not(:first-child) {
+                        margin-top: 120px;
+                    }
+
+                    .name-services {
+                        position: relative;
+                        display: block;
+                        text-decoration: none;
+
+
+                        &:hover {
+                            text-decoration: none;
+
+                            .num-services {
+                                color: #F38000;
+                                -webkit-transition: .1s ease-in-out;
+                                transition: .1s ease-in-out;
+
+                            }
+
+
+                        }
+
+                        //ICON SERVICES 1
+                        .icon-services1 {
+                            background: url('/img/tpl_img/block_services/icon1.png') no-repeat;
+                            width: 63px;
+                            height: 63px;
+                            left: -127px;
+                            top: 18px;
+                            z-index: 2;
+                        }
+
+                        //ICON SERVICES 3
+                        .icon-services3 {
+                            background: url('/img/tpl_img/block_services/icon3.png') no-repeat;
+                            width: 64px;
+                            height: 59px;
+                            left: -132px;
+                            top: 15px;
+                            z-index: 2;
+                        }
+
+                        //ICON SERVICES 5
+                        .icon-services5 {
+                            background: url('/img/tpl_img/block_services/icon5.png') no-repeat;
+                            width: 70px;
+                            height: 50px;
+                            left: -132px;
+                            top: 29px;
+                            z-index: 2;
+                        }
+
+
+                        .icon-services {
+                            display: block;
+                            position: absolute;
+                        }
+
+                        .num-services {
+                            font-family: Montserrat;
+                            font-style: normal;
+                            font-weight: 800;
+                            font-size: 70px;
+                            line-height: 85px;
+                            position: absolute;
+                            color: rgba(28, 33, 43, 0.2);
+                            left: -100px;
+                            top: -25px;
+                            z-index: 0;
+                        }
+
+                        .text-services1 {
+
+                        }
+
+                        .text-services3 {
+
+                        }
+
+                        .text-services5 {
+                            position: relative;
+                            bottom: 15px;
+                        }
+
+
+                        .text-services {
+                            font-family: Montserrat;
+                            font-style: normal;
+                            font-weight: 800;
+                            font-size: 26px;
+                            line-height: 32px;
+                            color: #141414;
+                            -webkit-transition: width 0.5s, height 0.5s, background-color 0.5s, -webkit-transform 0.5s;
+                            transition: width 0.5s, height 0.5s, background-color 0.5s, transform 0.5s;
+
+                            &:hover{
+                                z-index: 100;
+                                font-size: 28px;
+                                transform: scale(1.2);
+                                transition: font-size 0.5s linear;
+                            }
+                        }
+
+
+                    }
+
+                }
+
+                /*********** End Box Services ***********/
+            }
+
+            //END LEFTBLOCK SERVICES
+
+
+            //RIGHTBLOCK SERVICES
+            .rightblock-services {
+
+                margin-left: 93px;
+                position: relative;
+
+
+                .box-services2 {
+
+                }
+
+
+                .box-services4 {
+
+                }
+
+
+                .box-services6 {
+
+                }
+
+                /*********** Box Services ***********/
+                .box-services {
+                    margin-left: 50px;
+
+
+                    &:not(:first-child) {
+                        margin-top: 120px;
+                    }
+
+                    .name-services {
+                        position: relative;
+                        text-decoration: none;
+
+                        &:hover {
+                            text-decoration: none;
+                            transform: scale(1.1);
+
+                            .num-services {
+                                color: #F38000;
+                                -webkit-transition: .1s ease-in-out;
+                                transition: .1s ease-in-out;
+
+                                text-decoration: none;
+                            }
+
+
+                        }
+
+                        //ICON SERVICES 2
+                        .icon-services2 {
+                            background: url('/img/tpl_img/block_services/icon2.png') no-repeat;
+                            width: 63px;
+                            height: 63px;
+                            left: -134px;
+                            top: 16px;
+                            z-index: 2;
+                        }
+
+                        //ICON SERVICES 4
+                        .icon-services4 {
+                            background: url('/img/tpl_img/block_services/icon4.png') no-repeat;
+                            width: 74px;
+                            height: 53px;
+                            left: -139px;
+                            top: 17px;
+                            z-index: 2;
+                        }
+
+                        //ICON SERVICES 6
+                        .icon-services6 {
+                            background: url('/img/tpl_img/block_services/icon6.png') no-repeat;
+                            width: 82px;
+                            height: 64px;
+                            left: -142px;
+                            top: 22px;
+                            z-index: 2;
+                        }
+
+
+                        .icon-services {
+                            display: block;
+                            position: absolute;
+                        }
+
+                        .num-services {
+                            font-family: Montserrat;
+                            font-style: normal;
+                            font-weight: 800;
+                            font-size: 70px;
+                            line-height: 85px;
+                            position: absolute;
+                            color: rgba(28, 33, 43, 0.2);
+                            left: -119px;
+                            top: -25px;
+                            z-index: 0;
+                        }
+
+                        .text-services2 {
+
+                        }
+
+                        .text-services4 {
+
+                        }
+
+                        .text-services6 {
+                            position: relative;
+                            bottom: 15px;
+                        }
+
+
+                        .text-services {
+                            font-family: Montserrat;
+                            font-style: normal;
+                            font-weight: 800;
+                            font-size: 26px;
+                            line-height: 32px;
+                            color: #141414;
+                            -webkit-transition: width 0.5s, height 0.5s, background-color 0.5s, -webkit-transform 0.5s;
+                            transition: width 0.5s, height 0.5s, background-color 0.5s, transform 0.5s;
+
+
+
+                            &:hover{
+                                z-index: 100;
+                                font-size: 28px;
+                                transform: scale(1.2);
+                                transition: font-size 0.5s linear;
+                            }
+                        }
+
+
+                    }
+
+                }
+
+                /*********** End Box Services ***********/
+
+
+            }
+
+            //END RIGHTBLOCK SERVICES
+
+        }
+
+
+    }
+
+    /****************** END LIST SERVICES ******************/
+
+
+}
+
+/******************************************** END BLOCK SERVICES ***********************************************/

@@ -1,0 +1,366 @@
+///////////// Block Cart
+.block-cart {
+
+    position: relative;
+    padding-top: 40px;
+    padding-bottom: 60px;
+    .total-count-products {
+
+        .count-products, .text-products {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 16px;
+            color: #000000;
+        }
+
+    }
+
+    .cart-empty {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        text-align: center;
+        color: #000000;
+    }
+
+    /****************** AJAX LOADER *******************/
+    .loader-gif {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 1000;
+        background-color: #fff;
+        opacity: 0.8;
+
+        .ajax-loader {
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+        }
+    }
+
+    /****************** END AJAX LOADER *******************/
+
+    .wrapper-list-products {
+        padding-left: 15px;
+        padding-right: 15px;
+        .row-product {
+            position: relative;
+
+            &:first-child {
+                margin-top: 0px;
+            }
+
+            &:not(:first-child) {
+                margin-top: 36px;
+            }
+
+            &:after {
+
+            }
+
+            .box-img-product {
+                position: relative;
+
+                .link-product {
+                    position: relative;
+                    text-decoration: none;
+                    display: block;
+                    background: #FFFFFF;
+                    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.15);
+                    border-radius: 3px;
+                    width: 87px;
+                    height: 88px;
+                    overflow: hidden;
+
+
+                    .image-product {
+                        position: absolute;
+                        margin: auto;
+                        left: 0;
+                        right: 0;
+                        bottom: 0;
+                        top: 0;
+                    }
+
+                    &:hover {
+                        text-decoration: none;
+                    }
+                }
+
+            }
+
+            .box-info-product {
+                padding-left: 32px;
+
+                .title-product {
+                    font-family: Montserrat;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 14px;
+                    line-height: 17px;
+                    color: #000000;
+                    margin-bottom: 6px;
+                }
+
+
+                /////// Block Features Product
+                .block-features-product {
+                    * {
+                        font-family: Montserrat;
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 12px;
+                        color: #000000;
+                    }
+                    b{
+                        font-weight: 600;
+                    }
+                    ul {
+                        list-style-type: none;
+                        padding-left: 0px;
+                        margin-bottom: 0rem;
+
+                        li {
+
+                            .name-feature {
+                                font-family: Montserrat;
+                                font-style: normal;
+                                font-weight: 600;
+                                font-size: 12px;
+                                color: #000000;
+
+                            }
+
+                            .value-feature {
+                                font-family: Montserrat;
+                                font-style: normal;
+                                font-weight: normal;
+                                font-size: 12px;
+                                color: #000000;
+                            }
+
+                        }
+                    }
+
+                }
+
+                /////// End Block Features Product
+
+
+                ///////// Block Count Product
+                .block-count-product {
+                    margin-top: 0.6rem;
+                    ////// Form Count Product
+                    .form-count-product {
+                        margin-block-end: 0.2em;
+
+                        .form-group-count-product {
+                            position: relative;
+                            top: -10px;
+                            display: flex;
+                            align-items: center;
+                            margin-bottom: 0rem;
+
+                            .label-count-product {
+                                font-family: Montserrat;
+                                font-style: normal;
+                                font-weight: 600;
+                                font-size: 12px;
+                                color: #000000;
+                            }
+
+                            .number-input {
+                                width: 83px;
+                                position: absolute;
+                                left: 109px;
+                                bottom: -10px;
+
+                                .number-input__input {
+                                    padding: 5px 5px;
+                                }
+
+                                .number.input {
+                                    font-weight: 500;
+                                    font-size: 16px;
+                                }
+
+                                .number-input__button {
+                                    width: 1.5rem;
+
+                                    &:before {
+                                        height: 2px;
+                                    }
+
+                                    &:after {
+                                        width: 2px;
+                                    }
+                                }
+
+                                .number-input__button.number-input__button--minus {
+                                    border-right: none;
+                                }
+
+                                .number-input__button.number-input__button--plus {
+                                    border-left: none;
+
+                                    &:before {
+                                        background-color: #F38000;
+                                    }
+
+                                    &:after {
+                                        height: 42%;
+                                        background-color: #F38000;
+                                    }
+
+                                }
+
+                            }
+
+                        }
+                    }
+
+                    ////// End Form Count Product
+
+
+                }
+
+                ///////// End Block Count Product
+
+                //////////// Block Price Product
+                .block-price-product {
+                    display: flex;
+                    align-items: center;
+                    position: relative;
+                    top: -22px;
+                    .label-price {
+                        font-family: Montserrat;
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 12px;
+                        color: #000000;
+                    }
+
+                    .value-price {
+                        position: relative;
+                        left: 5px;
+
+                        .price-product {
+                            font-family: Montserrat;
+                            font-style: normal;
+                            font-weight: normal;
+                            font-size: 12px;
+                            color: #000000;
+
+                        }
+
+                        .ruble {
+                            font-family: "Als Rubl";
+                            font-style: normal;
+                            font-weight: normal;
+                            font-size: 12px;
+                            color: #000000;
+                        }
+
+                    }
+
+
+                }
+
+                //////////// End Block Price Product
+
+
+                /////////// Button Delete Product
+                .link-remove-product {
+                    display: block;
+                    background: url('/img/tpl_img/mobile/shop/icon_delete_cart.png') no-repeat;
+                    width: 17px;
+                    height: 19px;
+                    position: absolute;
+                    top: 35px;
+                    right: 20px;
+                    text-indent: -9999px;
+
+                }
+
+                /////////// End Button Delete Product
+
+            }
+
+        }
+    }
+
+    /////// Price Sum
+    .price-sum {
+        margin-top: 83px;
+
+        .text-sum {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            color: #000000;
+
+        }
+
+        .sum-cart {
+            .price {
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: 300;
+                font-size: 16px;
+                color: #000000;
+            }
+
+
+            .ruble {
+                font-family: "Als Rubl";
+            }
+        }
+
+    }
+
+    /////// End Price Sum
+
+
+    /////// Link Buy Product
+    .link-buy {
+        display: block;
+        text-align: center;
+        border-radius: 5px;
+        margin-top: 35px;
+        position: relative;
+        background: #F38000;
+        box-shadow: 0px 10px 28.5px rgba(84, 89, 97, 0.29);
+        width: 249px;
+        height: 63px;
+        line-height: 66px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 16px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #FFFFFF;
+
+        &:hover {
+            text-decoration: none;
+        }
+
+
+        text-decoration: none;
+    }
+
+    /////// End Link Buy Product
+}
+
+///////////// End Block Cart

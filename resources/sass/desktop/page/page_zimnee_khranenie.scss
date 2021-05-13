@@ -1,0 +1,234 @@
+///////// Description Page
+.description-page.description-page-zimneekhranenie{
+    position: relative;
+    margin-top: 36px;
+    margin-left: 2px;
+}
+
+///////////////////////////////////////////// СТРАНИЦА ЗИМНЕЕ ХРАНЕНИЕ
+.html-page.html-page-zimneekhranenie{
+    padding-bottom: 83px;
+    ////////////// BOXS LIST CHECK SERVICES
+    .boxs-list-check-services{
+        margin-top: 30px;
+        .list-check-services-left{
+            margin-left: 60px;
+        }
+
+
+        .list-check-services-right{
+            margin-left: 60px;
+        }
+
+
+
+        .list-check-services{
+            list-style: none;
+
+            //Item Check Services
+            .item-check-services{
+                position: relative;
+                font-family: Open Sans;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 15px;
+                line-height: 38px;
+                .icon-check{
+                    color: #F38000;     
+                }
+
+
+
+
+            }
+            //End Item Check Services
+
+
+        }
+    }
+    ////////////// END BOXS LIST CHECK SERVICES
+
+
+    //Block Boxs Evakuatsiya
+    .block-boxs-zimneekhranenie{
+        margin-top: 0px;
+
+        /////////////////////// BOX ITEM
+
+        .box-zimneekhranenie1{
+            margin-top: 54px;
+        }
+        .box-zimneekhranenie2{
+            margin-top: 70px;
+        }
+        .box-zimneekhranenie3{
+            margin-top: 70px;
+        }
+
+        .box-zimneekhranenie{
+            //Первый дочерний БОКС
+            &:first-child{ 
+                margin-top: 55px;
+            }
+
+            //Все кроме первого дочернего элемента
+            &:not(:first-child){
+
+            }
+
+            /////// ICONS BOX ITEM
+            .icon-box-item.icon-box-item1{
+
+            }
+            .icon-box-item.icon-box-item2{
+                bottom: -12px;
+                left: 11px;
+            }
+            .icon-box-item.icon-box-item3{
+                bottom: 0px;
+            }
+
+            .icon-box-item{
+                bottom: -2px;
+                text-align: center;
+                position: relative;
+                left: 11px;
+                .item-icon-img{
+
+                }
+
+            }
+            /////// END ICONS BOX ITEM
+
+
+
+            /////// NAME BOX ITEM
+            .name-box-item{
+                text-align: left;
+                margin-left: 12px;
+                line-height: 29px;
+                .header-name{
+                    font-family: Open Sans;
+                    font-style: normal;
+                    font-weight: 800;
+                    font-size: 20px;
+                    color: #141414;
+                    text-transform: uppercase;
+                }
+
+
+                ///List Type BIKES
+                .list-type-bike{
+                    padding-left: 10px;
+                    margin-bottom: 0px;
+                    list-style: none;
+                    .item-type-bike{
+                        position: relative;
+                        font-family: Open Sans;
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 15px;
+                        line-height: 25px;
+                        color: #141414;
+
+                        &:before{
+                            content: "";
+                            display: block;
+                            position: absolute;
+                            background: #141414;
+                            width: 3px;
+                            height: 3px;
+                            border-radius: 3px;
+                            left: -9px;
+                            top: 12px;
+                        }
+
+                    }
+                }
+                ///END List Type BIKES
+
+
+                .desc-name.desc-name-mini{
+                    font-size: 12px;
+                    font-style: italic;
+                    margin-top: 2px;
+                }
+
+                .desc-name{
+                    font-family: Open Sans;
+                    font-style: normal;
+                    font-weight: normal;
+                    color: #141414;
+                    line-height: 25px;
+                }
+
+
+            }
+            /////// END NAME BOX ITEM
+
+
+            /////// PRICE BOX ITEM
+            .price-box-item{
+                float: right;
+                position: relative;
+                left: 2px;
+                margin-top: 25px;
+
+
+                //////Item Price
+                .item-price {
+
+                    .price{
+                        font-family: Open Sans;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 15px;
+                        text-align: right;
+                        color: #141414;
+                    }
+
+                    .rubl{
+                        font-family:'Als Rubl';
+                        font-size: 15px;
+                        text-align: right;
+                        color: #141414;
+                    }
+                }
+                //////End Item Price
+
+
+
+            }
+            /////// END PRICE BOX ITEM
+
+
+
+        }
+        /////////////////////// END BOX ITEM
+
+
+
+        ///////////////////////////////////////////// BOX LIST IMAGES
+        .box-list-img{
+            margin-top: 56px;
+            //Item IMG
+            .item-img {
+                &:not(:first-child){
+                    margin-top: 24px;
+                }
+
+
+            }
+            //END Item IMG
+
+        }
+        ///////////////////////////////////////////// END BOX LIST IMAGES
+
+
+
+    }
+    //End Block Boxs 
+
+
+}
+///////////////////////////////////////////// КОНЕЦ СТРАНИЦА ЗИМНЕЕ ХРАНЕНИЕ

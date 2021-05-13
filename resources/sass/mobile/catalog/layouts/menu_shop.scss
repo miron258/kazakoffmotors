@@ -1,0 +1,107 @@
+.menu-shop {
+
+
+    ////////// Dropdown Menu
+    .item-menu-shop.dropdown.show {
+        .link-item-menu-shop {
+            &:after {
+
+            }
+        }
+    }
+
+    .item-menu-shop.dropdown {
+        &:hover {
+        }
+
+        .link-item-menu-shop {
+
+
+            &:hover {
+
+            }
+
+            &:after {
+
+            }
+        }
+
+        .sub-menu.dropdown-menu.mega-menu {
+
+            &:before {
+
+            }
+
+            ////////// Mega Menu Column
+            .mega-menu-column {
+
+
+                ////// List Items Column Menu
+                .list-items-column-menu {
+
+                    ////// Item Menu Shop Catalog
+                    .item-menu-shop {
+
+
+                        &:not(:first-child) {
+
+                        }
+
+                        .link-item-menu-shop {
+
+
+                            &:hover {
+
+                            }
+
+                        }
+                    }
+
+                    ////// End Item Menu Shop Catalog
+
+                }
+
+                ////// End List Items Column Menu
+
+
+            }
+
+            ////////// End Mega Menu Column
+
+
+        }
+
+    }
+
+    ////////// End Dropdown Menu
+
+
+    //Item Menu Shop
+    .item-menu-shop {
+
+
+        &:not(:first-child) {
+
+        }
+
+        .link-item-menu-shop {
+
+
+            &:hover {
+
+            }
+        }
+    }
+
+    //End Item Menu Shop
+
+
+    .item-menu-shop.dropdown {
+
+
+        &:hover {
+
+        }
+    }
+
+}

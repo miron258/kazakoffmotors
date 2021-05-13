@@ -1,0 +1,144 @@
+.wrapper-inner-search {
+    background: url('/img/tpl_img/bg_page.png');
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.block-view-search {
+    padding-bottom: 100px;
+
+    //////// Title Search
+    .title-view-search {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 40px;
+        color: #141414;
+        width: max-content;
+        position: relative;
+        text-transform: uppercase;
+
+        .word-search {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 800;
+            font-size: 40px;
+            text-transform: lowercase;
+        }
+
+    }
+
+
+    /////////// Searching Results
+    .searching-results {
+
+        ////////////////// BLOCK LIST PRODUCTS IN SEARCH
+        .block-list-products.block-list-products-search {
+
+            .wrapper-row-list-products {
+
+                .row-list-products {
+                    &:not(:first-child) {
+                        margin-top: 38px;
+                    }
+
+                    ////////// BOX PRODUCT
+                    .wrapper-box-product {
+
+                        .box-product {
+                            width: 262px;
+
+                            ////// Block Img Product
+                            .block-img-product {
+                                .link-product {
+                                    min-height: 182px;
+
+                                    .img-product {
+
+                                    }
+                                }
+
+
+                                .img-empty {
+
+                                }
+                            }
+
+                            ////// End Block Img Product
+
+                            ////// Link Title Product
+                            .link-title-product {
+                                font-size: 16px;
+                                line-height: 20px;
+                                min-height: 80px;
+                                margin-top: 13px;
+                                padding-left: 22px;
+                                padding-right: 22px;
+                            }
+
+                            ////// End Link Title Product
+
+                            ////// Block Price Product
+                            .block-price-product {
+                                margin-top: 16px;
+                                padding-left: 22px;
+
+                                .price-product {
+                                    font-size: 20px;
+                                }
+
+                                .ruble {
+                                    font-size: 20px;
+                                }
+                            }
+
+                            ////// End Block Price Product
+
+                            //////////// Button Add To Cart
+                            .bt-add-to-cart {
+                                background: url(/img/tpl_img/icon_catalog_cart.png) #F38000 78% 53% no-repeat;
+                                height: 49.99px;
+
+                                .text-button {
+                                    right: 24px;
+                                    top: 2px;
+                                }
+                            }
+
+                            //////////// End Button Add To Cart
+
+                        }
+
+                    }
+
+                    ////////// END BOX PRODUCT
+
+
+                }
+
+                ////////////////// Pagination
+                @import "resources/sass/desktop/product/layouts/pagination";
+                ////////////////// End Pagination
+
+
+            }
+
+        }
+
+        ////////////////// END BLOCK LIST PRODUCTS IN SEARCH
+
+
+        ///// Search Empty
+        .searching-results-empty {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 14px;
+            color: #000000;
+        }
+    }
+
+}

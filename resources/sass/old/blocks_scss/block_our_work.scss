@@ -1,0 +1,378 @@
+
+/*************************************************** BLOCK OUR WORK ************************************************/
+.block-our-work {
+    background: url('/img/tpl_img/bg_block_our_work.jpg') center center no-repeat;
+    height: 815px;
+    position: relative;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .container {
+        position: relative;
+        //
+        //.block-our-work-background {
+        //    position: absolute;
+        //    background: #F6F7F9;
+        //    height: 530px;
+        //    width: 100%;
+        //    margin-left: -60px;
+        //
+        //}
+    }
+
+
+    //Header Block Our Work
+    .header-block-our-work {
+        width: max-content;
+        margin-left: -2px;
+        padding-top: 74px;
+
+        h2 {
+            position: relative;
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 800;
+            font-size: 40px;
+            line-height: 49px;
+            color: #000000;
+
+
+            &:after {
+                display: block;
+                content: "";
+                position: absolute;
+                background: url('/img/tpl_img/h_star.png') no-repeat;
+                width: 24px;
+                height: 22px;
+                top: 15px;
+                right: -42px;
+            }
+        }
+
+    }
+
+    //End Header Block Our Work
+
+
+    //BOX WORK
+    .box-work {
+
+        padding-left: 20px;
+        position: relative;
+
+
+        .wrapper-slider-description {
+
+            position: relative;
+            //////////////////////////////// BLOCK NAVIGATION SLIDER
+            .block-navigation-slider {
+                position: absolute;
+                bottom: 71px;
+                left: 180px;
+
+
+                // Navigation Arrows Slick Carousel
+                .nav-our-work {
+                    position: relative;
+                    width: auto;
+                    height: 48px;
+                    border: 1px solid #DBE0E8;
+                    border-radius: 5px;
+
+
+                    &:after {
+                        content: "";
+                        position: absolute;
+                        z-index: 2;
+                        top: 0;
+                        bottom: 0;
+                        left: 50%;
+                        border-left: 1px solid #DBE0E8;
+
+                    }
+
+                    //Button Prev
+                    .slick-carousel-control-prev {
+                        width: 61.5px;
+                        height: 46px;
+                        background: url('/img/tpl_img/arrows_nav/arrow_nav_left.png') #fff 50% 50% no-repeat;
+                        border: none;
+                        outline: none;
+                        border-bottom-right-radius: 5px;
+                        border-top-left-radius: 5px;
+                    }
+
+                    //End Button Prev
+
+
+                    //Button Next
+                    .slick-carousel-control-next {
+                        width: 61.5px;
+                        height: 46px;
+                        background: url('/img/tpl_img/arrows_nav/arrow_nav_right.png') #fff 50% 50% no-repeat;
+                        border: none;
+                        outline: none;
+                        border-top-left-radius: 5px;
+                        border-top-right-radius: 5px;
+                        border-bottom-right-radius: 5px;
+
+                    }
+
+                    //End Button Next
+
+
+                }
+
+
+                ////////////////////////////////Slick Carousel Dots
+                .dots-our-work {
+                    position: relative;
+
+
+                    ////// slick dots
+                    .slick-dots {
+                        width: max-content;
+
+                        ////// slick active dot
+                        .slick-active {
+
+
+                            button {
+                                display: inline-block;
+                                width: 9px;
+                                height: 9px;
+                                border-radius: 9px;
+                                background: #FFFFFF;
+
+                                &:before {
+                                    display: none;
+                                }
+                            }
+
+                        }
+
+                        ////// end slick active dot
+
+                        ///// slick default dot
+                        li {
+
+                            width: 9px;
+                            height: 9px;
+
+                            &:not(:first-child) {
+                                margin-left: 3px;
+                            }
+
+                            button {
+                                display: inline-block;
+                                width: 9px;
+                                height: 9px;
+                                border-radius: 9px;
+                                background: rgba(218, 218, 218, 0.6);
+
+                                &:before {
+                                    display: none;
+                                }
+                            }
+                        }
+
+                        ///// end slick default dot
+
+
+                    }
+
+                    ////// end slick dots
+
+
+                }
+
+                ///////////////////////////////End Slick Carousel Dots
+
+
+            }
+
+            /////////////////////////////////////// END BLOCK NAVIGATION SLIDER
+        }
+
+
+        //Our Work Desc Gallery
+        .our-work-description-gallery {
+            margin-top: 87px;
+
+
+            //Header Our Work Gallery
+            .header-our-work-gallery {
+                font-family: Open Sans;
+                font-style: normal;
+                font-weight: 800;
+                font-size: 20px;
+                line-height: 27px;
+                color: #141414;
+
+            }
+
+            //End Header Our Work Gallery
+
+
+            //////////////////////Text Gallery
+            .text-gallery {
+                font-family: Open Sans;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 15px;
+                line-height: 23px;
+                color: #141414;
+                margin-top: 26px;
+
+                .text-gallery-top {
+
+                }
+
+                .text-gallery-bottom {
+
+                }
+
+                p {
+
+                    &:not(:first-child) {
+
+                    }
+
+                }
+            }
+
+            ///////////////////////End Text Gallery
+
+
+        }
+
+
+        //Our Work Galleru List Image
+        .our-work-gallery-img {
+            margin-top: 13px;
+
+
+            .block-slick-carousel-our-work {
+
+
+                ///////////////////////////////////////////// BOX SLICK CAROUSEL THUMBNAILS NAV
+                .box-slider-thumbnails {
+                    width: 170px;
+                    padding: 0px;
+                    padding-left: 20px;
+
+                    .slick-carousel-our-work-thumbnails {
+
+                        /////// BOX SLICK ITEM
+                        .box-slick-item {
+
+                            &:not(:first-child) {
+                                margin-top: 4px;
+                            }
+
+                            .box-slick-item-link {
+
+                                .box-slick-item-img {
+
+                                }
+                            }
+                        }
+
+                        /////// END BOX SLICK ITEM
+
+
+                    }
+                }
+
+                ///////////////////////////////////////////// END BOX SLICK CAROUSEL THUMBNAILS NAV
+
+            }
+
+
+            ///////////////////////////////////////////// BOX SLICK CAROUSEL MAIN
+            .box-slider-carousel {
+                padding: 0px;
+                padding-left: 5px;
+                //////////// SLICK CAROUSEL OUR WORK
+                .slick-carousel-our-work {
+
+
+                    ///////// BOX SLICK ITEM
+                    .box-slick-item {
+
+                        .box-slick-item-img {
+
+                        }
+
+                    }
+
+                    ///////// END BOX SLICK ITEM
+
+
+                }
+
+                //////////// END SLICK CAROUSEL OUR WORK
+
+
+            }
+
+            ///////////////////////////////////////////// END BOX SLICK CAROUSEL MAIN
+
+        }
+
+        //End Our Work Galleru List Image
+
+    }
+
+    //END BOX WORK
+
+
+    //Block VIEW ALL
+    .block-view-all {
+        margin-top: 22px;
+        margin-left: 3px;
+
+        .link-view-all {
+            width: 252px;
+            height: 66px;
+            background: url('/img/tpl_img/arrow_link_catalog.png') #F38000 84% 50% no-repeat;
+            display: block;
+            box-shadow: 0px 10px 28.5px rgba(84, 89, 97, 0.29);
+            border-radius: 5px;
+            text-decoration: none;
+
+            &:hover {
+                text-decoration: none;
+            }
+
+            .text-link {
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: 800;
+                font-size: 16px;
+                line-height: 66px;
+                text-transform: uppercase;
+                text-align: center;
+                margin: 0 auto;
+                position: relative;
+                display: block;
+                right: 12px;
+                color: #FFFFFF;
+
+
+            }
+
+        }
+
+    }
+
+    //END Block VIEW ALL
+
+
+}
+
+/*************************************************** END BLOCK OUR WORK ************************************************/
